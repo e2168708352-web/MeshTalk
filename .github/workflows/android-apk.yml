@@ -27,18 +27,23 @@ jobs:
           distribution: temurin
           java-version: "21"
 
-      # ubuntu-latest ships the Android SDK preinstalled (ANDROID_HOME set, sdkmanager on PATH).
+      # ubuntu-latest ships the Android SDK preinstalled (ANDROID_HOME set), but sdkmanager
+      # is NOT on PATH, so resolve it from $ANDROID_HOME/cmdline-tools/*/bin.
       # Do NOT add android-actions/setup-android@v3 here: it runs `sdkmanager tools`, which now
       # fails with "Failed to find package 'tools'" because that package was removed upstream.
       - name: Install platform and build tools
         run: |
-          yes | sdkmanager --licenses >/dev/null || true
-          sdkmanager \
+          SDK_ROOT="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}}"
+          SDKMGR="$(ls -d "$SDK_ROOT"/cmdline-tools/*/bin/sdkmanager 2>/dev/null | sort -V | tail -1)"
+          if [ -z "$SDKMGR" ]; then echo "sdkmanager not found under $SDK_ROOT"; exit 1; fi
+          echo "ANDROID_HOME=$SDK_ROOT"
+          echo "sdkmanager=$SDKMGR"
+          yes | "$SDKMGR" --licenses >/dev/null || true
+          "$SDKMGR" \
             "platforms;android-37" \
             "build-tools;37.0.0" \
             "platform-tools"
-          echo "ANDROID_HOME=$ANDROID_HOME"
-          ls "$ANDROID_HOME/build-tools/37.0.0" | head
+          ls "$SDK_ROOT/build-tools/37.0.0" | head
 
       - name: Build debug APKs
         working-directory: android
@@ -53,7 +58,8 @@ jobs:
           test -f "$APK"
           ls -lh app/build/outputs/apk/debug/
           sha256sum "$APK" | tee "$GITHUB_WORKSPACE/MeshTalk-apk.sha256"
-          "$ANDROID_HOME/build-tools/37.0.0/aapt" dump badging "$APK" |
+          SDK_ROOT="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}}"
+          "$SDK_ROOT/build-tools/37.0.0/aapt" dump badging "$APK" |
             grep -E "^(package|application-label|sdkVersion|targetSdkVersion|native-code)" |
             tee "$GITHUB_WORKSPACE/MeshTalk-apk-badging.txt"
 
