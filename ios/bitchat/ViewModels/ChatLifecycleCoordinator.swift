@@ -103,6 +103,9 @@ extension ChatViewModel: ChatLifecycleContext {
 
     func refreshBluetoothState() {
         if let radio = meshService as? BluetoothStateReporting {
+            // Permission may have been granted while we were backgrounded; the
+            // manager caches its state, so reconcile before reading it.
+            radio.reconcileBluetoothAuthorizationIfNeeded()
             updateBluetoothState(radio.getCurrentBluetoothState())
         }
     }

@@ -11,6 +11,15 @@ import Foundation
 /// Radio-state reporting for transports backed by a local radio.
 protocol BluetoothStateReporting: AnyObject {
     func getCurrentBluetoothState() -> CBManagerState
+
+    /// Re-syncs the cached radio state with the current privacy decision.
+    /// Transports that can rebuild their radio stack implement this; the
+    /// default is a no-op so lighter-weight doubles stay unaffected.
+    func reconcileBluetoothAuthorizationIfNeeded()
+}
+
+extension BluetoothStateReporting {
+    func reconcileBluetoothAuthorizationIfNeeded() {}
 }
 
 /// Panic-mode lifecycle for transports that own durable identity state.

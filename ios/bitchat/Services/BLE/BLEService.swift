@@ -1438,6 +1438,33 @@ final class BLEService: NSObject {
         return centralManager?.state ?? .unknown
     }
 
+    /// Rebuilds the CoreBluetooth managers when the OS has already granted
+    /// Bluetooth access but the live manager still reports `.unauthorized`.
+    ///
+    /// `CBCentralManager.state` is resolved when the manager is created and is
+    /// then cached by CoreBluetooth. If construction happened while permission
+    /// was still denied, that instance can keep reporting `.unauthorized`
+    /// after the user flips the toggle in Settings — returning to the
+    /// foreground re-reads the stale value, so the permission alert reappears
+    /// even though access was granted. `CBManager.authorization` reads the
+    /// current TCC decision directly, so comparing the two lets us recover
+    /// without asking the user to force-quit the app.
+    func reconcileBluetoothAuthorizationIfNeeded() {
+        guard shouldInitializeBluetoothManagers, !isPanicSuspended else { return }
+        guard CBManager.authorization == .allowedAlways else { return }
+        guard centralManager?.state == .unauthorized else { return }
+
+        SecureLogger.info(
+            "🔓 Bluetooth access granted in Settings - rebuilding managers",
+            category: .session
+        )
+        centralManager?.delegate = nil
+        peripheralManager?.delegate = nil
+        centralManager = nil
+        peripheralManager = nil
+        initializeBluetoothManagersIfNeeded()
+    }
+
     // MARK: Messaging
 
     private func handlePrivateMediaAdmissionExpiry(_ transferId: String) {
