@@ -15,6 +15,30 @@ MeshTalk 是一个以 [bitchat](https://github.com/permissionlesstech/bitchat) i
 > 当前状态：两端安装包均由 GitHub Actions 云构建产出。Android 单元测试 631 项
 > 全部通过；iOS 产出无签名 IPA，需自行重签后安装。两端均尚未完成真机功能验收。
 
+## 项目由来
+
+官方 bitchat 应用在中国区 App Store 无法获取，部分用户没有合法渠道安装。本项目从
+官方开源仓库拉取源码自行构建，提供可直接安装的包。
+
+- **非商业**。不收费、无广告、无内购，不收集任何用户数据，不做用户画像。
+  构建与分发由个人维护，没有商业主体参与。
+- **源码来源可核验**。代码取自 [`permissionlesstech/bitchat`](https://github.com/permissionlesstech/bitchat)
+  与 [`bitchat-android`](https://github.com/permissionlesstech/bitchat-android)，
+  基线提交日期 2026-10-23，未引入任何第三方代码。任何人都可以按 `NOTICE.md`
+  记录的上游地址逐文件比对。
+- **协议与加密实现未改动**。BLE 包格式、Noise 握手与端到端加密逻辑与上游一致；
+  改动的只是品牌资产、Bundle ID、以及用于网络发现与寻址的命名空间常量。
+- **与官方不互通的真实原因**。本分支使用自己的 BLE 服务 UUID、Nostr 事件类型和
+  私信前缀，因此官方客户端不会发现本分支用户，反之亦然。这样做是为了避免本分支
+  用户被针对性识别和批量屏蔽，而不是要另立一套协议——底层的包格式和加密完全一致。
+- **与官方的具体差异**：品牌名称与图标、配色、Bundle ID `com.meshtalk.app`、
+  URL scheme、BLE 服务与特征 UUID、Nostr 事件类型、私信前缀、Wi-Fi Direct/Aware
+  标识符，以及两个消息归属判定的缺陷修复。除此之外与上游无差别。
+- **跟进上游**。会持续同步官方的安全修复与协议变更。截至 2026-10-24，本分支落后
+  上游 6 个提交，内容为 geochat 性能优化与一次加密依赖升级，不含安全修复。
+- **与官方的关系**：本分支与 bitchat 项目及其维护者无隶属、背书或赞助关系。
+  官方不会为本分支的任何问题提供支持。
+
 ## 目录
 
 ```

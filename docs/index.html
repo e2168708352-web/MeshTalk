@@ -43,6 +43,11 @@
   .wrap{position:relative;z-index:1;max-width:1060px;margin:0 auto;padding:0 22px}
   a{color:var(--accent);text-decoration:none}
   a:hover{text-decoration:underline}
+  code{
+    font-family:var(--mono);font-size:.88em;color:var(--text);
+    background:rgba(53,208,127,.09);border:1px solid rgba(53,208,127,.18);
+    border-radius:5px;padding:1px 6px;
+  }
 
   /* ---------- nav ---------- */
   header{
@@ -174,6 +179,7 @@
     <nav class="nav-links">
       <a href="#features">功能</a>
       <a href="#how">工作方式</a>
+      <a href="#about">由来</a>
       <a href="#download">下载</a>
       <a href="#limits">已知限制</a>
       <a href="#open">开源</a>
@@ -271,6 +277,41 @@
           <p>消息加密后经 BLE 传输；超出直连范围时，由中间设备逐跳转发。</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="en">About this fork</span>
+        <h2>为什么会有这个版本</h2>
+        <p>
+          官方 bitchat 应用在中国区 App Store 无法获取，部分用户没有渠道安装。
+          这个分支从官方开源仓库拉取源码自行构建，提供可直接安装的包。
+        </p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v18M7 8h10M7 16h10"/></svg></span>非商业</h3>
+          <p>不收费、无广告、无内购，不收集任何用户数据，不做用户画像。构建与分发由个人维护，没有商业主体参与。</p>
+        </div>
+        <div class="card">
+          <h3><span class="ico"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h13"/></svg></span>源码可核验</h3>
+          <p>代码取自官方仓库 <code>permissionlesstech/bitchat</code>，基线提交日期 2026-10-23，未引入任何第三方代码。任何人都能按 <a href="https://github.com/e2168708352-web/MeshTalk/blob/main/NOTICE.md" target="_blank" rel="noopener">NOTICE</a> 记录的地址逐文件比对。</p>
+        </div>
+        <div class="card">
+          <h3><span class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>协议与加密未改动</h3>
+          <p>BLE 包格式、Noise 握手与端到端加密逻辑与上游一致。改动的只是品牌资产、Bundle ID、网络标识符常量，以及少量缺陷修复。</p>
+        </div>
+        <div class="card">
+          <h3><span class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M4 12h16M12 4v16"/></svg></span>为什么与官方不互通</h3>
+          <p>本分支使用独立的 BLE 服务 UUID、Nostr 事件类型与私信前缀，因此官方客户端不会发现本分支用户。目的是避免用户被针对性识别和批量屏蔽，不是要另立一套协议——底层包格式与加密完全一致。</p>
+        </div>
+      </div>
+      <p style="margin-top:18px;color:var(--dim);font-size:13px">
+        本分支与 bitchat 项目及其维护者无隶属、背书或赞助关系，官方不为其提供支持。
+        会持续跟进上游的安全修复与协议变更。
+      </p>
     </div>
   </section>
 

@@ -3,6 +3,29 @@
 MeshTalk is an independent fork. It is not affiliated with, endorsed by, or
 sponsored by the bitchat project or its maintainers.
 
+## Why this fork exists
+
+The official bitchat app is not available on the App Store in mainland China, so
+users there have no supported way to install it. This repository builds the
+upstream open-source code and publishes installable packages for those users.
+
+- **Non-commercial.** No fees, no ads, no in-app purchases, no user-data
+  collection, no profiling. Maintained and distributed by an individual; no
+  commercial entity is involved.
+- **Built from upstream only.** The source is taken from
+  [`permissionlesstech/bitchat`](https://github.com/permissionlesstech/bitchat)
+  and [`bitchat-android`](https://github.com/permissionlesstech/bitchat-android),
+  baseline 2026-10-23. No third-party code has been introduced; the provenance
+  below lets anyone diff it file by file against upstream.
+- **Protocol and cryptography are unchanged.** The BLE packet format, the Noise
+  handshake and the end-to-end encryption match upstream. What differs is
+  branding, identifiers, and a small number of defect fixes.
+- **The separate network namespace is deliberate.** It keeps this fork's users
+  from being singled out and blocked in bulk. It is not a new protocol: the wire
+  format and cryptography are identical to upstream.
+- **Upstream is followed.** As of 2026-10-24 this branch trails upstream by six
+  commits — geochat performance work and one dependency bump, no security fixes.
+
 ## Upstream projects
 
 ### bitchat (iOS / macOS)
