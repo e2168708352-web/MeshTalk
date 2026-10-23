@@ -140,10 +140,11 @@ open MeshTalk.xcodeproj
 
 - iOS 目前仅验证到「CI 上可编译并打包」这一层，未做真机功能验收；蓝牙、分享扩展、
   后台唤醒等行为需要在真实设备上确认。
-- iOS 蓝牙权限：`CBCentralManager` 会缓存创建时的授权状态。若应用在权限被拒的状态下
-  启动了蓝牙管理器，之后在系统设置里授权，该实例仍可能继续返回 `.unauthorized`。
-  应用已在回到前台时用 `CBManager.authorization` 与缓存状态比对，必要时重建管理器，
-  但若系统层面未记录授权（例如签名身份异常导致 TCC 记录无法持久化），仍需重新签名安装。
+- iOS 蓝牙权限：`.unauthorized` 有三种成因，应用已按成因区分提示文案——用户拒绝、设备
+  策略限制（屏幕使用时间 / MDM）、以及系统已授权但进程仍被拒。第三种在重签或覆盖安装后
+  常见：`CBCentralManager` 会缓存创建时的授权状态，应用已在前台恢复时用
+  `CBManager.authorization` 比对并重建管理器。但实测最有效的处置是**重启设备**，清掉
+  `bluetoothd` 的残留状态；重启后仍不恢复，再删除应用重新安装。
 - Android CI 依赖 runner 预装的 SDK，不要在 `ubuntu-latest` 上使用
   `android-actions/setup-android`：该动作内部执行 `sdkmanager tools`，而 `tools`
   包已被上游移除，会直接失败。同时 `sdkmanager` 不在 PATH 上，需从
