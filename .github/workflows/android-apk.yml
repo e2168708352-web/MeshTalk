@@ -40,7 +40,7 @@ jobs:
           echo "sdkmanager=$SDKMGR"
           yes | "$SDKMGR" --licenses >/dev/null || true
           "$SDKMGR" \
-            "platforms;android-37" \
+            "platforms;android-37.0" \
             "build-tools;37.0.0" \
             "platform-tools"
           ls "$SDK_ROOT/build-tools/37.0.0" | head
