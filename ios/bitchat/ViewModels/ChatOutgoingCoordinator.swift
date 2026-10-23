@@ -124,7 +124,7 @@ final class ChatOutgoingCoordinator {
     }
 
     /// Broadcasts a wave on the mesh channel regardless of the active channel —
-    /// used by the "bitchatters nearby" notification quick action, which always
+    /// used by the "MeshTalkers nearby" notification quick action, which always
     /// refers to mesh peers.
     func sendMeshWave() {
         sendMeshPublicMessage(originalContent: "👋", trimmed: "👋", mentions: [])

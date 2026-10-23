@@ -850,7 +850,7 @@ class MainActivity : OrientationAwareActivity() {
 
     private fun handleVerificationIntent(intent: Intent) {
         val uri = intent.data ?: return
-        if (uri.scheme != "bitchat" || uri.host != "verify") return
+        if (uri.scheme != "meshtalk" || uri.host != "verify") return
 
         chatViewModel.showVerificationSheet()
         val qr = VerificationService.verifyScannedQR(uri.toString())

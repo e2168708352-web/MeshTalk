@@ -18,7 +18,7 @@ final class NoiseRateLimiter {
     private var globalHandshakeTimestamps: [Date] = []
     private var globalMessageTimestamps: [Date] = []
     
-    private let queue = DispatchQueue(label: "chat.bitchat.noise.ratelimit", attributes: .concurrent)
+    private let queue = DispatchQueue(label: "chat.meshtalk.noise.ratelimit", attributes: .concurrent)
     
     func allowHandshake(from peerID: PeerID) -> Bool {
         return queue.sync(flags: .barrier) {

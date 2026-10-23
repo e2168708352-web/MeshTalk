@@ -57,7 +57,7 @@ final class ChatMessageFormatter {
             let fontWeight: Font.Weight = isSelf ? .bold : .medium
             senderStyle.font = .bitchatSystem(size: 14, weight: fontWeight, design: design)
             if let spid = message.senderPeerID,
-               let url = URL(string: "bitchat://user/\(spid.toPercentEncoded())") {
+               let url = URL(string: "meshtalk://user/\(spid.toPercentEncoded())") {
                 senderStyle.link = url
             }
 
@@ -277,7 +277,7 @@ final class ChatMessageFormatter {
                             : .bitchatSystem(size: 14, design: design)
                         tagStyle.foregroundColor = baseColor
                         if isGeohash && !attachedToMentionToken && standalone,
-                           let url = URL(string: "bitchat://geohash/\(token)") {
+                           let url = URL(string: "meshtalk://geohash/\(token)") {
                             tagStyle.link = url
                             tagStyle.underlineStyle = .single
                         }
@@ -380,7 +380,7 @@ final class ChatMessageFormatter {
         senderStyle.foregroundColor = baseColor
         senderStyle.font = .bitchatSystem(size: 14, weight: isSelf ? .bold : .medium, design: design)
         if let spid = message.senderPeerID,
-           let url = URL(string: "bitchat://user/\(spid.id.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? spid.id)") {
+           let url = URL(string: "meshtalk://user/\(spid.id.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? spid.id)") {
             senderStyle.link = url
         }
 
@@ -427,7 +427,7 @@ final class ChatMessageFormatter {
     }
 
     func peerURL(for peerID: PeerID) -> URL? {
-        URL(string: "bitchat://user/\(peerID.toPercentEncoded())")
+        URL(string: "meshtalk://user/\(peerID.toPercentEncoded())")
     }
 
     func colorForNostrPubkey(_ pubkeyHexLowercased: String, isDark: Bool) -> Color {

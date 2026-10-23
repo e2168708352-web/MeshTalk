@@ -61,7 +61,7 @@ class BluetoothStatusManager(
             if (isEnabled) {
                 onBluetoothEnabled()
             } else {
-                onBluetoothDisabled("Bluetooth is required for bitchat to discover and connect to nearby users. Please enable Bluetooth to continue.")
+                onBluetoothDisabled("Bluetooth is required for MeshTalk to discover and connect to nearby users. Please enable Bluetooth to continue.")
             }
         }
     }
@@ -146,7 +146,7 @@ class BluetoothStatusManager(
             }
             BluetoothStatus.NOT_SUPPORTED -> {
                 Log.e(TAG, "Bluetooth not supported")
-                onBluetoothDisabled("This device doesn't support Bluetooth, which is required for bitchat to function.")
+                onBluetoothDisabled("This device doesn't support Bluetooth, which is required for MeshTalk to function.")
             }
         }
     }
@@ -157,7 +157,7 @@ class BluetoothStatusManager(
     fun getStatusMessage(status: BluetoothStatus): String {
         return when (status) {
             BluetoothStatus.ENABLED -> "Bluetooth is enabled and ready"
-            BluetoothStatus.DISABLED -> "Bluetooth is disabled. Please enable Bluetooth to use bitchat."
+            BluetoothStatus.DISABLED -> "Bluetooth is disabled. Please enable Bluetooth to use MeshTalk."
             BluetoothStatus.NOT_SUPPORTED -> "This device doesn't support Bluetooth."
         }
     }

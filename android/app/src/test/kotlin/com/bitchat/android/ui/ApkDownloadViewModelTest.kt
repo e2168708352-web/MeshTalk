@@ -5,11 +5,8 @@ import androidx.test.core.app.ApplicationProvider
 import com.bitchat.android.R
 import com.bitchat.android.util.ApkDownloader
 import com.bitchat.android.util.ApkDownloadFailureReason
-import com.bitchat.android.util.GitHubReleaseClient
-import com.bitchat.android.util.LatestReleaseProvider
 import com.bitchat.android.util.ShareableApkVariant
 import com.bitchat.android.util.UniversalApkManager
-import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.delay
@@ -50,24 +47,16 @@ class ApkDownloadViewModelTest {
     }
 
     @Test
-    fun `local apk is shareable before release metadata starts`() = runTest {
+    fun `local apk is shareable without a remote release lookup`() = runTest {
         val manager = managerWithLocalApk()
         val downloader = FakeDownloader()
-        lateinit var viewModel: ApkDownloadViewModel
-        val statusWhenMetadataStarted = CompletableDeferred<ApkPreparationStatus>()
-        val metadata = object : LatestReleaseProvider {
-            override suspend fun latestRelease(): Result<GitHubReleaseClient.ReleaseSnapshot> {
-                statusWhenMetadataStarted.complete(viewModel.state.value.apkStatus)
-                return Result.failure(IllegalStateException("synthetic offline response"))
-            }
-        }
-        viewModel = ApkDownloadViewModel(application, manager, downloader, metadata)
+        val viewModel = ApkDownloadViewModel(application, manager, downloader)
 
         viewModel.onEvent(ApkUiEvent.CheckStatus)
         val ready = awaitReady(viewModel)
 
         assertEquals("1.7.5", ready.version)
-        assertTrue(statusWhenMetadataStarted.await() is ApkPreparationStatus.Ready)
+        assertEquals(ApkReleaseStatus.Unknown, viewModel.state.value.releaseStatus)
     }
 
     @Test
@@ -77,8 +66,7 @@ class ApkDownloadViewModelTest {
         val viewModel = ApkDownloadViewModel(
             application,
             manager,
-            downloader,
-            offlineMetadata()
+            downloader
         )
 
         viewModel.onEvent(ApkUiEvent.CheckStatus)
@@ -102,8 +90,7 @@ class ApkDownloadViewModelTest {
         val viewModel = ApkDownloadViewModel(
             application,
             manager,
-            downloader,
-            offlineMetadata()
+            downloader
         )
 
         downloader.emit(
@@ -127,8 +114,7 @@ class ApkDownloadViewModelTest {
         val viewModel = ApkDownloadViewModel(
             application,
             manager,
-            downloader,
-            offlineMetadata()
+            downloader
         )
 
         downloader.emit(
@@ -161,8 +147,7 @@ class ApkDownloadViewModelTest {
             val viewModel = ApkDownloadViewModel(
                 application,
                 manager,
-                downloader,
-                offlineMetadata()
+                downloader
             )
 
             val restored = viewModel.state.value.apkStatus as ApkPreparationStatus.Downloading
@@ -182,8 +167,7 @@ class ApkDownloadViewModelTest {
         val viewModel = ApkDownloadViewModel(
             application,
             manager,
-            downloader,
-            offlineMetadata()
+            downloader
         )
 
         viewModel.onEvent(ApkUiEvent.CheckStatus)
@@ -208,11 +192,6 @@ class ApkDownloadViewModelTest {
             delay(1L)
         }
         error("unreachable")
-    }
-
-    private fun offlineMetadata() = object : LatestReleaseProvider {
-        override suspend fun latestRelease(): Result<GitHubReleaseClient.ReleaseSnapshot> =
-            Result.failure(IllegalStateException("synthetic offline response"))
     }
 
     private suspend fun managerWithLocalApk(): UniversalApkManager {

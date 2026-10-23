@@ -44,7 +44,7 @@ final class VerificationService {
 
         func toURLString() -> String {
             var comps = URLComponents()
-            comps.scheme = "bitchat"
+            comps.scheme = "meshtalk"
             comps.host = "verify"
             comps.queryItems = [
                 URLQueryItem(name: "v", value: String(v)),
@@ -59,7 +59,7 @@ final class VerificationService {
         }
 
         static func fromURL(_ url: URL) -> VerificationQR? {
-            guard url.scheme == "bitchat", url.host == "verify",
+            guard url.scheme == "meshtalk", url.host == "verify",
                   let items = URLComponents(url: url, resolvingAgainstBaseURL: false)?.queryItems else { return nil }
             func val(_ name: String) -> String? { items.first(where: { $0.name == name })?.value }
             guard let vStr = val("v"), let v = Int(vStr),

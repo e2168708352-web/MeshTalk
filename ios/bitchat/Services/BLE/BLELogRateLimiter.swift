@@ -2,7 +2,7 @@ import Foundation
 
 final class BLELogRateLimiter {
     private let defaultMinimumInterval: TimeInterval
-    private let queue = DispatchQueue(label: "chat.bitchat.ble.log-rate-limiter")
+    private let queue = DispatchQueue(label: "chat.meshtalk.ble.log-rate-limiter")
     private var lastLogTimeByKey: [String: Date] = [:]
 
     init(defaultMinimumInterval: TimeInterval) {

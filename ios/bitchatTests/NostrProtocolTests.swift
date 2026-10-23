@@ -367,8 +367,8 @@ struct NostrProtocolTests {
         #expect(senderPubkey == sender.publicKeyHex)
 
         // Parse BitChat payload
-        #expect(content.hasPrefix("bitchat1:"))
-        let base64url = String(content.dropFirst("bitchat1:".count))
+        #expect(content.hasPrefix("meshtalk1:"))
+        let base64url = String(content.dropFirst("meshtalk1:".count))
         let packetData = try #require(Self.base64URLDecode(base64url))
         let packet = try #require(BitchatPacket.from(packetData), "Failed to decode bitchat packet")
         
@@ -409,8 +409,8 @@ struct NostrProtocolTests {
         )
         #expect(senderPubkey == sender.publicKeyHex)
 
-        #expect(content.hasPrefix("bitchat1:"))
-        let base64url = String(content.dropFirst("bitchat1:".count))
+        #expect(content.hasPrefix("meshtalk1:"))
+        let base64url = String(content.dropFirst("meshtalk1:".count))
         let packetData = try #require(Self.base64URLDecode(base64url))
         let packet = try #require(BitchatPacket.from(packetData), "Failed to decode bitchat packet")
         

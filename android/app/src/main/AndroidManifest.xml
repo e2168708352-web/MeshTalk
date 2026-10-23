@@ -35,7 +35,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <!-- Signature permission for internal UI shutdown broadcasts -->
-    <uses-permission android:name="com.bitchat.android.permission.FORCE_FINISH" />
+    <uses-permission android:name="com.meshtalk.app.permission.FORCE_FINISH" />
     <!-- Foreground service and boot permissions for long-running background mesh -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <!-- Connected device foreground service type for BLE operations (API 34+) -->
@@ -71,7 +71,7 @@
     <uses-feature android:name="android.hardware.camera" android:required="false" />
 
     <permission
-        android:name="com.bitchat.android.permission.FORCE_FINISH"
+        android:name="com.meshtalk.app.permission.FORCE_FINISH"
         android:protectionLevel="signature" />
 
     <application
@@ -125,7 +125,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="bitchat" android:host="verify" />
+                <data android:scheme="meshtalk" android:host="verify" />
             </intent-filter>
         </activity>
 
@@ -157,7 +157,7 @@
         <activity
             android:name=".hotspot.HotspotActivity"
             android:exported="false"
-            android:label="Share BitChat"
+            android:label="Share MeshTalk"
             android:theme="@style/Theme.BitchatAndroid"
             android:launchMode="singleTop" />
 

@@ -13,7 +13,7 @@ struct ChannelShareTests {
     @Test func payloadIncludesGeohashDeepLinkAndStoreURL() {
         let text = ChannelShare.payload(forGeohash: "u4pru")
         #expect(text.contains("#u4pru"))
-        #expect(text.contains("bitchat://geohash/u4pru"))
+        #expect(text.contains("meshtalk://geohash/u4pru"))
         #expect(text.contains(ChannelShare.appStoreURL))
         #expect(!text.lowercased().contains("i'm in"))
     }

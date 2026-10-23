@@ -4,7 +4,7 @@ import BitFoundation
 // MARK: - BitChat-over-Nostr Adapter
 
 struct NostrEmbeddedBitChat {
-    /// Build a `bitchat1:` base64url-encoded BitChat packet carrying a private message for Nostr DMs.
+    /// Build a `meshtalk1:` base64url-encoded BitChat packet carrying a private message for Nostr DMs.
     static func encodePMForNostr(content: String, messageID: String, recipientPeerID: PeerID, senderPeerID: PeerID) -> String? {
         // TLV-encode the private message
         let pm = PrivateMessagePacket(messageID: messageID, content: content)
@@ -28,10 +28,10 @@ struct NostrEmbeddedBitChat {
         )
 
         guard let data = packet.toBinaryData() else { return nil }
-        return "bitchat1:" + base64URLEncode(data)
+        return "meshtalk1:" + base64URLEncode(data)
     }
 
-    /// Build a `bitchat1:` base64url-encoded BitChat packet carrying a delivery/read ack for Nostr DMs.
+    /// Build a `meshtalk1:` base64url-encoded BitChat packet carrying a delivery/read ack for Nostr DMs.
     static func encodeAckForNostr(type: NoisePayloadType, messageID: String, recipientPeerID: PeerID, senderPeerID: PeerID) -> String? {
         guard type == .delivered || type == .readReceipt else { return nil }
 
@@ -51,10 +51,10 @@ struct NostrEmbeddedBitChat {
         )
 
         guard let data = packet.toBinaryData() else { return nil }
-        return "bitchat1:" + base64URLEncode(data)
+        return "meshtalk1:" + base64URLEncode(data)
     }
 
-    /// Build a `bitchat1:` ACK (delivered/read) without an embedded recipient peer ID (geohash DMs).
+    /// Build a `meshtalk1:` ACK (delivered/read) without an embedded recipient peer ID (geohash DMs).
     /// The sender ID is random per envelope; see `unlinkableSenderID()`.
     static func encodeAckForNostrNoRecipient(type: NoisePayloadType, messageID: String) -> String? {
         guard type == .delivered || type == .readReceipt else { return nil }
@@ -73,10 +73,10 @@ struct NostrEmbeddedBitChat {
         )
 
         guard let data = packet.toBinaryData() else { return nil }
-        return "bitchat1:" + base64URLEncode(data)
+        return "meshtalk1:" + base64URLEncode(data)
     }
 
-    /// Build a `bitchat1:` payload without an embedded recipient peer ID (used for geohash DMs).
+    /// Build a `meshtalk1:` payload without an embedded recipient peer ID (used for geohash DMs).
     /// The sender ID is random per envelope; see `unlinkableSenderID()`.
     static func encodePMForNostrNoRecipient(content: String, messageID: String) -> String? {
         let pm = PrivateMessagePacket(messageID: messageID, content: content)
@@ -96,7 +96,7 @@ struct NostrEmbeddedBitChat {
         )
 
         guard let data = packet.toBinaryData() else { return nil }
-        return "bitchat1:" + base64URLEncode(data)
+        return "meshtalk1:" + base64URLEncode(data)
     }
 
     /// Sender ID for the recipient-less envelopes above. They go out under a

@@ -261,7 +261,17 @@ fun ChatScreen(viewModel: ChatViewModel) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(colorScheme.background) // Extend background to fill entire screen including status bar
+            // Deep-ink backdrop with a cool lift through the transcript area. The bars above
+            // and below remain translucent, so the gradient stays continuous under them.
+            .background(
+                Brush.verticalGradient(
+                    colors = listOf(
+                        colorScheme.background,
+                        colorScheme.surface.copy(alpha = 0.72f),
+                        colorScheme.background
+                    )
+                )
+            )
     ) {
         val headerHeight = ChatHeaderHeight
         val statusBarHeight = WindowInsets.statusBars.asPaddingValues().calculateTopPadding()

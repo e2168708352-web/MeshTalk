@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "bitchat-android"
+rootProject.name = "meshtalk-android"
 include(":app")
 include(":wear")
 // Using published Arti AAR; local module not included

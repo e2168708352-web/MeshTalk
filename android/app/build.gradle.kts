@@ -27,11 +27,11 @@ android {
     buildToolsVersion = libs.versions.buildTools.get()
 
     defaultConfig {
-        applicationId = "com.bitchat.droid"
+        applicationId = "com.meshtalk.app"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
-        versionCode = 40
-        versionName = "2.0.3"
+        versionCode = 1
+        versionName = "1.0.0"
         buildConfigField(
             "String",
             "GITHUB_RELEASE_CERT_SHA256",

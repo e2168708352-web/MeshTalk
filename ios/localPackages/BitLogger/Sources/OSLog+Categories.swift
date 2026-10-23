@@ -11,7 +11,7 @@ import os.log
 #endif
 
 public extension OSLog {
-    private static let subsystem = "chat.bitchat"
+    private static let subsystem = "chat.meshtalk"
 
     static let noise        = OSLog(subsystem: subsystem, category: "noise")
     static let encryption   = OSLog(subsystem: subsystem, category: "encryption")

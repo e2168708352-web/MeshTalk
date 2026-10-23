@@ -458,7 +458,7 @@ final class ChatViewModel: ObservableObject, BitchatDelegate, SynchronousMessage
     /// `.standard`.
     static func defaultReadReceiptsDefaults() -> UserDefaults {
         guard TestEnvironment.isRunningTests else { return .standard }
-        let suiteName = "chat.bitchat.tests.readReceipts.\(UUID().uuidString)"
+        let suiteName = "chat.meshtalk.tests.readReceipts.\(UUID().uuidString)"
         guard let scratch = UserDefaults(suiteName: suiteName) else { return .standard }
         scratch.removePersistentDomain(forName: suiteName)
         return scratch

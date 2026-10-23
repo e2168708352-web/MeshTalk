@@ -120,7 +120,7 @@ final class CourierStore {
     }
 
     private var envelopes: [StoredEnvelope] = []
-    private let queue = DispatchQueue(label: "chat.bitchat.courier.store")
+    private let queue = DispatchQueue(label: "chat.meshtalk.courier.store")
     private let fileURL: URL?
     private let now: () -> Date
     private let readData: (URL) throws -> Data

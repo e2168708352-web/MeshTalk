@@ -4,8 +4,8 @@ import BitFoundation
 
 @MainActor
 final class FavoritesPersistenceServiceTests: XCTestCase {
-    private let storageKey = "chat.bitchat.favorites"
-    private let serviceKey = "chat.bitchat.favorites"
+    private let storageKey = "chat.meshtalk.favorites"
+    private let serviceKey = "chat.meshtalk.favorites"
 
     func test_addFavorite_persistsAndPostsNotification() throws {
         let keychain = MockKeychain()

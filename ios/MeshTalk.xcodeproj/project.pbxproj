@@ -532,7 +532,7 @@
 				CODE_SIGN_ENTITLEMENTS = bitchatShareExtension/bitchatShareExtension.entitlements;
 				CODE_SIGN_STYLE = "$(CODE_SIGN_STYLE)";
 				INFOPLIST_FILE = bitchatShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = bitchat;
+				INFOPLIST_KEY_CFBundleDisplayName = MeshTalk;
 				IPHONEOS_DEPLOYMENT_TARGET = "$(IPHONEOS_DEPLOYMENT_TARGET)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -564,7 +564,7 @@
 				DEVELOPMENT_ASSET_PATHS = bitchat/_PreviewHelpers;
 				ENABLE_PREVIEWS = NO;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = bitchat;
+				INFOPLIST_KEY_CFBundleDisplayName = MeshTalk;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				IPHONEOS_DEPLOYMENT_TARGET = "$(IPHONEOS_DEPLOYMENT_TARGET)";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -622,7 +622,7 @@
 				DEVELOPMENT_ASSET_PATHS = bitchat/_PreviewHelpers;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = bitchat;
+				INFOPLIST_KEY_CFBundleDisplayName = MeshTalk;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				IPHONEOS_DEPLOYMENT_TARGET = "$(IPHONEOS_DEPLOYMENT_TARGET)";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -656,7 +656,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = bitchat;
+				INFOPLIST_KEY_CFBundleDisplayName = MeshTalk;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -748,7 +748,7 @@
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_PREVIEWS = NO;
 				INFOPLIST_FILE = bitchat/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = bitchat;
+				INFOPLIST_KEY_CFBundleDisplayName = MeshTalk;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -843,7 +843,7 @@
 				CODE_SIGN_ENTITLEMENTS = bitchatShareExtension/bitchatShareExtension.entitlements;
 				CODE_SIGN_STYLE = "$(CODE_SIGN_STYLE)";
 				INFOPLIST_FILE = bitchatShareExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = bitchat;
+				INFOPLIST_KEY_CFBundleDisplayName = MeshTalk;
 				IPHONEOS_DEPLOYMENT_TARGET = "$(IPHONEOS_DEPLOYMENT_TARGET)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

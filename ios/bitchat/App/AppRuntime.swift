@@ -119,9 +119,6 @@ final class AppRuntime: ObservableObject {
                 }
             )
         )
-        if chatViewModel.networkActivationAllowed {
-            GeoRelayDirectory.shared.prefetchIfNeeded()
-        }
         bindRuntimeObservers()
         NotificationDelegate.shared.runtime = self
     }
@@ -175,7 +172,7 @@ final class AppRuntime: ObservableObject {
     func handleOpenURL(_ url: URL) {
         record(.openedURL(url.absoluteString))
 
-        if url.scheme == "bitchat", url.host == "share" {
+        if url.scheme == "meshtalk", url.host == "share" {
             checkForSharedContent()
         }
     }

@@ -1,12 +1,13 @@
-MARKETING_VERSION = 1.7.1
+MARKETING_VERSION = 1.0.0
 CURRENT_PROJECT_VERSION = 1
 
 IPHONEOS_DEPLOYMENT_TARGET = 16.0
 MACOSX_DEPLOYMENT_TARGET = 13.0
 SWIFT_VERSION = 5.0
 
-DEVELOPMENT_TEAM = L3N5LHJD5Y
+// Set your Apple Developer Team ID in Configs/Local.xcconfig (never commit it).
+DEVELOPMENT_TEAM =
 CODE_SIGN_STYLE = Automatic
 
-PRODUCT_BUNDLE_IDENTIFIER = chat.bitchat
-APP_GROUP_ID = group.chat.bitchat
+PRODUCT_BUNDLE_IDENTIFIER = com.meshtalk.app
+APP_GROUP_ID = group.com.meshtalk.app

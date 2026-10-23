@@ -17,7 +17,8 @@ struct GeoRelayDirectoryDependencies {
     var userDefaults: UserDefaults
     var notificationCenter: NotificationCenter
     var now: () -> Date
-    var remoteURL: URL
+    /// MeshTalk ships a pinned relay list. A `nil` URL disables runtime refresh.
+    var remoteURL: URL?
     var fetchInterval: TimeInterval
     var refreshCheckInterval: TimeInterval
     var retryInitialSeconds: TimeInterval
@@ -67,10 +68,11 @@ private extension GeoRelayDirectoryDependencies {
             userDefaults: .standard,
             notificationCenter: .default,
             now: Date.init,
-            // Runtime refreshes only from bitchat's reviewed copy. Upstream
-            // georelays/main is imported by a validator-backed pull request,
-            // so an upstream mutation cannot immediately retarget clients.
-            remoteURL: URL(string: "https://raw.githubusercontent.com/permissionlesstech/bitchat/refs/heads/main/relays/online_relays_gps.csv")!,
+            // MeshTalk is independent from the upstream project's network
+            // namespace. Keep the bundled CSV as the only relay source so the
+            // app never follows an upstream list or contacts upstream
+            // infrastructure for configuration.
+            remoteURL: nil,
             fetchInterval: TransportConfig.geoRelayFetchIntervalSeconds,
             refreshCheckInterval: TransportConfig.geoRelayRefreshCheckIntervalSeconds,
             retryInitialSeconds: TransportConfig.geoRelayRetryInitialSeconds,
@@ -127,7 +129,7 @@ private extension GeoRelayDirectoryDependencies {
                         appropriateFor: nil,
                         create: true
                     )
-                    let dir = base.appendingPathComponent("bitchat", isDirectory: true)
+                    let dir = base.appendingPathComponent("meshtalk", isDirectory: true)
                     try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
                     // v2 ignores caches populated from the old direct-upstream
                     // trust path and subjects every load to strict validation.
@@ -151,7 +153,7 @@ private extension GeoRelayDirectoryDependencies {
                 try? await Task.sleep(nanoseconds: nanoseconds)
             },
             activeNotificationName: activeNotificationName,
-            autoStart: true,
+            autoStart: false,
             validationPolicy: validationPolicy
         )
     }
@@ -242,7 +244,7 @@ final class GeoRelayDirectory {
 
     // MARK: - Remote Fetch
     func prefetchIfNeeded(force: Bool = false) {
-        guard !isFetching else { return }
+        guard dependencies.remoteURL != nil, !isFetching else { return }
 
         let now = dependencies.now()
         let last = dependencies.userDefaults.object(forKey: lastFetchKey) as? Date ?? .distantPast
@@ -260,11 +262,11 @@ final class GeoRelayDirectory {
     }
 
     private func fetchRemote() {
-        guard !isFetching else { return }
+        guard let remoteURL = dependencies.remoteURL, !isFetching else { return }
         isFetching = true
 
         let request = URLRequest(
-            url: dependencies.remoteURL,
+            url: remoteURL,
             cachePolicy: .reloadIgnoringLocalCacheData,
             timeoutInterval: 15
         )

@@ -379,7 +379,7 @@ struct ChatViewModelNostrExtensionTests {
         let recipient = try NostrIdentity.generate()
 
         let oversized = Data(repeating: 0x41, count: FileTransferLimits.maxFramedFileBytes + 1)
-        let content = "bitchat1:" + base64URLEncode(oversized)
+        let content = "meshtalk1:" + base64URLEncode(oversized)
         let giftWrap = try NostrProtocol.createPrivateMessage(
             content: content,
             recipientPubkey: recipient.publicKeyHex,

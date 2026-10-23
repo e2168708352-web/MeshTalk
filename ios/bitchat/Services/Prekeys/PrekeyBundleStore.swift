@@ -49,7 +49,7 @@ final class PrekeyBundleStore {
     static let shared = PrekeyBundleStore()
 
     private var bundles: [Data: StoredBundle] = [:]
-    private let queue = DispatchQueue(label: "chat.bitchat.prekeys.bundles")
+    private let queue = DispatchQueue(label: "chat.meshtalk.prekeys.bundles")
     private let fileURL: URL?
     private let maxPeers: Int
     private let now: () -> Date

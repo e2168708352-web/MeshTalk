@@ -91,9 +91,9 @@ private struct NoopNotificationCategoryRegistrar: NotificationCategoryRegisterin
 final class NotificationService {
     static let shared = NotificationService()
 
-    /// Category for the "bitchatters nearby" notification, carrying the wave quick action.
-    static let nearbyCategoryID = "chat.bitchat.category.nearby"
-    static let waveActionID = "chat.bitchat.action.wave"
+    /// Category for the "MeshTalkers nearby" notification, carrying the wave quick action.
+    static let nearbyCategoryID = "chat.meshtalk.category.nearby"
+    static let waveActionID = "chat.meshtalk.action.wave"
 
     /// Copy used when `NotificationPrivacySettings.hideMessagePreviews` is on.
     /// These say that something arrived without naming who sent it, quoting it,
@@ -109,7 +109,7 @@ final class NotificationService {
             String(localized: "notification.redacted.geohash.title", defaultValue: "📍 new activity nearby", comment: "Lock-screen notification title for activity in a location channel when message previews are hidden; deliberately omits the geohash")
         }
         static var body: String {
-            String(localized: "notification.redacted.body", defaultValue: "open bitchat to read", comment: "Lock-screen notification body shown in place of the message text when message previews are hidden")
+            String(localized: "notification.redacted.body", defaultValue: "open MeshTalk to read", comment: "Lock-screen notification body shown in place of the message text when message previews are hidden")
         }
     }
 
@@ -254,13 +254,13 @@ final class NotificationService {
         let title = hidePreviews ? Redacted.geohashActivityTitle : "\(titlePrefix)\(geohash)"
         let body = hidePreviews ? Redacted.body : bodyPreview
         let identifier = "geo-activity-\(geohash)-\(Date().timeIntervalSince1970)"
-        let deeplink = "bitchat://geohash/\(geohash)"
+        let deeplink = "meshtalk://geohash/\(geohash)"
         let userInfo: [String: Any] = ["deeplink": deeplink]
         sendLocalNotification(title: title, body: body, identifier: identifier, userInfo: userInfo)
     }
 
     func sendNetworkAvailableNotification(peerCount: Int) {
-        let title = String(localized: "notification.nearby.title", defaultValue: "👥 bitchatters nearby!", comment: "Title of the local notification when mesh peers come into range")
+        let title = String(localized: "notification.nearby.title", defaultValue: "👥 MeshTalkers nearby!", comment: "Title of the local notification when mesh peers come into range")
         let body = peerCount == 1
             ? String(localized: "notification.nearby.body_one", defaultValue: "1 person around", comment: "Body of the nearby notification for exactly one peer")
             : String(format: String(localized: "notification.nearby.body_many", defaultValue: "%lld people around", comment: "Body of the nearby notification; placeholder is the peer count"), locale: .current, peerCount)

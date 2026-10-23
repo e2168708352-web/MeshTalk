@@ -60,7 +60,7 @@ final class MessageOutboxStore {
         }
     }
 
-    private static let keychainService = "chat.bitchat.outbox"
+    private static let keychainService = "chat.meshtalk.outbox"
     private static let keychainKey = "outbox-encryption-key"
 
     typealias Snapshot = [PeerID: [QueuedMessage]]

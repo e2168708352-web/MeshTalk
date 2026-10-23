@@ -103,7 +103,7 @@ struct NotificationRedactionTests {
         #expect(!content.title.contains("u4pruyd"))
         #expect(!content.body.contains("someone said"))
         // The deep link still carries it: tapping must land in the channel.
-        #expect(content.userInfo["deeplink"] as? String == "bitchat://geohash/u4pruyd")
+        #expect(content.userInfo["deeplink"] as? String == "meshtalk://geohash/u4pruyd")
     }
 
     @Test func previewsShownWhenTheSettingIsOff() {

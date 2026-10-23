@@ -94,7 +94,7 @@ final class NostrTransport: Transport, @unchecked Sendable {
     final class AckPacer: @unchecked Sendable {
         typealias Scheduler = @Sendable (TimeInterval, @escaping @Sendable () -> Void) -> Void
 
-        private let queue = DispatchQueue(label: "chat.bitchat.nostr-ack-pacer")
+        private let queue = DispatchQueue(label: "chat.meshtalk.nostr-ack-pacer")
         private var pending: [() -> Void] = []
         private var isSending = false
         private let interval: TimeInterval = TransportConfig.nostrReadAckInterval

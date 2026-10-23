@@ -110,7 +110,7 @@ final class NotificationServiceTests: XCTestCase {
         service.sendNetworkAvailableNotification(peerCount: 2)
 
         XCTAssertEqual(deliverer.requests.count, 2)
-        XCTAssertEqual(deliverer.requests[0].content.userInfo["deeplink"] as? String, "bitchat://geohash/87yv")
+        XCTAssertEqual(deliverer.requests[0].content.userInfo["deeplink"] as? String, "meshtalk://geohash/87yv")
         XCTAssertTrue(deliverer.requests[0].identifier.hasPrefix("geo-activity-87yv-"))
         XCTAssertEqual(deliverer.requests[1].identifier, "network-available")
         XCTAssertEqual(deliverer.requests[1].content.interruptionLevel, .timeSensitive)

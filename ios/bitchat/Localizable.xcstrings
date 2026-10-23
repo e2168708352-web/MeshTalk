@@ -13958,31 +13958,31 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 أهل bitchat بالقرب منك!"
+            "value" : "👥 أهل MeshTalk بالقرب منك!"
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 কাছেই bitchat-এর লোকজন!"
+            "value" : "👥 কাছেই MeshTalk-এর লোকজন!"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 bitchatter in der nähe!"
+            "value" : "👥 MeshTalker in der nähe!"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 bitchatters nearby!"
+            "value" : "👥 MeshTalkers nearby!"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 ¡bitchateros cerca!"
+            "value" : "👥 ¡MeshTalkeros cerca!"
           }
         },
         "fa" : {
@@ -13994,13 +13994,13 @@
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 may mga bitchatter sa malapit!"
+            "value" : "👥 may mga MeshTalker sa malapit!"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 des bitchatteurs dans le coin !"
+            "value" : "👥 des MeshTalkteurs dans le coin !"
           }
         },
         "he" : {
@@ -14012,67 +14012,67 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 पास में bitchat वाले लोग!"
+            "value" : "👥 पास में MeshTalk वाले लोग!"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 ada anak bitchat di sekitar!"
+            "value" : "👥 ada anak MeshTalk di sekitar!"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 bitchatter nei paraggi!"
+            "value" : "👥 MeshTalker nei paraggi!"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 近くにbitchat仲間がいるよ！"
+            "value" : "👥 近くにMeshTalk仲間がいるよ！"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 근처에 bitchat 친구들이 있어요!"
+            "value" : "👥 근처에 MeshTalk 친구들이 있어요!"
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 ada geng bitchat berdekatan!"
+            "value" : "👥 ada geng MeshTalk berdekatan!"
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 नजिकै bitchat का मान्छेहरू!"
+            "value" : "👥 नजिकै MeshTalk का मान्छेहरू!"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 bitchatters in de buurt!"
+            "value" : "👥 MeshTalkers in de buurt!"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 bitchatterzy w pobliżu!"
+            "value" : "👥 MeshTalkerzy w pobliżu!"
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 bitchatters por perto!"
+            "value" : "👥 MeshTalkers por perto!"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 bitchatters por perto!"
+            "value" : "👥 MeshTalkers por perto!"
           }
         },
         "ru" : {
@@ -14084,25 +14084,25 @@
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 bitchattare i närheten!"
+            "value" : "👥 MeshTalktare i närheten!"
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 அருகிலேயே bitchat ஆட்கள்!"
+            "value" : "👥 அருகிலேயே MeshTalk ஆட்கள்!"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 มีชาว bitchat อยู่ใกล้ๆ!"
+            "value" : "👥 มีชาว MeshTalk อยู่ใกล้ๆ!"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 yakınlarda bitchat'çiler var!"
+            "value" : "👥 yakınlarda MeshTalk'çiler var!"
           }
         },
         "uk" : {
@@ -14114,25 +14114,25 @@
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 قریب ہی bitchat والے موجود ہیں!"
+            "value" : "👥 قریب ہی MeshTalk والے موجود ہیں!"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 có dân bitchat ở gần đây!"
+            "value" : "👥 có dân MeshTalk ở gần đây!"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 附近有 bitchat 小伙伴！"
+            "value" : "👥 附近有 MeshTalk 小伙伴！"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "👥 附近有 bitchat 夥伴！"
+            "value" : "👥 附近有 MeshTalk 夥伴！"
           }
         }
       }
@@ -18794,181 +18794,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "المسح غير مكتمل — قد تبقى بعض البيانات. أغلق bitchat وأعد فتحه لإعادة المحاولة."
+            "value" : "المسح غير مكتمل — قد تبقى بعض البيانات. أغلق MeshTalk وأعد فتحه لإعادة المحاولة."
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "মুছে ফেলা অসম্পূর্ণ — কিছু ডেটা থেকে যেতে পারে। আবার চেষ্টা করতে bitchat বন্ধ করে আবার খুলুন।"
+            "value" : "মুছে ফেলা অসম্পূর্ণ — কিছু ডেটা থেকে যেতে পারে। আবার চেষ্টা করতে MeshTalk বন্ধ করে আবার খুলুন।"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "löschen unvollständig — einige daten könnten übrig sein. bitchat beenden und erneut öffnen, um es noch einmal zu versuchen."
+            "value" : "löschen unvollständig — einige daten könnten übrig sein. MeshTalk beenden und erneut öffnen, um es noch einmal zu versuchen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "wipe incomplete — some data may remain. quit and reopen bitchat to retry."
+            "value" : "wipe incomplete — some data may remain. quit and reopen MeshTalk to retry."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "borrado incompleto — pueden quedar algunos datos. cierra y vuelve a abrir bitchat para reintentar."
+            "value" : "borrado incompleto — pueden quedar algunos datos. cierra y vuelve a abrir MeshTalk para reintentar."
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "پاک‌سازی ناقص است — ممکن است برخی داده‌ها باقی مانده باشند. برای تلاش دوباره bitchat را ببندید و دوباره باز کنید."
+            "value" : "پاک‌سازی ناقص است — ممکن است برخی داده‌ها باقی مانده باشند. برای تلاش دوباره MeshTalk را ببندید و دوباره باز کنید."
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "hindi kumpleto ang pagbura — maaaring may natirang data. isara at buksan muli ang bitchat para subukan ulit."
+            "value" : "hindi kumpleto ang pagbura — maaaring may natirang data. isara at buksan muli ang MeshTalk para subukan ulit."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "effacement incomplet — des données peuvent subsister. quittez et rouvrez bitchat pour réessayer."
+            "value" : "effacement incomplet — des données peuvent subsister. quittez et rouvrez MeshTalk pour réessayer."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "המחיקה לא הושלמה — ייתכן שנשארו נתונים. סגרו ופתחו מחדש את bitchat כדי לנסות שוב."
+            "value" : "המחיקה לא הושלמה — ייתכן שנשארו נתונים. סגרו ופתחו מחדש את MeshTalk כדי לנסות שוב."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "मिटाना अधूरा रहा — कुछ डेटा बच सकता है। फिर से कोशिश करने के लिए bitchat बंद करके दोबारा खोलें।"
+            "value" : "मिटाना अधूरा रहा — कुछ डेटा बच सकता है। फिर से कोशिश करने के लिए MeshTalk बंद करके दोबारा खोलें।"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "penghapusan belum selesai — sebagian data mungkin tersisa. tutup dan buka kembali bitchat untuk mencoba lagi."
+            "value" : "penghapusan belum selesai — sebagian data mungkin tersisa. tutup dan buka kembali MeshTalk untuk mencoba lagi."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "cancellazione incompleta — alcuni dati potrebbero rimanere. chiudi e riapri bitchat per riprovare."
+            "value" : "cancellazione incompleta — alcuni dati potrebbero rimanere. chiudi e riapri MeshTalk per riprovare."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "消去が完了していません — データが残っている可能性があります。bitchat を終了して開き直すと再試行します。"
+            "value" : "消去が完了していません — データが残っている可能性があります。MeshTalk を終了して開き直すと再試行します。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "삭제가 완료되지 않았습니다 — 일부 데이터가 남아 있을 수 있습니다. bitchat을 종료했다가 다시 열면 재시도합니다."
+            "value" : "삭제가 완료되지 않았습니다 — 일부 데이터가 남아 있을 수 있습니다. MeshTalk을 종료했다가 다시 열면 재시도합니다."
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "pemadaman tidak lengkap — sebahagian data mungkin masih ada. tutup dan buka semula bitchat untuk mencuba lagi."
+            "value" : "pemadaman tidak lengkap — sebahagian data mungkin masih ada. tutup dan buka semula MeshTalk untuk mencuba lagi."
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "मेटाउने काम अधूरो — केही डेटा बाँकी रहन सक्छ। पुनः प्रयास गर्न bitchat बन्द गरेर फेरि खोल्नुहोस्।"
+            "value" : "मेटाउने काम अधूरो — केही डेटा बाँकी रहन सक्छ। पुनः प्रयास गर्न MeshTalk बन्द गरेर फेरि खोल्नुहोस्।"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "wissen onvolledig — er kunnen gegevens achterblijven. sluit bitchat en open het opnieuw om het nogmaals te proberen."
+            "value" : "wissen onvolledig — er kunnen gegevens achterblijven. sluit MeshTalk en open het opnieuw om het nogmaals te proberen."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "wymazywanie niekompletne — część danych może pozostać. zamknij i otwórz bitchat ponownie, aby spróbować jeszcze raz."
+            "value" : "wymazywanie niekompletne — część danych może pozostać. zamknij i otwórz MeshTalk ponownie, aby spróbować jeszcze raz."
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "limpeza incompleta — alguns dados podem permanecer. feche e reabra o bitchat para tentar novamente."
+            "value" : "limpeza incompleta — alguns dados podem permanecer. feche e reabra o MeshTalk para tentar novamente."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "limpeza incompleta — alguns dados podem permanecer. feche e reabra o bitchat para tentar novamente."
+            "value" : "limpeza incompleta — alguns dados podem permanecer. feche e reabra o MeshTalk para tentar novamente."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "стирание не завершено — часть данных могла остаться. закройте и снова откройте bitchat, чтобы повторить."
+            "value" : "стирание не завершено — часть данных могла остаться. закройте и снова откройте MeshTalk, чтобы повторить."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "raderingen är ofullständig — viss data kan finnas kvar. avsluta och öppna bitchat igen för att försöka på nytt."
+            "value" : "raderingen är ofullständig — viss data kan finnas kvar. avsluta och öppna MeshTalk igen för att försöka på nytt."
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "அழித்தல் முழுமையடையவில்லை — சில தரவு எஞ்சியிருக்கலாம். மீண்டும் முயற்சிக்க bitchat ஐ மூடி மீண்டும் திறக்கவும்."
+            "value" : "அழித்தல் முழுமையடையவில்லை — சில தரவு எஞ்சியிருக்கலாம். மீண்டும் முயற்சிக்க MeshTalk ஐ மூடி மீண்டும் திறக்கவும்."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "การล้างข้อมูลไม่สมบูรณ์ — อาจมีข้อมูลหลงเหลืออยู่ ปิดแล้วเปิด bitchat ใหม่เพื่อลองอีกครั้ง"
+            "value" : "การล้างข้อมูลไม่สมบูรณ์ — อาจมีข้อมูลหลงเหลืออยู่ ปิดแล้วเปิด MeshTalk ใหม่เพื่อลองอีกครั้ง"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "silme tamamlanmadı — bazı veriler kalmış olabilir. yeniden denemek için bitchat'i kapatıp tekrar açın."
+            "value" : "silme tamamlanmadı — bazı veriler kalmış olabilir. yeniden denemek için MeshTalk'i kapatıp tekrar açın."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "стирання не завершено — частина даних могла залишитися. закрийте та знову відкрийте bitchat, щоб повторити."
+            "value" : "стирання не завершено — частина даних могла залишитися. закрийте та знову відкрийте MeshTalk, щоб повторити."
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "مٹانا مکمل نہیں ہوا — کچھ ڈیٹا باقی رہ سکتا ہے۔ دوبارہ کوشش کے لیے bitchat بند کر کے دوبارہ کھولیں۔"
+            "value" : "مٹانا مکمل نہیں ہوا — کچھ ڈیٹا باقی رہ سکتا ہے۔ دوبارہ کوشش کے لیے MeshTalk بند کر کے دوبارہ کھولیں۔"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "xoá chưa hoàn tất — một số dữ liệu có thể còn lại. thoát và mở lại bitchat để thử lại."
+            "value" : "xoá chưa hoàn tất — một số dữ liệu có thể còn lại. thoát và mở lại MeshTalk để thử lại."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "清除未完成 — 可能仍有数据残留。请退出并重新打开 bitchat 重试。"
+            "value" : "清除未完成 — 可能仍有数据残留。请退出并重新打开 MeshTalk 重试。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "清除未完成 — 可能仍有資料殘留。請結束並重新開啟 bitchat 重試。"
+            "value" : "清除未完成 — 可能仍有資料殘留。請結束並重新開啟 MeshTalk 重試。"
           }
         }
       }
@@ -18977,36 +18977,186 @@
       "comment" : "System message shown in the affected chat when an explicit media delete or /clear was refused and bubbles/files were kept",
       "extractionState" : "manual",
       "localizations" : {
-        "ar" : { "stringUnit" : { "state" : "needs_review", "value" : "تعذّر حذف بعض الوسائط. جرّب حذف الوسائط الأقدم أولاً." } },
-        "bn" : { "stringUnit" : { "state" : "needs_review", "value" : "কিছু মিডিয়া মুছে ফেলা যায়নি। আগে পুরোনো মিডিয়া মুছে ফেলার চেষ্টা করুন।" } },
-        "de" : { "stringUnit" : { "state" : "needs_review", "value" : "einige medien konnten nicht gelöscht werden. versuche zuerst, ältere medien zu löschen." } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "some media could not be deleted. try deleting older media first." } },
-        "es" : { "stringUnit" : { "state" : "needs_review", "value" : "no se pudieron eliminar algunos archivos multimedia. prueba a eliminar primero los más antiguos." } },
-        "fa" : { "stringUnit" : { "state" : "needs_review", "value" : "برخی رسانه‌ها حذف نشدند. ابتدا رسانه‌های قدیمی‌تر را حذف کنید." } },
-        "fil" : { "stringUnit" : { "state" : "needs_review", "value" : "hindi ma-delete ang ilang media. subukang i-delete muna ang mas lumang media." } },
-        "fr" : { "stringUnit" : { "state" : "needs_review", "value" : "impossible de supprimer certains médias. essaie d'abord de supprimer les médias plus anciens." } },
-        "he" : { "stringUnit" : { "state" : "needs_review", "value" : "לא ניתן למחוק חלק מהמדיה. נסה קודם למחוק מדיה ישנה יותר." } },
-        "hi" : { "stringUnit" : { "state" : "needs_review", "value" : "कुछ मीडिया हटाई नहीं जा सकी। पहले पुरानी मीडिया हटाने का प्रयास करें।" } },
-        "id" : { "stringUnit" : { "state" : "needs_review", "value" : "sebagian media tidak dapat dihapus. coba hapus media yang lebih lama dulu." } },
-        "it" : { "stringUnit" : { "state" : "needs_review", "value" : "impossibile eliminare alcuni contenuti multimediali. prova prima a eliminare quelli più vecchi." } },
-        "ja" : { "stringUnit" : { "state" : "needs_review", "value" : "一部のメディアを削除できませんでした。先に古いメディアを削除してみてください。" } },
-        "ko" : { "stringUnit" : { "state" : "needs_review", "value" : "일부 미디어를 삭제하지 못했습니다. 먼저 오래된 미디어를 삭제해 보세요." } },
-        "ms" : { "stringUnit" : { "state" : "needs_review", "value" : "sesetengah media tidak dapat dipadamkan. cuba padamkan media yang lebih lama dahulu." } },
-        "ne" : { "stringUnit" : { "state" : "needs_review", "value" : "केही मिडिया मेटाउन सकिएन। पहिले पुराना मिडिया मेटाउने प्रयास गर।" } },
-        "nl" : { "stringUnit" : { "state" : "needs_review", "value" : "sommige media konden niet worden verwijderd. probeer eerst oudere media te verwijderen." } },
-        "pl" : { "stringUnit" : { "state" : "needs_review", "value" : "nie udało się usunąć części multimediów. spróbuj najpierw usunąć starsze multimedia." } },
-        "pt" : { "stringUnit" : { "state" : "needs_review", "value" : "não foi possível eliminar alguns ficheiros multimédia. tenta eliminar primeiro os mais antigos." } },
-        "pt-BR" : { "stringUnit" : { "state" : "needs_review", "value" : "não foi possível excluir algumas mídias. tente excluir primeiro as mídias mais antigas." } },
-        "ru" : { "stringUnit" : { "state" : "needs_review", "value" : "не удалось удалить часть медиафайлов. попробуй сначала удалить более старые." } },
-        "sv" : { "stringUnit" : { "state" : "needs_review", "value" : "vissa medier kunde inte raderas. prova att radera äldre medier först." } },
-        "ta" : { "stringUnit" : { "state" : "needs_review", "value" : "சில ஊடகங்களை நீக்க முடியவில்லை. முதலில் பழைய ஊடகங்களை நீக்க முயற்சிக்கவும்." } },
-        "th" : { "stringUnit" : { "state" : "needs_review", "value" : "ไม่สามารถลบสื่อบางรายการได้ ลองลบสื่อที่เก่ากว่าก่อน" } },
-        "tr" : { "stringUnit" : { "state" : "needs_review", "value" : "bazı medya silinemedi. önce daha eski medyayı silmeyi dene." } },
-        "uk" : { "stringUnit" : { "state" : "needs_review", "value" : "не вдалося видалити частину медіафайлів. спробуй спочатку видалити старіші." } },
-        "ur" : { "stringUnit" : { "state" : "needs_review", "value" : "کچھ میڈیا حذف نہیں ہو سکا۔ پہلے پرانا میڈیا حذف کرنے کی کوشش کریں۔" } },
-        "vi" : { "stringUnit" : { "state" : "needs_review", "value" : "không thể xóa một số phương tiện. hãy thử xóa phương tiện cũ hơn trước." } },
-        "zh-Hans" : { "stringUnit" : { "state" : "needs_review", "value" : "部分媒体无法删除。请先尝试删除较早的媒体。" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "needs_review", "value" : "部分媒體無法刪除。請先嘗試刪除較舊的媒體。" } }
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تعذّر حذف بعض الوسائط. جرّب حذف الوسائط الأقدم أولاً."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "কিছু মিডিয়া মুছে ফেলা যায়নি। আগে পুরোনো মিডিয়া মুছে ফেলার চেষ্টা করুন।"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "einige medien konnten nicht gelöscht werden. versuche zuerst, ältere medien zu löschen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "some media could not be deleted. try deleting older media first."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "no se pudieron eliminar algunos archivos multimedia. prueba a eliminar primero los más antiguos."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "برخی رسانه‌ها حذف نشدند. ابتدا رسانه‌های قدیمی‌تر را حذف کنید."
+          }
+        },
+        "fil" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "hindi ma-delete ang ilang media. subukang i-delete muna ang mas lumang media."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "impossible de supprimer certains médias. essaie d'abord de supprimer les médias plus anciens."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "לא ניתן למחוק חלק מהמדיה. נסה קודם למחוק מדיה ישנה יותר."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "कुछ मीडिया हटाई नहीं जा सकी। पहले पुरानी मीडिया हटाने का प्रयास करें।"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "sebagian media tidak dapat dihapus. coba hapus media yang lebih lama dulu."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "impossibile eliminare alcuni contenuti multimediali. prova prima a eliminare quelli più vecchi."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "一部のメディアを削除できませんでした。先に古いメディアを削除してみてください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "일부 미디어를 삭제하지 못했습니다. 먼저 오래된 미디어를 삭제해 보세요."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "sesetengah media tidak dapat dipadamkan. cuba padamkan media yang lebih lama dahulu."
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "केही मिडिया मेटाउन सकिएन। पहिले पुराना मिडिया मेटाउने प्रयास गर।"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "sommige media konden niet worden verwijderd. probeer eerst oudere media te verwijderen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "nie udało się usunąć części multimediów. spróbuj najpierw usunąć starsze multimedia."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "não foi possível eliminar alguns ficheiros multimédia. tenta eliminar primeiro os mais antigos."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "não foi possível excluir algumas mídias. tente excluir primeiro as mídias mais antigas."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "не удалось удалить часть медиафайлов. попробуй сначала удалить более старые."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "vissa medier kunde inte raderas. prova att radera äldre medier först."
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "சில ஊடகங்களை நீக்க முடியவில்லை. முதலில் பழைய ஊடகங்களை நீக்க முயற்சிக்கவும்."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ไม่สามารถลบสื่อบางรายการได้ ลองลบสื่อที่เก่ากว่าก่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "bazı medya silinemedi. önce daha eski medyayı silmeyi dene."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "не вдалося видалити частину медіафайлів. спробуй спочатку видалити старіші."
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "کچھ میڈیا حذف نہیں ہو سکا۔ پہلے پرانا میڈیا حذف کرنے کی کوشش کریں۔"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "không thể xóa một số phương tiện. hãy thử xóa phương tiện cũ hơn trước."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "部分媒体无法删除。请先尝试删除较早的媒体。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "部分媒體無法刪除。請先嘗試刪除較舊的媒體。"
+          }
+        }
       }
     },
     "notification.action.wave" : {
@@ -19587,181 +19737,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat"
+            "value" : "MeshTalk"
           }
         }
       }
@@ -31076,181 +31226,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "يمسح جميع الرسائل والمفاتيح والهوية. النقر ثلاث مرات على شعار bitchat/ يفعل الشيء نفسه."
+            "value" : "يمسح جميع الرسائل والمفاتيح والهوية. النقر ثلاث مرات على شعار meshtalk/ يفعل الشيء نفسه."
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "সব বার্তা, কী এবং পরিচয় মুছে ফেলে। bitchat/ লোগোতে তিনবার ট্যাপ করলেও একই কাজ হয়।"
+            "value" : "সব বার্তা, কী এবং পরিচয় মুছে ফেলে। meshtalk/ লোগোতে তিনবার ট্যাপ করলেও একই কাজ হয়।"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "löscht alle nachrichten, schlüssel und die identität. dreimaliges tippen aufs bitchat/-logo macht dasselbe."
+            "value" : "löscht alle nachrichten, schlüssel und die identität. dreimaliges tippen aufs meshtalk/-logo macht dasselbe."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "erases all messages, keys, and identity. triple-tapping the bitchat/ logo does the same."
+            "value" : "erases all messages, keys, and identity. triple-tapping the meshtalk/ logo does the same."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "borra todos los mensajes, claves e identidad. tocar tres veces el logo de bitchat/ hace lo mismo."
+            "value" : "borra todos los mensajes, claves e identidad. tocar tres veces el logo de meshtalk/ hace lo mismo."
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "همه پیام‌ها، کلیدها و هویت را پاک می‌کند. سه بار زدن روی لوگوی bitchat/ همین کار را می‌کند."
+            "value" : "همه پیام‌ها، کلیدها و هویت را پاک می‌کند. سه بار زدن روی لوگوی meshtalk/ همین کار را می‌کند."
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "binubura ang lahat ng mensahe, key, at pagkakakilanlan. ganoon din ang mangyayari kapag na-tap nang tatlong beses ang bitchat/ logo."
+            "value" : "binubura ang lahat ng mensahe, key, at pagkakakilanlan. ganoon din ang mangyayari kapag na-tap nang tatlong beses ang meshtalk/ logo."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "efface tous les messages, les clés et l'identité. toucher trois fois le logo bitchat/ fait la même chose."
+            "value" : "efface tous les messages, les clés et l'identité. toucher trois fois le logo meshtalk/ fait la même chose."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "מוחק את כל ההודעות, המפתחות והזהות. הקשה משולשת על הלוגו של bitchat/ עושה את אותו הדבר."
+            "value" : "מוחק את כל ההודעות, המפתחות והזהות. הקשה משולשת על הלוגו של meshtalk/ עושה את אותו הדבר."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "सभी संदेश, कुंजियाँ और पहचान मिटा देता है। bitchat/ लोगो पर तीन बार टैप करने से भी यही होता है।"
+            "value" : "सभी संदेश, कुंजियाँ और पहचान मिटा देता है। meshtalk/ लोगो पर तीन बार टैप करने से भी यही होता है।"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "menghapus semua pesan, kunci, dan identitas. mengetuk logo bitchat/ tiga kali melakukan hal yang sama."
+            "value" : "menghapus semua pesan, kunci, dan identitas. mengetuk logo meshtalk/ tiga kali melakukan hal yang sama."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "cancella tutti i messaggi, le chiavi e l'identità. toccare tre volte il logo bitchat/ fa lo stesso."
+            "value" : "cancella tutti i messaggi, le chiavi e l'identità. toccare tre volte il logo meshtalk/ fa lo stesso."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "すべてのメッセージ・鍵・アイデンティティを消去します。bitchat/ ロゴの3回タップでも同じことができます。"
+            "value" : "すべてのメッセージ・鍵・アイデンティティを消去します。meshtalk/ ロゴの3回タップでも同じことができます。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "모든 메시지, 키, 신원을 지웁니다. bitchat/ 로고를 세 번 탭해도 동일합니다."
+            "value" : "모든 메시지, 키, 신원을 지웁니다. meshtalk/ 로고를 세 번 탭해도 동일합니다."
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "memadamkan semua mesej, kunci dan identiti. mengetik logo bitchat/ tiga kali melakukan perkara yang sama."
+            "value" : "memadamkan semua mesej, kunci dan identiti. mengetik logo meshtalk/ tiga kali melakukan perkara yang sama."
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "सबै सन्देश, कुञ्जी र परिचय मेटाउँछ। bitchat/ लोगोमा तीन पटक ट्याप गर्दा पनि त्यही हुन्छ।"
+            "value" : "सबै सन्देश, कुञ्जी र परिचय मेटाउँछ। meshtalk/ लोगोमा तीन पटक ट्याप गर्दा पनि त्यही हुन्छ।"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "wist alle berichten, sleutels en identiteit. drie keer tikken op het bitchat/-logo doet hetzelfde."
+            "value" : "wist alle berichten, sleutels en identiteit. drie keer tikken op het meshtalk/-logo doet hetzelfde."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "wymazuje wszystkie wiadomości, klucze i tożsamość. trzykrotne stuknięcie logo bitchat/ robi to samo."
+            "value" : "wymazuje wszystkie wiadomości, klucze i tożsamość. trzykrotne stuknięcie logo meshtalk/ robi to samo."
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "apaga todas as mensagens, chaves e identidade. tocar três vezes no logótipo bitchat/ faz o mesmo."
+            "value" : "apaga todas as mensagens, chaves e identidade. tocar três vezes no logótipo meshtalk/ faz o mesmo."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "apaga todas as mensagens, chaves e identidade. tocar três vezes no logo bitchat/ faz o mesmo."
+            "value" : "apaga todas as mensagens, chaves e identidade. tocar três vezes no logo meshtalk/ faz o mesmo."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "стирает все сообщения, ключи и идентичность. тройное касание логотипа bitchat/ делает то же самое."
+            "value" : "стирает все сообщения, ключи и идентичность. тройное касание логотипа meshtalk/ делает то же самое."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "raderar alla meddelanden, nycklar och identitet. att trippeltrycka på bitchat/-loggan gör samma sak."
+            "value" : "raderar alla meddelanden, nycklar och identitet. att trippeltrycka på meshtalk/-loggan gör samma sak."
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "எல்லா செய்திகள், விசைகள் மற்றும் அடையாளத்தை அழிக்கிறது. bitchat/ லோகோவை மூன்று முறை தட்டினாலும் இதுவே நடக்கும்."
+            "value" : "எல்லா செய்திகள், விசைகள் மற்றும் அடையாளத்தை அழிக்கிறது. meshtalk/ லோகோவை மூன்று முறை தட்டினாலும் இதுவே நடக்கும்."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ลบข้อความ กุญแจ และตัวตนทั้งหมด การแตะโลโก้ bitchat/ สามครั้งให้ผลเหมือนกัน"
+            "value" : "ลบข้อความ กุญแจ และตัวตนทั้งหมด การแตะโลโก้ meshtalk/ สามครั้งให้ผลเหมือนกัน"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "tüm mesajları, anahtarları ve kimliği siler. bitchat/ logosuna üç kez dokunmak da aynısını yapar."
+            "value" : "tüm mesajları, anahtarları ve kimliği siler. meshtalk/ logosuna üç kez dokunmak da aynısını yapar."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "стирає всі повідомлення, ключі та ідентичність. потрійне торкання логотипа bitchat/ робить те саме."
+            "value" : "стирає всі повідомлення, ключі та ідентичність. потрійне торкання логотипа meshtalk/ робить те саме."
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "تمام پیغامات، کلیدیں اور شناخت مٹا دیتا ہے۔ bitchat/ لوگو پر تین بار ٹیپ کرنے سے بھی یہی ہوتا ہے۔"
+            "value" : "تمام پیغامات، کلیدیں اور شناخت مٹا دیتا ہے۔ meshtalk/ لوگو پر تین بار ٹیپ کرنے سے بھی یہی ہوتا ہے۔"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "xoá toàn bộ tin nhắn, khoá và danh tính. chạm ba lần vào logo bitchat/ cũng làm điều tương tự."
+            "value" : "xoá toàn bộ tin nhắn, khoá và danh tính. chạm ba lần vào logo meshtalk/ cũng làm điều tương tự."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "清除所有消息、密钥和身份。连点三次 bitchat/ 标志效果相同。"
+            "value" : "清除所有消息、密钥和身份。连点三次 meshtalk/ 标志效果相同。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "清除所有訊息、金鑰和身分。連點三次 bitchat/ 標誌效果相同。"
+            "value" : "清除所有訊息、金鑰和身分。連點三次 meshtalk/ 標誌效果相同。"
           }
         }
       }
@@ -34044,181 +34194,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "انضم إلى قناة #%1$@ على bitchat: bitchat://geohash/%1$@ — جديد على bitchat؟ حمّله من %2$@ ثم اكتب #%1$@ ضمن قنوات الموقع."
+            "value" : "انضم إلى قناة #%1$@ على MeshTalk: meshtalk://geohash/%1$@ — جديد على MeshTalk؟ حمّله من %2$@ ثم اكتب #%1$@ ضمن قنوات الموقع."
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat-এ #%1$@ চ্যানেলে যোগ দিন: bitchat://geohash/%1$@ — bitchat-এ নতুন? %2$@ থেকে নিন, তারপর লোকেশন চ্যানেলে #%1$@ টাইপ করুন।"
+            "value" : "MeshTalk-এ #%1$@ চ্যানেলে যোগ দিন: meshtalk://geohash/%1$@ — MeshTalk-এ নতুন? %2$@ থেকে নিন, তারপর লোকেশন চ্যানেলে #%1$@ টাইপ করুন।"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "tritt dem #%1$@-kanal auf bitchat bei: bitchat://geohash/%1$@ — neu bei bitchat? hole es unter %2$@ und tippe dann #%1$@ unter standort-kanäle."
+            "value" : "tritt dem #%1$@-kanal auf MeshTalk bei: meshtalk://geohash/%1$@ — neu bei MeshTalk? hole es unter %2$@ und tippe dann #%1$@ unter standort-kanäle."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "join the #%1$@ channel on bitchat: bitchat://geohash/%1$@ — new to bitchat? get it at %2$@ then type #%1$@ under location channels."
+            "value" : "join the #%1$@ channel on MeshTalk: meshtalk://geohash/%1$@ — new to MeshTalk? get it at %2$@ then type #%1$@ under location channels."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "únete al canal #%1$@ en bitchat: bitchat://geohash/%1$@ — ¿nuevo en bitchat? consíguelo en %2$@ y luego escribe #%1$@ en canales de ubicación."
+            "value" : "únete al canal #%1$@ en MeshTalk: meshtalk://geohash/%1$@ — ¿nuevo en MeshTalk? consíguelo en %2$@ y luego escribe #%1$@ en canales de ubicación."
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "به کانال #%1$@ در bitchat بپیوندید: bitchat://geohash/%1$@ — تازه‌واردید؟ از %2$@ بگیرید و سپس #%1$@ را در کانال‌های موقعیت وارد کنید."
+            "value" : "به کانال #%1$@ در MeshTalk بپیوندید: meshtalk://geohash/%1$@ — تازه‌واردید؟ از %2$@ بگیرید و سپس #%1$@ را در کانال‌های موقعیت وارد کنید."
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "sumali sa #%1$@ channel sa bitchat: bitchat://geohash/%1$@ — bago sa bitchat? kunin ito sa %2$@ tapos i-type ang #%1$@ sa mga channel ng lokasyon."
+            "value" : "sumali sa #%1$@ channel sa MeshTalk: meshtalk://geohash/%1$@ — bago sa MeshTalk? kunin ito sa %2$@ tapos i-type ang #%1$@ sa mga channel ng lokasyon."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "rejoins le canal #%1$@ sur bitchat : bitchat://geohash/%1$@ — nouveau sur bitchat ? télécharge-le sur %2$@ puis saisis #%1$@ dans les canaux localisation."
+            "value" : "rejoins le canal #%1$@ sur MeshTalk : meshtalk://geohash/%1$@ — nouveau sur MeshTalk ? télécharge-le sur %2$@ puis saisis #%1$@ dans les canaux localisation."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "הצטרף לערוץ #%1$@ ב-bitchat: bitchat://geohash/%1$@ — חדש ב-bitchat? הורד מ-%2$@ ואז הקלד #%1$@ תחת ערוצי מיקום."
+            "value" : "הצטרף לערוץ #%1$@ ב-MeshTalk: meshtalk://geohash/%1$@ — חדש ב-MeshTalk? הורד מ-%2$@ ואז הקלד #%1$@ תחת ערוצי מיקום."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat पर #%1$@ चैनल से जुड़ें: bitchat://geohash/%1$@ — bitchat नए हैं? %2$@ से पाएँ, फिर लोकेशन चैनल में #%1$@ टाइप करें।"
+            "value" : "MeshTalk पर #%1$@ चैनल से जुड़ें: meshtalk://geohash/%1$@ — MeshTalk नए हैं? %2$@ से पाएँ, फिर लोकेशन चैनल में #%1$@ टाइप करें।"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "gabung ke kanal #%1$@ di bitchat: bitchat://geohash/%1$@ — baru di bitchat? unduh di %2$@ lalu ketik #%1$@ di kanal lokasi."
+            "value" : "gabung ke kanal #%1$@ di MeshTalk: meshtalk://geohash/%1$@ — baru di MeshTalk? unduh di %2$@ lalu ketik #%1$@ di kanal lokasi."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "entra nel canale #%1$@ su bitchat: bitchat://geohash/%1$@ — nuovo su bitchat? scaricalo da %2$@ e poi digita #%1$@ nei canali posizione."
+            "value" : "entra nel canale #%1$@ su MeshTalk: meshtalk://geohash/%1$@ — nuovo su MeshTalk? scaricalo da %2$@ e poi digita #%1$@ nei canali posizione."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchatの#%1$@チャンネルに参加: bitchat://geohash/%1$@ — はじめてですか？ %2$@ から入手し、ロケーションチャンネルで #%1$@ と入力してください。"
+            "value" : "MeshTalkの#%1$@チャンネルに参加: meshtalk://geohash/%1$@ — はじめてですか？ %2$@ から入手し、ロケーションチャンネルで #%1$@ と入力してください。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat의 #%1$@ 채널에 참여하세요: bitchat://geohash/%1$@ — bitchat이 처음이신가요? %2$@에서 받은 뒤 위치 채널에서 #%1$@을(를) 입력하세요."
+            "value" : "MeshTalk의 #%1$@ 채널에 참여하세요: meshtalk://geohash/%1$@ — MeshTalk이 처음이신가요? %2$@에서 받은 뒤 위치 채널에서 #%1$@을(를) 입력하세요."
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "sertai saluran #%1$@ di bitchat: bitchat://geohash/%1$@ — baharu di bitchat? dapatkannya di %2$@ kemudian taip #%1$@ di bawah kanal lokasi."
+            "value" : "sertai saluran #%1$@ di MeshTalk: meshtalk://geohash/%1$@ — baharu di MeshTalk? dapatkannya di %2$@ kemudian taip #%1$@ di bawah kanal lokasi."
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat मा #%1$@ च्यानलमा सामेल हुनुहोस्: bitchat://geohash/%1$@ — bitchat मा नयाँ? %2$@ बाट लिनुहोस्, त्यसपछि स्थान च्यानलमा #%1$@ टाइप गर्नुहोस्।"
+            "value" : "MeshTalk मा #%1$@ च्यानलमा सामेल हुनुहोस्: meshtalk://geohash/%1$@ — MeshTalk मा नयाँ? %2$@ बाट लिनुहोस्, त्यसपछि स्थान च्यानलमा #%1$@ टाइप गर्नुहोस्।"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "doe mee met het #%1$@-kanaal op bitchat: bitchat://geohash/%1$@ — nieuw bij bitchat? haal het op %2$@ en typ daarna #%1$@ onder locatiekanalen."
+            "value" : "doe mee met het #%1$@-kanaal op MeshTalk: meshtalk://geohash/%1$@ — nieuw bij MeshTalk? haal het op %2$@ en typ daarna #%1$@ onder locatiekanalen."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "dołącz do kanału #%1$@ w bitchat: bitchat://geohash/%1$@ — nowość w bitchat? pobierz z %2$@, a potem wpisz #%1$@ w kanałach lokalizacji."
+            "value" : "dołącz do kanału #%1$@ w MeshTalk: meshtalk://geohash/%1$@ — nowość w MeshTalk? pobierz z %2$@, a potem wpisz #%1$@ w kanałach lokalizacji."
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "junta-te ao canal #%1$@ no bitchat: bitchat://geohash/%1$@ — novo no bitchat? obtém-no em %2$@ e depois escreve #%1$@ em canais de localização."
+            "value" : "junta-te ao canal #%1$@ no MeshTalk: meshtalk://geohash/%1$@ — novo no MeshTalk? obtém-no em %2$@ e depois escreve #%1$@ em canais de localização."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "entre no canal #%1$@ no bitchat: bitchat://geohash/%1$@ — novo no bitchat? baixe em %2$@ e depois digite #%1$@ em canais de localização."
+            "value" : "entre no canal #%1$@ no MeshTalk: meshtalk://geohash/%1$@ — novo no MeshTalk? baixe em %2$@ e depois digite #%1$@ em canais de localização."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "присоединяйся к каналу #%1$@ в bitchat: bitchat://geohash/%1$@ — впервые в bitchat? скачай на %2$@, затем введи #%1$@ в каналах локации."
+            "value" : "присоединяйся к каналу #%1$@ в MeshTalk: meshtalk://geohash/%1$@ — впервые в MeshTalk? скачай на %2$@, затем введи #%1$@ в каналах локации."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "gå med i #%1$@-kanalen på bitchat: bitchat://geohash/%1$@ — ny på bitchat? hämta den på %2$@ och skriv sedan #%1$@ under platskanaler."
+            "value" : "gå med i #%1$@-kanalen på MeshTalk: meshtalk://geohash/%1$@ — ny på MeshTalk? hämta den på %2$@ och skriv sedan #%1$@ under platskanaler."
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat-இல் #%1$@ சேனலில் சேரவும்: bitchat://geohash/%1$@ — bitchat புதியவரா? %2$@ இல் பெற்று, பின்னர் இட சேனல்களில் #%1$@ என தட்டச்சு செய்யவும்."
+            "value" : "MeshTalk-இல் #%1$@ சேனலில் சேரவும்: meshtalk://geohash/%1$@ — MeshTalk புதியவரா? %2$@ இல் பெற்று, பின்னர் இட சேனல்களில் #%1$@ என தட்டச்சு செய்யவும்."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เข้าร่วมช่อง #%1$@ บน bitchat: bitchat://geohash/%1$@ — ใหม่กับ bitchat? ดาวน์โหลดที่ %2$@ แล้วพิมพ์ #%1$@ ในช่องตามตำแหน่ง"
+            "value" : "เข้าร่วมช่อง #%1$@ บน MeshTalk: meshtalk://geohash/%1$@ — ใหม่กับ MeshTalk? ดาวน์โหลดที่ %2$@ แล้วพิมพ์ #%1$@ ในช่องตามตำแหน่ง"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat'te #%1$@ kanalına katıl: bitchat://geohash/%1$@ — bitchat'te yeni misin? %2$@ adresinden indir, sonra konum kanallarında #%1$@ yaz."
+            "value" : "MeshTalk'te #%1$@ kanalına katıl: meshtalk://geohash/%1$@ — MeshTalk'te yeni misin? %2$@ adresinden indir, sonra konum kanallarında #%1$@ yaz."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "приєднуйся до каналу #%1$@ у bitchat: bitchat://geohash/%1$@ — вперше в bitchat? завантаж на %2$@, потім введи #%1$@ у каналах локації."
+            "value" : "приєднуйся до каналу #%1$@ у MeshTalk: meshtalk://geohash/%1$@ — вперше в MeshTalk? завантаж на %2$@, потім введи #%1$@ у каналах локації."
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat پر #%1$@ چینل میں شامل ہوں: bitchat://geohash/%1$@ — bitchat نئے ہیں؟ %2$@ سے حاصل کریں، پھر لوکیشن چینلز میں #%1$@ ٹائپ کریں۔"
+            "value" : "MeshTalk پر #%1$@ چینل میں شامل ہوں: meshtalk://geohash/%1$@ — MeshTalk نئے ہیں؟ %2$@ سے حاصل کریں، پھر لوکیشن چینلز میں #%1$@ ٹائپ کریں۔"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "tham gia kênh #%1$@ trên bitchat: bitchat://geohash/%1$@ — mới dùng bitchat? tải tại %2$@ rồi nhập #%1$@ trong kênh vị trí."
+            "value" : "tham gia kênh #%1$@ trên MeshTalk: meshtalk://geohash/%1$@ — mới dùng MeshTalk? tải tại %2$@ rồi nhập #%1$@ trong kênh vị trí."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "加入 bitchat 上的 #%1$@ 频道：bitchat://geohash/%1$@ — 初次使用 bitchat？前往 %2$@ 获取，然后在位置频道中输入 #%1$@。"
+            "value" : "加入 MeshTalk 上的 #%1$@ 频道：meshtalk://geohash/%1$@ — 初次使用 MeshTalk？前往 %2$@ 获取，然后在位置频道中输入 #%1$@。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "加入 bitchat 上的 #%1$@ 頻道：bitchat://geohash/%1$@ — 初次使用 bitchat？前往 %2$@ 取得，然後在位置頻道中輸入 #%1$@。"
+            "value" : "加入 MeshTalk 上的 #%1$@ 頻道：meshtalk://geohash/%1$@ — 初次使用 MeshTalk？前往 %2$@ 取得，然後在位置頻道中輸入 #%1$@。"
           }
         }
       }
@@ -34416,181 +34566,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "تغطي هذه القناة منطقة صغيرة. الدعوة عبر الرسائل أو imessage تظهر لمشغّل الشبكة والجهازين — وتكشف الاهتمام بذلك المكان، وليس فقط أن شخصًا يستخدم bitchat."
+            "value" : "تغطي هذه القناة منطقة صغيرة. الدعوة عبر الرسائل أو imessage تظهر لمشغّل الشبكة والجهازين — وتكشف الاهتمام بذلك المكان، وليس فقط أن شخصًا يستخدم MeshTalk."
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "এই চ্যানেলটি ছোট এলাকা জুড়ে। sms বা imessage-এ পাঠানো আমন্ত্রণ ক্যারিয়ার ও দুই হ্যান্ডসেটে দেখা যায় — এতে bitchat ব্যবহারের পাশাপাশি সেই জায়গায় আগ্রহও প্রকাশ পায়।"
+            "value" : "এই চ্যানেলটি ছোট এলাকা জুড়ে। sms বা imessage-এ পাঠানো আমন্ত্রণ ক্যারিয়ার ও দুই হ্যান্ডসেটে দেখা যায় — এতে MeshTalk ব্যবহারের পাশাপাশি সেই জায়গায় আগ্রহও প্রকাশ পায়।"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "dieser kanal deckt ein kleines gebiet ab. eine einladung per sms oder imessage ist für den netzanbieter und beide geräte sichtbar — sie verrät interesse an diesem ort, nicht nur dass jemand bitchat nutzt."
+            "value" : "dieser kanal deckt ein kleines gebiet ab. eine einladung per sms oder imessage ist für den netzanbieter und beide geräte sichtbar — sie verrät interesse an diesem ort, nicht nur dass jemand MeshTalk nutzt."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "this channel covers a small area. an invite sent over sms or imessage is visible to the carrier and both handsets — it discloses interest in that place, not only that someone uses bitchat."
+            "value" : "this channel covers a small area. an invite sent over sms or imessage is visible to the carrier and both handsets — it discloses interest in that place, not only that someone uses MeshTalk."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "este canal cubre un área pequeña. una invitación enviada por sms o imessage es visible para el operador y ambos teléfonos — revela interés en ese lugar, no solo que alguien usa bitchat."
+            "value" : "este canal cubre un área pequeña. una invitación enviada por sms o imessage es visible para el operador y ambos teléfonos — revela interés en ese lugar, no solo que alguien usa MeshTalk."
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "این کانال ناحیه کوچکی را پوشش می‌دهد. دعوت‌نامهٔ sms یا imessage برای اپراتور و هر دو دستگاه دیده می‌شود — علاقه به آن مکان را فاش می‌کند، نه فقط اینکه کسی از bitchat استفاده می‌کند."
+            "value" : "این کانال ناحیه کوچکی را پوشش می‌دهد. دعوت‌نامهٔ sms یا imessage برای اپراتور و هر دو دستگاه دیده می‌شود — علاقه به آن مکان را فاش می‌کند، نه فقط اینکه کسی از MeshTalk استفاده می‌کند."
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "maliit na lugar ang saklaw ng channel na ito. ang invite sa sms o imessage ay makikita ng carrier at ng parehong device — inilalantad nito ang interes sa lugar na iyon, hindi lang na may gumagamit ng bitchat."
+            "value" : "maliit na lugar ang saklaw ng channel na ito. ang invite sa sms o imessage ay makikita ng carrier at ng parehong device — inilalantad nito ang interes sa lugar na iyon, hindi lang na may gumagamit ng MeshTalk."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ce canal couvre une petite zone. une invitation envoyée par sms ou imessage est visible par l’opérateur et les deux appareils — elle révèle un intérêt pour ce lieu, pas seulement que quelqu’un utilise bitchat."
+            "value" : "ce canal couvre une petite zone. une invitation envoyée par sms ou imessage est visible par l’opérateur et les deux appareils — elle révèle un intérêt pour ce lieu, pas seulement que quelqu’un utilise MeshTalk."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "הערוץ הזה מכסה אזור קטן. הזמנה ב-sms או imessage גלויה לספק ולשני המכשירים — היא חושפת עניין במקום, לא רק שמישהו משתמש ב-bitchat."
+            "value" : "הערוץ הזה מכסה אזור קטן. הזמנה ב-sms או imessage גלויה לספק ולשני המכשירים — היא חושפת עניין במקום, לא רק שמישהו משתמש ב-MeshTalk."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "यह चैनल छोटे क्षेत्र को कवर करता है। sms या imessage से भेजा निमंत्रण कैरियर और दोनों हैंडसेट को दिखता है — इससे bitchat इस्तेमाल करने के अलावा उस जगह में रुचि भी ज़ाहिर होती है।"
+            "value" : "यह चैनल छोटे क्षेत्र को कवर करता है। sms या imessage से भेजा निमंत्रण कैरियर और दोनों हैंडसेट को दिखता है — इससे MeshTalk इस्तेमाल करने के अलावा उस जगह में रुचि भी ज़ाहिर होती है।"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "kanal ini mencakup area kecil. undangan lewat sms atau imessage terlihat oleh operator dan kedua perangkat — itu mengungkapkan minat pada tempat itu, bukan hanya bahwa seseorang memakai bitchat."
+            "value" : "kanal ini mencakup area kecil. undangan lewat sms atau imessage terlihat oleh operator dan kedua perangkat — itu mengungkapkan minat pada tempat itu, bukan hanya bahwa seseorang memakai MeshTalk."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "questo canale copre un’area piccola. un invito inviato via sms o imessage è visibile all’operatore e a entrambi i telefoni — rivela interesse per quel luogo, non solo che qualcuno usa bitchat."
+            "value" : "questo canale copre un’area piccola. un invito inviato via sms o imessage è visibile all’operatore e a entrambi i telefoni — rivela interesse per quel luogo, non solo che qualcuno usa MeshTalk."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "このチャンネルは狭い範囲をカバーします。smsやimessageで送った招待は通信事業者と双方の端末に見えます — bitchatを使っていることだけでなく、その場所への関心も伝わります。"
+            "value" : "このチャンネルは狭い範囲をカバーします。smsやimessageで送った招待は通信事業者と双方の端末に見えます — MeshTalkを使っていることだけでなく、その場所への関心も伝わります。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "이 채널은 좁은 영역을 다룹니다. sms나 imessage로 보낸 초대는 통신사와 양쪽 기기에 보입니다 — bitchat을 쓴다는 사실뿐 아니라 그 장소에 대한 관심도 드러납니다."
+            "value" : "이 채널은 좁은 영역을 다룹니다. sms나 imessage로 보낸 초대는 통신사와 양쪽 기기에 보입니다 — MeshTalk을 쓴다는 사실뿐 아니라 그 장소에 대한 관심도 드러납니다."
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "saluran ini meliputi kawasan kecil. jemputan melalui sms atau imessage kelihatan kepada operator dan kedua-dua peranti — ia mendedahkan minat terhadap tempat itu, bukan hanya bahawa seseorang menggunakan bitchat."
+            "value" : "saluran ini meliputi kawasan kecil. jemputan melalui sms atau imessage kelihatan kepada operator dan kedua-dua peranti — ia mendedahkan minat terhadap tempat itu, bukan hanya bahawa seseorang menggunakan MeshTalk."
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "यो च्यानल सानो क्षेत्र समेट्छ। sms वा imessage मार्फत पठाइएको निमन्त्रणा क्यारियर र दुवै ह्यान्डसेटमा देखिन्छ — यसले bitchat प्रयोग मात्र होइन, त्यो ठाउँप्रति चासो पनि खुलाउँछ।"
+            "value" : "यो च्यानल सानो क्षेत्र समेट्छ। sms वा imessage मार्फत पठाइएको निमन्त्रणा क्यारियर र दुवै ह्यान्डसेटमा देखिन्छ — यसले MeshTalk प्रयोग मात्र होइन, त्यो ठाउँप्रति चासो पनि खुलाउँछ।"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "dit kanaal dekt een klein gebied. een uitnodiging via sms of imessage is zichtbaar voor de provider en beide toestellen — het onthult interesse in die plek, niet alleen dat iemand bitchat gebruikt."
+            "value" : "dit kanaal dekt een klein gebied. een uitnodiging via sms of imessage is zichtbaar voor de provider en beide toestellen — het onthult interesse in die plek, niet alleen dat iemand MeshTalk gebruikt."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ten kanał obejmuje mały obszar. zaproszenie wysłane sms-em lub imessage jest widoczne dla operatora i obu telefonów — ujawnia zainteresowanie tym miejscem, nie tylko to, że ktoś używa bitchat."
+            "value" : "ten kanał obejmuje mały obszar. zaproszenie wysłane sms-em lub imessage jest widoczne dla operatora i obu telefonów — ujawnia zainteresowanie tym miejscem, nie tylko to, że ktoś używa MeshTalk."
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "este canal cobre uma área pequena. um convite enviado por sms ou imessage fica visível para a operadora e ambos os telemóveis — revela interesse nesse local, não só que alguém usa bitchat."
+            "value" : "este canal cobre uma área pequena. um convite enviado por sms ou imessage fica visível para a operadora e ambos os telemóveis — revela interesse nesse local, não só que alguém usa MeshTalk."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "este canal cobre uma área pequena. um convite enviado por sms ou imessage fica visível para a operadora e ambos os celulares — revela interesse naquele lugar, não só que alguém usa bitchat."
+            "value" : "este canal cobre uma área pequena. um convite enviado por sms ou imessage fica visível para a operadora e ambos os celulares — revela interesse naquele lugar, não só que alguém usa MeshTalk."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "этот канал покрывает небольшую область. приглашение по sms или imessage видно оператору и обоим устройствам — оно раскрывает интерес к этому месту, а не только то, что кто-то пользуется bitchat."
+            "value" : "этот канал покрывает небольшую область. приглашение по sms или imessage видно оператору и обоим устройствам — оно раскрывает интерес к этому месту, а не только то, что кто-то пользуется MeshTalk."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "denna kanal täcker ett litet område. en inbjudan via sms eller imessage syns för operatören och båda enheterna — den avslöjar intresse för platsen, inte bara att någon använder bitchat."
+            "value" : "denna kanal täcker ett litet område. en inbjudan via sms eller imessage syns för operatören och båda enheterna — den avslöjar intresse för platsen, inte bara att någon använder MeshTalk."
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "இந்த சேனல் சிறிய பகுதியை உள்ளடக்குகிறது. sms அல்லது imessage அழைப்பு கேரியருக்கும் இரு சாதனங்களுக்கும் தெரியும் — bitchat பயன்படுத்துவது மட்டுமல்ல, அந்த இடத்தில் ஆர்வமும் வெளிப்படும்."
+            "value" : "இந்த சேனல் சிறிய பகுதியை உள்ளடக்குகிறது. sms அல்லது imessage அழைப்பு கேரியருக்கும் இரு சாதனங்களுக்கும் தெரியும் — MeshTalk பயன்படுத்துவது மட்டுமல்ல, அந்த இடத்தில் ஆர்வமும் வெளிப்படும்."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ช่องนี้ครอบคลุมพื้นที่เล็ก คำเชิญทาง sms หรือ imessage เปิดเผยต่อผู้ให้บริการและทั้งสองเครื่อง — มันเผยความสนใจในสถานที่นั้น ไม่ใช่แค่การใช้ bitchat"
+            "value" : "ช่องนี้ครอบคลุมพื้นที่เล็ก คำเชิญทาง sms หรือ imessage เปิดเผยต่อผู้ให้บริการและทั้งสองเครื่อง — มันเผยความสนใจในสถานที่นั้น ไม่ใช่แค่การใช้ MeshTalk"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bu kanal küçük bir alanı kapsar. sms veya imessage ile gönderilen davet operatör ve her iki cihazda görünür — yalnızca birinin bitchat kullandığını değil, o yere ilgiyi de açığa çıkarır."
+            "value" : "bu kanal küçük bir alanı kapsar. sms veya imessage ile gönderilen davet operatör ve her iki cihazda görünür — yalnızca birinin MeshTalk kullandığını değil, o yere ilgiyi de açığa çıkarır."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "цей канал покриває невелику ділянку. запрошення через sms або imessage бачать оператор і обидва пристрої — воно розкриває інтерес до цього місця, а не лише те, що хтось користується bitchat."
+            "value" : "цей канал покриває невелику ділянку. запрошення через sms або imessage бачать оператор і обидва пристрої — воно розкриває інтерес до цього місця, а не лише те, що хтось користується MeshTalk."
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "یہ چینل چھوٹے علاقے کا احاطہ کرتا ہے۔ sms یا imessage پر بھیجی گئی دعوت کیریئر اور دونوں ہینڈسیٹس کو نظر آتی ہے — اس سے صرف bitchat کا استعمال نہیں بلکہ اس جگہ میں دلچسپی بھی ظاہر ہوتی ہے۔"
+            "value" : "یہ چینل چھوٹے علاقے کا احاطہ کرتا ہے۔ sms یا imessage پر بھیجی گئی دعوت کیریئر اور دونوں ہینڈسیٹس کو نظر آتی ہے — اس سے صرف MeshTalk کا استعمال نہیں بلکہ اس جگہ میں دلچسپی بھی ظاہر ہوتی ہے۔"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "kênh này phủ một khu vực nhỏ. lời mời gửi qua sms hoặc imessage hiện với nhà mạng và cả hai máy — nó tiết lộ sự quan tâm đến nơi đó, không chỉ việc ai đó dùng bitchat."
+            "value" : "kênh này phủ một khu vực nhỏ. lời mời gửi qua sms hoặc imessage hiện với nhà mạng và cả hai máy — nó tiết lộ sự quan tâm đến nơi đó, không chỉ việc ai đó dùng MeshTalk."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此频道覆盖范围很小。通过短信或 iMessage 发送的邀请对运营商和双方设备可见——它会暴露对该地点的兴趣，而不仅是有人在使用 bitchat。"
+            "value" : "此频道覆盖范围很小。通过短信或 iMessage 发送的邀请对运营商和双方设备可见——它会暴露对该地点的兴趣，而不仅是有人在使用 MeshTalk。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此頻道覆蓋範圍很小。透過簡訊或 iMessage 傳送的邀請對電信商與雙方裝置可見——它會揭露對該地點的興趣，而不只是有人在使用 bitchat。"
+            "value" : "此頻道覆蓋範圍很小。透過簡訊或 iMessage 傳送的邀請對電信商與雙方裝置可見——它會揭露對該地點的興趣，而不只是有人在使用 MeshTalk。"
           }
         }
       }
@@ -36633,7 +36783,7 @@
       }
     },
     "content.accessibility.app_info_hint" : {
-      "comment" : "Accessibility hint on the bitchat/ logo explaining a tap opens app info",
+      "comment" : "Accessibility hint on the meshtalk/ logo explaining a tap opens app info",
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -45571,181 +45721,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth متوقف. فعّل bluetooth في الإعدادات لاستخدام bitchat."
+            "value" : "bluetooth متوقف. فعّل bluetooth في الإعدادات لاستخدام MeshTalk."
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ব্লুটুথ বন্ধ আছে। bitchat ব্যবহার করতে সেটিংসে ব্লুটুথ চালু করুন।"
+            "value" : "ব্লুটুথ বন্ধ আছে। MeshTalk ব্যবহার করতে সেটিংসে ব্লুটুথ চালু করুন।"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth ist ausgeschaltet. aktiviere bluetooth in den einstellungen, um bitchat zu verwenden."
+            "value" : "bluetooth ist ausgeschaltet. aktiviere bluetooth in den einstellungen, um MeshTalk zu verwenden."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth is turned off. please turn on bluetooth in settings to use bitchat."
+            "value" : "bluetooth is turned off. please turn on bluetooth in settings to use MeshTalk."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth está desactivado. Actívalo en Ajustes para usar BitChat."
+            "value" : "bluetooth está desactivado. Actívalo en Ajustes para usar MeshTalk."
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "بلوتوث خاموش است. برای استفاده از bitchat لطفاً بلوتوث را در تنظیمات روشن کنید."
+            "value" : "بلوتوث خاموش است. برای استفاده از MeshTalk لطفاً بلوتوث را در تنظیمات روشن کنید."
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "naka-off ang bluetooth. pakibuksan sa settings para magamit ang bitchat."
+            "value" : "naka-off ang bluetooth. pakibuksan sa settings para magamit ang MeshTalk."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth est désactivé. active le bluetooth dans réglages pour utiliser bitchat."
+            "value" : "bluetooth est désactivé. active le bluetooth dans réglages pour utiliser MeshTalk."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth כבוי. הפעל bluetooth בהגדרות כדי להשתמש ב-bitchat."
+            "value" : "bluetooth כבוי. הפעל bluetooth בהגדרות כדי להשתמש ב-MeshTalk."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ब्लूटूथ बंद है। bitchat उपयोग करने के लिए सेटिंग्स में ब्लूटूथ चालू करें।"
+            "value" : "ब्लूटूथ बंद है। MeshTalk उपयोग करने के लिए सेटिंग्स में ब्लूटूथ चालू करें।"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth dimatikan. aktifkan bluetooth di pengaturan untuk memakai bitchat."
+            "value" : "bluetooth dimatikan. aktifkan bluetooth di pengaturan untuk memakai MeshTalk."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth è disattivato. attiva bluetooth nelle impostazioni per usare bitchat."
+            "value" : "bluetooth è disattivato. attiva bluetooth nelle impostazioni per usare MeshTalk."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetoothがオフです。設定でbluetoothをオンにしてbitchatを使ってください。"
+            "value" : "bluetoothがオフです。設定でbluetoothをオンにしてMeshTalkを使ってください。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth가 꺼져 있습니다. bitchat을 사용하려면 설정에서 bluetooth를 켜주세요."
+            "value" : "bluetooth가 꺼져 있습니다. MeshTalk을 사용하려면 설정에서 bluetooth를 켜주세요."
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bluetooth dimatikan. Hidupkan Bluetooth dalam Tetapan untuk menggunakan bitchat."
+            "value" : "Bluetooth dimatikan. Hidupkan Bluetooth dalam Tetapan untuk menggunakan MeshTalk."
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth बन्द छ। bitchat प्रयोग गर्न bluetooth सेटिङमा अन गर।"
+            "value" : "bluetooth बन्द छ। MeshTalk प्रयोग गर्न bluetooth सेटिङमा अन गर।"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth staat uit. zet bluetooth aan in instellingen om bitchat te gebruiken."
+            "value" : "bluetooth staat uit. zet bluetooth aan in instellingen om MeshTalk te gebruiken."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth jest wyłączony. włącz bluetooth w ustawieniach, aby używać bitchat."
+            "value" : "bluetooth jest wyłączony. włącz bluetooth w ustawieniach, aby używać MeshTalk."
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O Bluetooth está desligado. Ativa o Bluetooth em Definições para usar o bitchat."
+            "value" : "O Bluetooth está desligado. Ativa o Bluetooth em Definições para usar o MeshTalk."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth está desligado. ative o bluetooth em ajustes para usar bitchat."
+            "value" : "bluetooth está desligado. ative o bluetooth em ajustes para usar MeshTalk."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth выключен. включи bluetooth в настройках, чтобы использовать bitchat."
+            "value" : "bluetooth выключен. включи bluetooth в настройках, чтобы использовать MeshTalk."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth är avstängt. slå på bluetooth i inställningar för att använda bitchat."
+            "value" : "bluetooth är avstängt. slå på bluetooth i inställningar för att använda MeshTalk."
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bluetooth அணைக்கப்பட்டுள்ளது. bitchat பயன்படுத்த அமைப்பில் Bluetooth ஐ இயக்கவும்."
+            "value" : "Bluetooth அணைக்கப்பட்டுள்ளது. MeshTalk பயன்படுத்த அமைப்பில் Bluetooth ஐ இயக்கவும்."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ปิด Bluetooth อยู่ กรุณาเปิดในตั้งค่าเพื่อใช้ bitchat"
+            "value" : "ปิด Bluetooth อยู่ กรุณาเปิดในตั้งค่าเพื่อใช้ MeshTalk"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bluetooth kapalı. bitchat'i kullanmak için ayarlardan Bluetooth'u açın."
+            "value" : "Bluetooth kapalı. MeshTalk'i kullanmak için ayarlardan Bluetooth'u açın."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth вимкнений. увімкни bluetooth у налаштуваннях, щоб користуватися bitchat."
+            "value" : "bluetooth вимкнений. увімкни bluetooth у налаштуваннях, щоб користуватися MeshTalk."
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bluetooth بند ہے۔ bitchat استعمال کرنے کیلئے سیٹنگز میں Bluetooth آن کریں۔"
+            "value" : "Bluetooth بند ہے۔ MeshTalk استعمال کرنے کیلئے سیٹنگز میں Bluetooth آن کریں۔"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth đang tắt. hãy bật trong cài đặt để dùng bitchat."
+            "value" : "bluetooth đang tắt. hãy bật trong cài đặt để dùng MeshTalk."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth 已关闭。请在设置中开启以使用 bitchat。"
+            "value" : "bluetooth 已关闭。请在设置中开启以使用 MeshTalk。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bluetooth 已關閉。請在設定中開啟以使用 bitchat。"
+            "value" : "bluetooth 已關閉。請在設定中開啟以使用 MeshTalk。"
           }
         }
       }
@@ -45756,181 +45906,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "تحتاج bitchat إلى إذن bluetooth للاتصال بالأجهزة القريبة. فعّل الوصول في الإعدادات."
+            "value" : "تحتاج MeshTalk إلى إذن bluetooth للاتصال بالأجهزة القريبة. فعّل الوصول في الإعدادات."
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "নিকটবর্তী ডিভাইসের সাথে যুক্ত হতে bitchat-এর ব্লুটুথ অনুমতি দরকার। দয়া করে সেটিংসে ব্লুটুথ অ্যাক্সেস সক্রিয় করুন।"
+            "value" : "নিকটবর্তী ডিভাইসের সাথে যুক্ত হতে MeshTalk-এর ব্লুটুথ অনুমতি দরকার। দয়া করে সেটিংসে ব্লুটুথ অ্যাক্সেস সক্রিয় করুন।"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat benötigt bluetooth-berechtigung, um sich mit geräten in der nähe zu verbinden. erlaube den zugriff in den einstellungen."
+            "value" : "MeshTalk benötigt bluetooth-berechtigung, um sich mit geräten in der nähe zu verbinden. erlaube den zugriff in den einstellungen."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat needs bluetooth permission to connect with nearby devices. please enable bluetooth access in settings."
+            "value" : "MeshTalk needs bluetooth permission to connect with nearby devices. please enable bluetooth access in settings."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitChat necesita permiso de Bluetooth para conectarse con dispositivos cercanos. Habilita el acceso en Ajustes."
+            "value" : "MeshTalk necesita permiso de Bluetooth para conectarse con dispositivos cercanos. Habilita el acceso en Ajustes."
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat برای اتصال به دستگاه‌های اطراف به مجوز بلوتوث نیاز دارد. لطفاً دسترسی بلوتوث را در تنظیمات فعال کنید."
+            "value" : "MeshTalk برای اتصال به دستگاه‌های اطراف به مجوز بلوتوث نیاز دارد. لطفاً دسترسی بلوتوث را در تنظیمات فعال کنید."
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "kailangan ng bitchat ng pahintulot sa bluetooth upang kumonekta sa mga kalapit na device. pakiactivate sa settings."
+            "value" : "kailangan ng MeshTalk ng pahintulot sa bluetooth upang kumonekta sa mga kalapit na device. pakiactivate sa settings."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat a besoin de l'autorisation bluetooth pour se connecter aux appareils proches. active l'accès dans réglages."
+            "value" : "MeshTalk a besoin de l'autorisation bluetooth pour se connecter aux appareils proches. active l'accès dans réglages."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat צריכה הרשאת bluetooth כדי להתחבר למכשירים קרובים. אפשר גישה בהגדרות."
+            "value" : "MeshTalk צריכה הרשאת bluetooth כדי להתחבר למכשירים קרובים. אפשר גישה בהגדרות."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat को पास के उपकरणों से जुड़ने के लिए ब्लूटूथ अनुमति चाहिए। कृपया सेटिंग्स में ब्लूटूथ एक्सेस सक्षम करें।"
+            "value" : "MeshTalk को पास के उपकरणों से जुड़ने के लिए ब्लूटूथ अनुमति चाहिए। कृपया सेटिंग्स में ब्लूटूथ एक्सेस सक्षम करें।"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat memerlukan izin bluetooth untuk terhubung dengan perangkat dekat. aktifkan akses di pengaturan."
+            "value" : "MeshTalk memerlukan izin bluetooth untuk terhubung dengan perangkat dekat. aktifkan akses di pengaturan."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat richiede l'autorizzazione bluetooth per collegarsi ai dispositivi vicini. abilita l'accesso nelle impostazioni."
+            "value" : "MeshTalk richiede l'autorizzazione bluetooth per collegarsi ai dispositivi vicini. abilita l'accesso nelle impostazioni."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchatは近くのデバイスと接続するためbluetooth権限が必要です。設定でアクセスを有効にしてください。"
+            "value" : "MeshTalkは近くのデバイスと接続するためbluetooth権限が必要です。設定でアクセスを有効にしてください。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat은 주변 기기와 연결하기 위해 bluetooth 권한이 필요합니다. 설정에서 bluetooth 접근을 활성화해주세요."
+            "value" : "MeshTalk은 주변 기기와 연결하기 위해 bluetooth 권한이 필요합니다. 설정에서 bluetooth 접근을 활성화해주세요."
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat memerlukan kebenaran Bluetooth untuk disambungkan kepada peranti berhampiran. Benarkan capaian dalam Tetapan."
+            "value" : "MeshTalk memerlukan kebenaran Bluetooth untuk disambungkan kepada peranti berhampiran. Benarkan capaian dalam Tetapan."
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat लाई नजिकका उपकरणसँग जडान हुन bluetooth अनुमति चाहिन्छ। सेटिङमा पहुँच सक्षम गर।"
+            "value" : "MeshTalk लाई नजिकका उपकरणसँग जडान हुन bluetooth अनुमति चाहिन्छ। सेटिङमा पहुँच सक्षम गर।"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat heeft bluetooth-toegang nodig om verbinding te maken met apparaten in de buurt. schakel dit in bij instellingen."
+            "value" : "MeshTalk heeft bluetooth-toegang nodig om verbinding te maken met apparaten in de buurt. schakel dit in bij instellingen."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat potrzebuje uprawnień bluetooth, aby łączyć się z pobliskimi urządzeniami. włącz dostęp w ustawieniach."
+            "value" : "MeshTalk potrzebuje uprawnień bluetooth, aby łączyć się z pobliskimi urządzeniami. włącz dostęp w ustawieniach."
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O bitchat precisa de autorização de Bluetooth para se ligar a dispositivos próximos. Ativa o acesso em Definições."
+            "value" : "O MeshTalk precisa de autorização de Bluetooth para se ligar a dispositivos próximos. Ativa o acesso em Definições."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat precisa de permissão de bluetooth para conectar com dispositivos próximos. habilite o acesso em ajustes."
+            "value" : "MeshTalk precisa de permissão de bluetooth para conectar com dispositivos próximos. habilite o acesso em ajustes."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat нужен доступ к bluetooth, чтобы соединяться с ближайшими устройствами. включи разрешение в настройках."
+            "value" : "MeshTalk нужен доступ к bluetooth, чтобы соединяться с ближайшими устройствами. включи разрешение в настройках."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat behöver bluetooth-behörighet för att ansluta till enheter i närheten. aktivera åtkomst i inställningar."
+            "value" : "MeshTalk behöver bluetooth-behörighet för att ansluta till enheter i närheten. aktivera åtkomst i inställningar."
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "அருகிலுள்ள சாதனங்களை இணைக்க bitchat க்கு Bluetooth அனுமதி தேவை. அமைப்பில் அனுமதி வழங்கவும்."
+            "value" : "அருகிலுள்ள சாதனங்களை இணைக்க MeshTalk க்கு Bluetooth அனுமதி தேவை. அமைப்பில் அனுமதி வழங்கவும்."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat ต้องการสิทธิ์ Bluetooth เพื่อเชื่อมต่อกับอุปกรณ์ใกล้เคียง กรุณาเปิดสิทธิ์ในตั้งค่า"
+            "value" : "MeshTalk ต้องการสิทธิ์ Bluetooth เพื่อเชื่อมต่อกับอุปกรณ์ใกล้เคียง กรุณาเปิดสิทธิ์ในตั้งค่า"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat'in yakın cihazlara bağlanması için Bluetooth izni gerekir. lütfen ayarlardan Bluetooth erişimini etkinleştirin."
+            "value" : "MeshTalk'in yakın cihazlara bağlanması için Bluetooth izni gerekir. lütfen ayarlardan Bluetooth erişimini etkinleştirin."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat потребує дозволу bluetooth для з'єднання з пристроями поруч. ввімкни доступ у налаштуваннях."
+            "value" : "MeshTalk потребує дозволу bluetooth для з'єднання з пристроями поруч. ввімкни доступ у налаштуваннях."
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "قریب کے آلات سے جڑنے کیلئے bitchat کو Bluetooth اجازت درکار ہے۔ سیٹنگز میں رسائی فعال کریں۔"
+            "value" : "قریب کے آلات سے جڑنے کیلئے MeshTalk کو Bluetooth اجازت درکار ہے۔ سیٹنگز میں رسائی فعال کریں۔"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat cần quyền bluetooth để kết nối thiết bị gần. hãy bật quyền trong cài đặt."
+            "value" : "MeshTalk cần quyền bluetooth để kết nối thiết bị gần. hãy bật quyền trong cài đặt."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat 需要 bluetooth 权限以连接附近设备。请在设置中启用访问。"
+            "value" : "MeshTalk 需要 bluetooth 权限以连接附近设备。请在设置中启用访问。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat 需要 bluetooth 權限以連線至附近裝置。請在設定中啟用存取權限。"
+            "value" : "MeshTalk 需要 bluetooth 權限以連線至附近裝置。請在設定中啟用存取權限。"
           }
         }
       }
@@ -46311,181 +46461,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "هذا الجهاز لا يدعم bluetooth. يحتاج bitchat إلى bluetooth للعمل."
+            "value" : "هذا الجهاز لا يدعم bluetooth. يحتاج MeshTalk إلى bluetooth للعمل."
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "এই ডিভাইস ব্লুটুথ সমর্থন করে না। bitchat চালাতে ব্লুটুথ দরকার।"
+            "value" : "এই ডিভাইস ব্লুটুথ সমর্থন করে না। MeshTalk চালাতে ব্লুটুথ দরকার।"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "dieses gerät unterstützt kein bluetooth. bitchat benötigt bluetooth zum funktionieren."
+            "value" : "dieses gerät unterstützt kein bluetooth. MeshTalk benötigt bluetooth zum funktionieren."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "this device does not support bluetooth. bitchat requires bluetooth to function."
+            "value" : "this device does not support bluetooth. MeshTalk requires bluetooth to function."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "este dispositivo no admite Bluetooth. BitChat necesita Bluetooth para funcionar."
+            "value" : "este dispositivo no admite Bluetooth. MeshTalk necesita Bluetooth para funcionar."
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "این دستگاه از بلوتوث پشتیبانی نمی‌کند. bitchat برای کار کردن به بلوتوث نیاز دارد."
+            "value" : "این دستگاه از بلوتوث پشتیبانی نمی‌کند. MeshTalk برای کار کردن به بلوتوث نیاز دارد."
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "hindi sinusuportahan ng device na ito ang bluetooth. kailangan ito ng bitchat para gumana."
+            "value" : "hindi sinusuportahan ng device na ito ang bluetooth. kailangan ito ng MeshTalk para gumana."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "cet appareil ne prend pas en charge le bluetooth. bitchat en a besoin pour fonctionner."
+            "value" : "cet appareil ne prend pas en charge le bluetooth. MeshTalk en a besoin pour fonctionner."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "המכשיר הזה לא תומך ב-bluetooth. bitchat זקוקה ל-bluetooth כדי לעבוד."
+            "value" : "המכשיר הזה לא תומך ב-bluetooth. MeshTalk זקוקה ל-bluetooth כדי לעבוד."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "यह डिवाइस ब्लूटूथ समर्थित नहीं है। bitchat चलाने के लिए ब्लूटूथ जरूरी है।"
+            "value" : "यह डिवाइस ब्लूटूथ समर्थित नहीं है। MeshTalk चलाने के लिए ब्लूटूथ जरूरी है।"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "perangkat ini tidak mendukung bluetooth. bitchat memerlukan bluetooth untuk berjalan."
+            "value" : "perangkat ini tidak mendukung bluetooth. MeshTalk memerlukan bluetooth untuk berjalan."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "questo dispositivo non supporta bluetooth. bitchat richiede bluetooth per funzionare."
+            "value" : "questo dispositivo non supporta bluetooth. MeshTalk richiede bluetooth per funzionare."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "このデバイスはbluetoothをサポートしていません。bitchatにはbluetoothが必要です。"
+            "value" : "このデバイスはbluetoothをサポートしていません。MeshTalkにはbluetoothが必要です。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "이 기기는 bluetooth를 지원하지 않습니다. bitchat이 작동하려면 bluetooth가 필요합니다."
+            "value" : "이 기기는 bluetooth를 지원하지 않습니다. MeshTalk이 작동하려면 bluetooth가 필요합니다."
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Peranti ini tidak menyokong Bluetooth. bitchat memerlukan Bluetooth untuk berfungsi."
+            "value" : "Peranti ini tidak menyokong Bluetooth. MeshTalk memerlukan Bluetooth untuk berfungsi."
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "यो उपकरणले bluetooth समर्थन गर्दैन। bitchat चलाउन bluetooth चाहिन्छ।"
+            "value" : "यो उपकरणले bluetooth समर्थन गर्दैन। MeshTalk चलाउन bluetooth चाहिन्छ।"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "dit apparaat ondersteunt geen bluetooth. bitchat heeft bluetooth nodig om te werken."
+            "value" : "dit apparaat ondersteunt geen bluetooth. MeshTalk heeft bluetooth nodig om te werken."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "to urządzenie nie obsługuje bluetooth. bitchat wymaga bluetooth do działania."
+            "value" : "to urządzenie nie obsługuje bluetooth. MeshTalk wymaga bluetooth do działania."
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Este dispositivo não suporta Bluetooth. O bitchat precisa de Bluetooth para funcionar."
+            "value" : "Este dispositivo não suporta Bluetooth. O MeshTalk precisa de Bluetooth para funcionar."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "este dispositivo não suporta bluetooth. bitchat precisa de bluetooth para funcionar."
+            "value" : "este dispositivo não suporta bluetooth. MeshTalk precisa de bluetooth para funcionar."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "это устройство не поддерживает bluetooth. bitchat нужен bluetooth для работы."
+            "value" : "это устройство не поддерживает bluetooth. MeshTalk нужен bluetooth для работы."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "denna enhet stöder inte bluetooth. bitchat behöver bluetooth för att fungera."
+            "value" : "denna enhet stöder inte bluetooth. MeshTalk behöver bluetooth för att fungera."
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "இந்த சாதனம் Bluetooth ஐ ஆதரிக்காது. bitchat இயங்க Bluetooth தேவை."
+            "value" : "இந்த சாதனம் Bluetooth ஐ ஆதரிக்காது. MeshTalk இயங்க Bluetooth தேவை."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "อุปกรณ์นี้ไม่รองรับ Bluetooth การใช้งาน bitchat ต้องใช้ Bluetooth"
+            "value" : "อุปกรณ์นี้ไม่รองรับ Bluetooth การใช้งาน MeshTalk ต้องใช้ Bluetooth"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bu cihaz Bluetooth'u desteklemiyor. bitchat'in çalışması için Bluetooth gerekli."
+            "value" : "bu cihaz Bluetooth'u desteklemiyor. MeshTalk'in çalışması için Bluetooth gerekli."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "цей пристрій не підтримує bluetooth. bitchat потрібен bluetooth для роботи."
+            "value" : "цей пристрій не підтримує bluetooth. MeshTalk потрібен bluetooth для роботи."
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "یہ ڈیوائس Bluetooth کو سپورٹ نہیں کرتی۔ bitchat کو چلنے کیلئے Bluetooth چاہیے۔"
+            "value" : "یہ ڈیوائس Bluetooth کو سپورٹ نہیں کرتی۔ MeshTalk کو چلنے کیلئے Bluetooth چاہیے۔"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "thiết bị này không hỗ trợ bluetooth. bitchat cần bluetooth để hoạt động."
+            "value" : "thiết bị này không hỗ trợ bluetooth. MeshTalk cần bluetooth để hoạt động."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此设备不支持 bluetooth。bitchat 需要 bluetooth 才能运行。"
+            "value" : "此设备不支持 bluetooth。MeshTalk 需要 bluetooth 才能运行。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "此裝置不支持 bluetooth。bitchat 需要 bluetooth 才能運行。"
+            "value" : "此裝置不支持 bluetooth。MeshTalk 需要 bluetooth 才能運行。"
           }
         }
       }
@@ -55403,181 +55553,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "اضغط اسم القناة بالأعلى للتبديل · اضغط bitchat/ للمساعدة"
+            "value" : "اضغط اسم القناة بالأعلى للتبديل · اضغط meshtalk/ للمساعدة"
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "বদলাতে উপরের চ্যানেলের নাম ট্যাপ করুন · সাহায্যের জন্য bitchat/ ট্যাপ করুন"
+            "value" : "বদলাতে উপরের চ্যানেলের নাম ট্যাপ করুন · সাহায্যের জন্য meshtalk/ ট্যাপ করুন"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "tippe oben auf den kanalnamen zum wechseln · tippe bitchat/ für hilfe"
+            "value" : "tippe oben auf den kanalnamen zum wechseln · tippe meshtalk/ für hilfe"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "tap the channel name above to switch · tap bitchat/ for help"
+            "value" : "tap the channel name above to switch · tap meshtalk/ for help"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "toca el nombre del canal de arriba para cambiar · toca bitchat/ para ayuda"
+            "value" : "toca el nombre del canal de arriba para cambiar · toca meshtalk/ para ayuda"
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "برای تغییر، نام کانال بالا را ضربه بزنید · برای راهنما bitchat/ را ضربه بزنید"
+            "value" : "برای تغییر، نام کانال بالا را ضربه بزنید · برای راهنما meshtalk/ را ضربه بزنید"
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "i-tap ang pangalan ng channel sa itaas para magpalit · i-tap ang bitchat/ para sa tulong"
+            "value" : "i-tap ang pangalan ng channel sa itaas para magpalit · i-tap ang meshtalk/ para sa tulong"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "touche le nom du canal ci-dessus pour changer · touche bitchat/ pour l'aide"
+            "value" : "touche le nom du canal ci-dessus pour changer · touche meshtalk/ pour l'aide"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "הקש על שם הערוץ למעלה כדי להחליף · הקש על bitchat/ לעזרה"
+            "value" : "הקש על שם הערוץ למעלה כדי להחליף · הקש על meshtalk/ לעזרה"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "स्विच करने के लिए ऊपर चैनल का नाम टैप करें · मदद के लिए bitchat/ टैप करें"
+            "value" : "स्विच करने के लिए ऊपर चैनल का नाम टैप करें · मदद के लिए meshtalk/ टैप करें"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "ketuk nama kanal di atas untuk beralih · ketuk bitchat/ untuk bantuan"
+            "value" : "ketuk nama kanal di atas untuk beralih · ketuk meshtalk/ untuk bantuan"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "tocca il nome del canale in alto per cambiare · tocca bitchat/ per l'aiuto"
+            "value" : "tocca il nome del canale in alto per cambiare · tocca meshtalk/ per l'aiuto"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "上のチャンネル名をタップして切り替え · bitchat/ をタップしてヘルプ"
+            "value" : "上のチャンネル名をタップして切り替え · meshtalk/ をタップしてヘルプ"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "위의 채널 이름을 탭하여 전환 · bitchat/ 를 탭하여 도움말"
+            "value" : "위의 채널 이름을 탭하여 전환 · meshtalk/ 를 탭하여 도움말"
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "ketuk nama kanal di atas untuk beralih · ketuk bitchat/ untuk bantuan"
+            "value" : "ketuk nama kanal di atas untuk beralih · ketuk meshtalk/ untuk bantuan"
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "बदल्न माथिको च्यानल नाम ट्याप गर · मद्दतका लागि bitchat/ ट्याप गर"
+            "value" : "बदल्न माथिको च्यानल नाम ट्याप गर · मद्दतका लागि meshtalk/ ट्याप गर"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "tik op de kanaalnaam hierboven om te wisselen · tik op bitchat/ voor hulp"
+            "value" : "tik op de kanaalnaam hierboven om te wisselen · tik op meshtalk/ voor hulp"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "stuknij nazwę kanału powyżej, aby przełączyć · stuknij bitchat/ po pomoc"
+            "value" : "stuknij nazwę kanału powyżej, aby przełączyć · stuknij meshtalk/ po pomoc"
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "toca no nome do canal acima para trocar · toca em bitchat/ para ajuda"
+            "value" : "toca no nome do canal acima para trocar · toca em meshtalk/ para ajuda"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "toque o nome do canal acima para trocar · toque bitchat/ para ajuda"
+            "value" : "toque o nome do canal acima para trocar · toque meshtalk/ para ajuda"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "нажми на имя канала выше, чтобы переключиться · нажми bitchat/ для справки"
+            "value" : "нажми на имя канала выше, чтобы переключиться · нажми meshtalk/ для справки"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "tryck på kanalnamnet ovan för att byta · tryck på bitchat/ för hjälp"
+            "value" : "tryck på kanalnamnet ovan för att byta · tryck på meshtalk/ för hjälp"
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "மாற்ற மேலே உள்ள சேனல் பெயரைத் தட்டவும் · உதவிக்கு bitchat/ ஐத் தட்டவும்"
+            "value" : "மாற்ற மேலே உள்ள சேனல் பெயரைத் தட்டவும் · உதவிக்கு meshtalk/ ஐத் தட்டவும்"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "แตะชื่อช่องด้านบนเพื่อสลับ · แตะ bitchat/ เพื่อดูวิธีใช้"
+            "value" : "แตะชื่อช่องด้านบนเพื่อสลับ · แตะ meshtalk/ เพื่อดูวิธีใช้"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "değiştirmek için yukarıdaki kanal adına dokunun · yardım için bitchat/ dokunun"
+            "value" : "değiştirmek için yukarıdaki kanal adına dokunun · yardım için meshtalk/ dokunun"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "торкнися назви каналу вгорі, щоб перемкнути · торкнися bitchat/ для довідки"
+            "value" : "торкнися назви каналу вгорі, щоб перемкнути · торкнися meshtalk/ для довідки"
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "تبدیل کرنے کیلئے اوپر چینل کے نام پر ٹیپ کریں · مدد کیلئے bitchat/ پر ٹیپ کریں"
+            "value" : "تبدیل کرنے کیلئے اوپر چینل کے نام پر ٹیپ کریں · مدد کیلئے meshtalk/ پر ٹیپ کریں"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "chạm tên kênh phía trên để chuyển · chạm bitchat/ để được trợ giúp"
+            "value" : "chạm tên kênh phía trên để chuyển · chạm meshtalk/ để được trợ giúp"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "轻点上方频道名切换 · 轻点 bitchat/ 获取帮助"
+            "value" : "轻点上方频道名切换 · 轻点 meshtalk/ 获取帮助"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "輕點上方頻道名稱切換 · 輕點 bitchat/ 取得協助"
+            "value" : "輕點上方頻道名稱切換 · 輕點 meshtalk/ 取得協助"
           }
         }
       }
@@ -82988,181 +83138,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "افتح bitchat للقراءة"
+            "value" : "افتح MeshTalk للقراءة"
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "পড়তে bitchat খুলুন"
+            "value" : "পড়তে MeshTalk খুলুন"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "öffne bitchat zum lesen"
+            "value" : "öffne MeshTalk zum lesen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "open bitchat to read"
+            "value" : "open MeshTalk to read"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "abre bitchat para leer"
+            "value" : "abre MeshTalk para leer"
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "برای خواندن bitchat را باز کن"
+            "value" : "برای خواندن MeshTalk را باز کن"
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "buksan ang bitchat para makita"
+            "value" : "buksan ang MeshTalk para makita"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ouvre bitchat pour lire"
+            "value" : "ouvre MeshTalk pour lire"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "פתח את bitchat כדי לקרוא"
+            "value" : "פתח את MeshTalk כדי לקרוא"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "पढ़ने के लिए bitchat खोलें"
+            "value" : "पढ़ने के लिए MeshTalk खोलें"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "buka bitchat untuk membaca"
+            "value" : "buka MeshTalk untuk membaca"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "apri bitchat per leggere"
+            "value" : "apri MeshTalk per leggere"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "読むには bitchat を開いてください"
+            "value" : "読むには MeshTalk を開いてください"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "읽으려면 bitchat을 열어보세요"
+            "value" : "읽으려면 MeshTalk을 열어보세요"
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "buka bitchat untuk membaca"
+            "value" : "buka MeshTalk untuk membaca"
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "पढ्न bitchat खोल"
+            "value" : "पढ्न MeshTalk खोल"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "open bitchat om te lezen"
+            "value" : "open MeshTalk om te lezen"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "otwórz bitchat, aby przeczytać"
+            "value" : "otwórz MeshTalk, aby przeczytać"
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "abre o bitchat para ler"
+            "value" : "abre o MeshTalk para ler"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "abra o bitchat para ler"
+            "value" : "abra o MeshTalk para ler"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "открой bitchat, чтобы прочитать"
+            "value" : "открой MeshTalk, чтобы прочитать"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "öppna bitchat för att läsa"
+            "value" : "öppna MeshTalk för att läsa"
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "படிக்க bitchat ஐத் திறக்கவும்"
+            "value" : "படிக்க MeshTalk ஐத் திறக்கவும்"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เปิด bitchat เพื่ออ่าน"
+            "value" : "เปิด MeshTalk เพื่ออ่าน"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "okumak için bitchat'i aç"
+            "value" : "okumak için MeshTalk'i aç"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "відкрий bitchat, щоб прочитати"
+            "value" : "відкрий MeshTalk, щоб прочитати"
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "پڑھنے کے لیے bitchat کھولیں"
+            "value" : "پڑھنے کے لیے MeshTalk کھولیں"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "mở bitchat để đọc"
+            "value" : "mở MeshTalk để đọc"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打开 bitchat 查看"
+            "value" : "打开 MeshTalk 查看"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "開啟 bitchat 查看"
+            "value" : "開啟 MeshTalk 查看"
           }
         }
       }
@@ -94282,7 +94432,6 @@
         }
       }
     },
-
     "verification.scan.paste_prompt" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -96328,181 +96477,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "أعد تشغيل bitchat لتطبيق اللغة الجديدة"
+            "value" : "أعد تشغيل MeshTalk لتطبيق اللغة الجديدة"
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "নতুন ভাষা প্রয়োগ করতে bitchat পুনরায় চালু করুন"
+            "value" : "নতুন ভাষা প্রয়োগ করতে MeshTalk পুনরায় চালু করুন"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "bitchat neu starten, um die neue Sprache zu übernehmen"
+            "value" : "MeshTalk neu starten, um die neue Sprache zu übernehmen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "restart bitchat to apply the new language"
+            "value" : "restart MeshTalk to apply the new language"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "reinicia bitchat para aplicar el nuevo idioma"
+            "value" : "reinicia MeshTalk para aplicar el nuevo idioma"
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "برای اعمال زبان جدید، bitchat را دوباره باز کنید"
+            "value" : "برای اعمال زبان جدید، MeshTalk را دوباره باز کنید"
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "i-restart ang bitchat para mailapat ang bagong wika"
+            "value" : "i-restart ang MeshTalk para mailapat ang bagong wika"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "redémarrez bitchat pour appliquer la nouvelle langue"
+            "value" : "redémarrez MeshTalk pour appliquer la nouvelle langue"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "יש להפעיל מחדש את bitchat כדי להחיל את השפה החדשה"
+            "value" : "יש להפעיל מחדש את MeshTalk כדי להחיל את השפה החדשה"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "नई भाषा लागू करने के लिए bitchat पुनः आरंभ करें"
+            "value" : "नई भाषा लागू करने के लिए MeshTalk पुनः आरंभ करें"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "mulai ulang bitchat untuk menerapkan bahasa baru"
+            "value" : "mulai ulang MeshTalk untuk menerapkan bahasa baru"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "riavvia bitchat per applicare la nuova lingua"
+            "value" : "riavvia MeshTalk per applicare la nuova lingua"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "新しい言語を適用するには bitchat を再起動してください"
+            "value" : "新しい言語を適用するには MeshTalk を再起動してください"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "새 언어를 적용하려면 bitchat을 다시 시작하세요"
+            "value" : "새 언어를 적용하려면 MeshTalk을 다시 시작하세요"
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "mulakan semula bitchat untuk menggunakan bahasa baharu"
+            "value" : "mulakan semula MeshTalk untuk menggunakan bahasa baharu"
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "नयाँ भाषा लागू गर्न bitchat पुनः सुरु गर्नुहोस्"
+            "value" : "नयाँ भाषा लागू गर्न MeshTalk पुनः सुरु गर्नुहोस्"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "herstart bitchat om de nieuwe taal toe te passen"
+            "value" : "herstart MeshTalk om de nieuwe taal toe te passen"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "uruchom bitchat ponownie, aby zastosować nowy język"
+            "value" : "uruchom MeshTalk ponownie, aby zastosować nowy język"
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "reinicie o bitchat para aplicar o novo idioma"
+            "value" : "reinicie o MeshTalk para aplicar o novo idioma"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "reinicie o bitchat para aplicar o novo idioma"
+            "value" : "reinicie o MeshTalk para aplicar o novo idioma"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "перезапустите bitchat, чтобы применить новый язык"
+            "value" : "перезапустите MeshTalk, чтобы применить новый язык"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "starta om bitchat för att använda det nya språket"
+            "value" : "starta om MeshTalk för att använda det nya språket"
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "புதிய மொழியைப் பயன்படுத்த bitchat-ஐ மீண்டும் தொடங்கவும்"
+            "value" : "புதிய மொழியைப் பயன்படுத்த MeshTalk-ஐ மீண்டும் தொடங்கவும்"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "รีสตาร์ท bitchat เพื่อใช้ภาษาใหม่"
+            "value" : "รีสตาร์ท MeshTalk เพื่อใช้ภาษาใหม่"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "yeni dili uygulamak için bitchat'i yeniden başlatın"
+            "value" : "yeni dili uygulamak için MeshTalk'i yeniden başlatın"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "перезапустіть bitchat, щоб застосувати нову мову"
+            "value" : "перезапустіть MeshTalk, щоб застосувати нову мову"
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "نئی زبان لاگو کرنے کے لیے bitchat دوبارہ شروع کریں"
+            "value" : "نئی زبان لاگو کرنے کے لیے MeshTalk دوبارہ شروع کریں"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "khởi động lại bitchat để áp dụng ngôn ngữ mới"
+            "value" : "khởi động lại MeshTalk để áp dụng ngôn ngữ mới"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "重启 bitchat 以应用新语言"
+            "value" : "重启 MeshTalk 以应用新语言"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "重新啟動 bitchat 以套用新語言"
+            "value" : "重新啟動 MeshTalk 以套用新語言"
           }
         }
       }
@@ -96511,108 +96660,558 @@
       "comment" : "Explains that shared content replaces the named destination's composer and is not sent automatically",
       "extractionState" : "manual",
       "localizations" : {
-        "ar" : { "stringUnit" : { "state" : "needs_review", "value" : "هل تريد استبدال مسودة %@ بهذا المحتوى؟ لن يتم إرسال أي شيء تلقائيًا." } },
-        "bn" : { "stringUnit" : { "state" : "needs_review", "value" : "%@-এর খসড়াটি এই কনটেন্ট দিয়ে বদলাবেন? কিছুই স্বয়ংক্রিয়ভাবে পাঠানো হবে না।" } },
-        "de" : { "stringUnit" : { "state" : "needs_review", "value" : "Entwurf für %@ durch diesen Inhalt ersetzen? Es wird nichts automatisch gesendet." } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Replace the draft for %@ with this content? Nothing will be sent automatically." } },
-        "es" : { "stringUnit" : { "state" : "needs_review", "value" : "¿Reemplazar el borrador de %@ con este contenido? No se enviará nada automáticamente." } },
-        "fa" : { "stringUnit" : { "state" : "needs_review", "value" : "پیش‌نویس %@ با این محتوا جایگزین شود؟ چیزی به‌طور خودکار ارسال نمی‌شود." } },
-        "fil" : { "stringUnit" : { "state" : "needs_review", "value" : "Palitan ng content na ito ang draft para sa %@? Walang awtomatikong ipapadala." } },
-        "fr" : { "stringUnit" : { "state" : "needs_review", "value" : "Remplacer le brouillon pour %@ par ce contenu ? Rien ne sera envoyé automatiquement." } },
-        "he" : { "stringUnit" : { "state" : "needs_review", "value" : "להחליף את הטיוטה עבור %@ בתוכן הזה? שום דבר לא יישלח אוטומטית." } },
-        "hi" : { "stringUnit" : { "state" : "needs_review", "value" : "%@ का ड्राफ़्ट इस सामग्री से बदलें? कुछ भी अपने आप नहीं भेजा जाएगा।" } },
-        "id" : { "stringUnit" : { "state" : "needs_review", "value" : "Ganti draf untuk %@ dengan konten ini? Tidak ada yang akan dikirim otomatis." } },
-        "it" : { "stringUnit" : { "state" : "needs_review", "value" : "Sostituire la bozza per %@ con questo contenuto? Nulla verrà inviato automaticamente." } },
-        "ja" : { "stringUnit" : { "state" : "needs_review", "value" : "%@ の下書きをこの内容で置き換えますか？自動的には送信されません。" } },
-        "ko" : { "stringUnit" : { "state" : "needs_review", "value" : "%@의 초안을 이 콘텐츠로 바꾸시겠습니까? 자동으로 전송되지 않습니다." } },
-        "ms" : { "stringUnit" : { "state" : "needs_review", "value" : "Gantikan draf untuk %@ dengan kandungan ini? Tiada apa-apa akan dihantar secara automatik." } },
-        "ne" : { "stringUnit" : { "state" : "needs_review", "value" : "%@ को मस्यौदा यो सामग्रीले बदल्ने? केही पनि स्वचालित रूपमा पठाइने छैन।" } },
-        "nl" : { "stringUnit" : { "state" : "needs_review", "value" : "Concept voor %@ vervangen door deze inhoud? Er wordt niets automatisch verzonden." } },
-        "pl" : { "stringUnit" : { "state" : "needs_review", "value" : "Zastąpić szkic dla %@ tą treścią? Nic nie zostanie wysłane automatycznie." } },
-        "pt" : { "stringUnit" : { "state" : "needs_review", "value" : "Substituir o rascunho para %@ por este conteúdo? Nada será enviado automaticamente." } },
-        "pt-BR" : { "stringUnit" : { "state" : "needs_review", "value" : "Substituir o rascunho de %@ por este conteúdo? Nada será enviado automaticamente." } },
-        "ru" : { "stringUnit" : { "state" : "needs_review", "value" : "Заменить черновик для %@ этим содержимым? Ничего не будет отправлено автоматически." } },
-        "sv" : { "stringUnit" : { "state" : "needs_review", "value" : "Ersätta utkastet för %@ med detta innehåll? Inget skickas automatiskt." } },
-        "ta" : { "stringUnit" : { "state" : "needs_review", "value" : "%@ க்கான வரைவைக் இந்த உள்ளடக்கத்தால் மாற்றவா? எதுவும் தானாக அனுப்பப்படாது." } },
-        "th" : { "stringUnit" : { "state" : "needs_review", "value" : "แทนที่ฉบับร่างสำหรับ %@ ด้วยเนื้อหานี้หรือไม่? จะไม่มีการส่งอัตโนมัติ" } },
-        "tr" : { "stringUnit" : { "state" : "needs_review", "value" : "%@ taslağı bu içerikle değiştirilsin mi? Hiçbir şey otomatik olarak gönderilmez." } },
-        "uk" : { "stringUnit" : { "state" : "needs_review", "value" : "Замінити чернетку для %@ цим вмістом? Нічого не буде надіслано автоматично." } },
-        "ur" : { "stringUnit" : { "state" : "needs_review", "value" : "%@ کا مسودہ اس مواد سے بدلیں؟ کچھ بھی خودکار طور پر نہیں بھیجا جائے گا۔" } },
-        "vi" : { "stringUnit" : { "state" : "needs_review", "value" : "Thay bản nháp cho %@ bằng nội dung này? Không có gì được tự động gửi." } },
-        "zh-Hans" : { "stringUnit" : { "state" : "needs_review", "value" : "要用此内容替换 %@ 的草稿吗？内容不会自动发送。" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "needs_review", "value" : "要用此內容取代 %@ 的草稿嗎？內容不會自動傳送。" } }
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "هل تريد استبدال مسودة %@ بهذا المحتوى؟ لن يتم إرسال أي شيء تلقائيًا."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@-এর খসড়াটি এই কনটেন্ট দিয়ে বদলাবেন? কিছুই স্বয়ংক্রিয়ভাবে পাঠানো হবে না।"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Entwurf für %@ durch diesen Inhalt ersetzen? Es wird nichts automatisch gesendet."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Replace the draft for %@ with this content? Nothing will be sent automatically."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "¿Reemplazar el borrador de %@ con este contenido? No se enviará nada automáticamente."
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "پیش‌نویس %@ با این محتوا جایگزین شود؟ چیزی به‌طور خودکار ارسال نمی‌شود."
+          }
+        },
+        "fil" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Palitan ng content na ito ang draft para sa %@? Walang awtomatikong ipapadala."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Remplacer le brouillon pour %@ par ce contenu ? Rien ne sera envoyé automatiquement."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "להחליף את הטיוטה עבור %@ בתוכן הזה? שום דבר לא יישלח אוטומטית."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ का ड्राफ़्ट इस सामग्री से बदलें? कुछ भी अपने आप नहीं भेजा जाएगा।"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ganti draf untuk %@ dengan konten ini? Tidak ada yang akan dikirim otomatis."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sostituire la bozza per %@ con questo contenuto? Nulla verrà inviato automaticamente."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ の下書きをこの内容で置き換えますか？自動的には送信されません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@의 초안을 이 콘텐츠로 바꾸시겠습니까? 자동으로 전송되지 않습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gantikan draf untuk %@ dengan kandungan ini? Tiada apa-apa akan dihantar secara automatik."
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ को मस्यौदा यो सामग्रीले बदल्ने? केही पनि स्वचालित रूपमा पठाइने छैन।"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Concept voor %@ vervangen door deze inhoud? Er wordt niets automatisch verzonden."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zastąpić szkic dla %@ tą treścią? Nic nie zostanie wysłane automatycznie."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Substituir o rascunho para %@ por este conteúdo? Nada será enviado automaticamente."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Substituir o rascunho de %@ por este conteúdo? Nada será enviado automaticamente."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Заменить черновик для %@ этим содержимым? Ничего не будет отправлено автоматически."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ersätta utkastet för %@ med detta innehåll? Inget skickas automatiskt."
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ க்கான வரைவைக் இந்த உள்ளடக்கத்தால் மாற்றவா? எதுவும் தானாக அனுப்பப்படாது."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "แทนที่ฉบับร่างสำหรับ %@ ด้วยเนื้อหานี้หรือไม่? จะไม่มีการส่งอัตโนมัติ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ taslağı bu içerikle değiştirilsin mi? Hiçbir şey otomatik olarak gönderilmez."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Замінити чернетку для %@ цим вмістом? Нічого не буде надіслано автоматично."
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "%@ کا مسودہ اس مواد سے بدلیں؟ کچھ بھی خودکار طور پر نہیں بھیجا جائے گا۔"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Thay bản nháp cho %@ bằng nội dung này? Không có gì được tự động gửi."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "要用此内容替换 %@ 的草稿吗？内容不会自动发送。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "要用此內容取代 %@ 的草稿嗎？內容不會自動傳送。"
+          }
+        }
       }
     },
     "share_import.review.title" : {
       "comment" : "Title for reviewing content received from the share extension",
       "extractionState" : "manual",
       "localizations" : {
-        "ar" : { "stringUnit" : { "state" : "needs_review", "value" : "مراجعة المحتوى المشترك" } },
-        "bn" : { "stringUnit" : { "state" : "needs_review", "value" : "শেয়ার করা কনটেন্ট পর্যালোচনা করুন" } },
-        "de" : { "stringUnit" : { "state" : "needs_review", "value" : "Geteilte Inhalte prüfen" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Review shared content" } },
-        "es" : { "stringUnit" : { "state" : "needs_review", "value" : "Revisar contenido compartido" } },
-        "fa" : { "stringUnit" : { "state" : "needs_review", "value" : "بازبینی محتوای هم‌رسانی‌شده" } },
-        "fil" : { "stringUnit" : { "state" : "needs_review", "value" : "Suriin ang ibinahaging content" } },
-        "fr" : { "stringUnit" : { "state" : "needs_review", "value" : "Vérifier le contenu partagé" } },
-        "he" : { "stringUnit" : { "state" : "needs_review", "value" : "בדיקת תוכן משותף" } },
-        "hi" : { "stringUnit" : { "state" : "needs_review", "value" : "शेयर की गई सामग्री की समीक्षा करें" } },
-        "id" : { "stringUnit" : { "state" : "needs_review", "value" : "Tinjau konten yang dibagikan" } },
-        "it" : { "stringUnit" : { "state" : "needs_review", "value" : "Controlla il contenuto condiviso" } },
-        "ja" : { "stringUnit" : { "state" : "needs_review", "value" : "共有コンテンツを確認" } },
-        "ko" : { "stringUnit" : { "state" : "needs_review", "value" : "공유 콘텐츠 검토" } },
-        "ms" : { "stringUnit" : { "state" : "needs_review", "value" : "Semak kandungan yang dikongsi" } },
-        "ne" : { "stringUnit" : { "state" : "needs_review", "value" : "साझा सामग्री समीक्षा गर्नुहोस्" } },
-        "nl" : { "stringUnit" : { "state" : "needs_review", "value" : "Gedeelde inhoud bekijken" } },
-        "pl" : { "stringUnit" : { "state" : "needs_review", "value" : "Sprawdź udostępnioną treść" } },
-        "pt" : { "stringUnit" : { "state" : "needs_review", "value" : "Rever conteúdo partilhado" } },
-        "pt-BR" : { "stringUnit" : { "state" : "needs_review", "value" : "Revisar conteúdo compartilhado" } },
-        "ru" : { "stringUnit" : { "state" : "needs_review", "value" : "Проверить общий контент" } },
-        "sv" : { "stringUnit" : { "state" : "needs_review", "value" : "Granska delat innehåll" } },
-        "ta" : { "stringUnit" : { "state" : "needs_review", "value" : "பகிரப்பட்ட உள்ளடக்கத்தை மதிப்பாய்வு செய்" } },
-        "th" : { "stringUnit" : { "state" : "needs_review", "value" : "ตรวจสอบเนื้อหาที่แชร์" } },
-        "tr" : { "stringUnit" : { "state" : "needs_review", "value" : "Paylaşılan içeriği gözden geçir" } },
-        "uk" : { "stringUnit" : { "state" : "needs_review", "value" : "Переглянути спільний вміст" } },
-        "ur" : { "stringUnit" : { "state" : "needs_review", "value" : "شیئر کردہ مواد کا جائزہ لیں" } },
-        "vi" : { "stringUnit" : { "state" : "needs_review", "value" : "Xem lại nội dung được chia sẻ" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "needs_review", "value" : "查看共享内容" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "needs_review", "value" : "查看分享內容" } }
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "مراجعة المحتوى المشترك"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "শেয়ার করা কনটেন্ট পর্যালোচনা করুন"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Geteilte Inhalte prüfen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Review shared content"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Revisar contenido compartido"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "بازبینی محتوای هم‌رسانی‌شده"
+          }
+        },
+        "fil" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Suriin ang ibinahaging content"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Vérifier le contenu partagé"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "בדיקת תוכן משותף"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "शेयर की गई सामग्री की समीक्षा करें"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tinjau konten yang dibagikan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Controlla il contenuto condiviso"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "共有コンテンツを確認"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "공유 콘텐츠 검토"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Semak kandungan yang dikongsi"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "साझा सामग्री समीक्षा गर्नुहोस्"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gedeelde inhoud bekijken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Sprawdź udostępnioną treść"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Rever conteúdo partilhado"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Revisar conteúdo compartilhado"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Проверить общий контент"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Granska delat innehåll"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "பகிரப்பட்ட உள்ளடக்கத்தை மதிப்பாய்வு செய்"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ตรวจสอบเนื้อหาที่แชร์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Paylaşılan içeriği gözden geçir"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Переглянути спільний вміст"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "شیئر کردہ مواد کا جائزہ لیں"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Xem lại nội dung được chia sẻ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "查看共享内容"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "查看分享內容"
+          }
+        }
       }
     },
     "share_import.review.use_in_composer" : {
       "comment" : "Action that places reviewed shared content in the composer without sending it",
       "extractionState" : "manual",
       "localizations" : {
-        "ar" : { "stringUnit" : { "state" : "needs_review", "value" : "استخدام في مسودة الرسالة" } },
-        "bn" : { "stringUnit" : { "state" : "needs_review", "value" : "বার্তার খসড়ায় ব্যবহার করুন" } },
-        "de" : { "stringUnit" : { "state" : "needs_review", "value" : "Im Nachrichtenentwurf verwenden" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Use in composer" } },
-        "es" : { "stringUnit" : { "state" : "needs_review", "value" : "Usar en el borrador" } },
-        "fa" : { "stringUnit" : { "state" : "needs_review", "value" : "استفاده در پیش‌نویس پیام" } },
-        "fil" : { "stringUnit" : { "state" : "needs_review", "value" : "Gamitin sa draft" } },
-        "fr" : { "stringUnit" : { "state" : "needs_review", "value" : "Utiliser dans le brouillon" } },
-        "he" : { "stringUnit" : { "state" : "needs_review", "value" : "שימוש בטיוטה" } },
-        "hi" : { "stringUnit" : { "state" : "needs_review", "value" : "संदेश के ड्राफ़्ट में उपयोग करें" } },
-        "id" : { "stringUnit" : { "state" : "needs_review", "value" : "Gunakan di draf" } },
-        "it" : { "stringUnit" : { "state" : "needs_review", "value" : "Usa nella bozza" } },
-        "ja" : { "stringUnit" : { "state" : "needs_review", "value" : "下書きで使用" } },
-        "ko" : { "stringUnit" : { "state" : "needs_review", "value" : "초안에 사용" } },
-        "ms" : { "stringUnit" : { "state" : "needs_review", "value" : "Gunakan dalam draf" } },
-        "ne" : { "stringUnit" : { "state" : "needs_review", "value" : "सन्देशको मस्यौदामा प्रयोग गर्नुहोस्" } },
-        "nl" : { "stringUnit" : { "state" : "needs_review", "value" : "In concept gebruiken" } },
-        "pl" : { "stringUnit" : { "state" : "needs_review", "value" : "Użyj w szkicu" } },
-        "pt" : { "stringUnit" : { "state" : "needs_review", "value" : "Usar no rascunho" } },
-        "pt-BR" : { "stringUnit" : { "state" : "needs_review", "value" : "Usar no rascunho" } },
-        "ru" : { "stringUnit" : { "state" : "needs_review", "value" : "Использовать в черновике" } },
-        "sv" : { "stringUnit" : { "state" : "needs_review", "value" : "Använd i utkast" } },
-        "ta" : { "stringUnit" : { "state" : "needs_review", "value" : "செய்தி வரைவில் பயன்படுத்து" } },
-        "th" : { "stringUnit" : { "state" : "needs_review", "value" : "ใช้ในฉบับร่าง" } },
-        "tr" : { "stringUnit" : { "state" : "needs_review", "value" : "Taslakta kullan" } },
-        "uk" : { "stringUnit" : { "state" : "needs_review", "value" : "Використати в чернетці" } },
-        "ur" : { "stringUnit" : { "state" : "needs_review", "value" : "پیغام کے مسودے میں استعمال کریں" } },
-        "vi" : { "stringUnit" : { "state" : "needs_review", "value" : "Dùng trong bản nháp" } },
-        "zh-Hans" : { "stringUnit" : { "state" : "needs_review", "value" : "用于草稿" } },
-        "zh-Hant" : { "stringUnit" : { "state" : "needs_review", "value" : "用於草稿" } }
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "استخدام في مسودة الرسالة"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "বার্তার খসড়ায় ব্যবহার করুন"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Im Nachrichtenentwurf verwenden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use in composer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usar en el borrador"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "استفاده در پیش‌نویس پیام"
+          }
+        },
+        "fil" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gamitin sa draft"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Utiliser dans le brouillon"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "שימוש בטיוטה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "संदेश के ड्राफ़्ट में उपयोग करें"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gunakan di draf"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usa nella bozza"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "下書きで使用"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "초안에 사용"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gunakan dalam draf"
+          }
+        },
+        "ne" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "सन्देशको मस्यौदामा प्रयोग गर्नुहोस्"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "In concept gebruiken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Użyj w szkicu"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usar no rascunho"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Usar no rascunho"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Использовать в черновике"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Använd i utkast"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "செய்தி வரைவில் பயன்படுத்து"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ใช้ในฉบับร่าง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Taslakta kullan"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Використати в чернетці"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "پیغام کے مسودے میں استعمال کریں"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dùng trong bản nháp"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "用于草稿"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "用於草稿"
+          }
+        }
       }
     },
     "location_channels.quick_join.title" : {
@@ -96622,13 +97221,13 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0627\u0646\u0636\u0645\u0627\u0645 \u0633\u0631\u064a\u0639"
+            "value" : "انضمام سريع"
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u09a6\u09cd\u09b0\u09c1\u09a4 \u09af\u09cb\u0997"
+            "value" : "দ্রুত যোগ"
           }
         },
         "de" : {
@@ -96646,13 +97245,13 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "acceso r\u00e1pido"
+            "value" : "acceso rápido"
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u067e\u06cc\u0648\u0633\u062a\u0646 \u0633\u0631\u06cc\u0639"
+            "value" : "پیوستن سریع"
           }
         },
         "fil" : {
@@ -96664,19 +97263,19 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "acc\u00e8s rapide"
+            "value" : "accès rapide"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u05d4\u05e6\u05d8\u05e8\u05e4\u05d5\u05ea \u05de\u05d4\u05d9\u05e8\u05d4"
+            "value" : "הצטרפות מהירה"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u091d\u091f\u092a\u091f \u091c\u0941\u0921\u093c\u0947\u0902"
+            "value" : "झटपट जुड़ें"
           }
         },
         "id" : {
@@ -96694,13 +97293,13 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u30af\u30a4\u30c3\u30af\u53c2\u52a0"
+            "value" : "クイック参加"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\ube60\ub978 \ucc38\uc5ec"
+            "value" : "빠른 참여"
           }
         },
         "ms" : {
@@ -96712,7 +97311,7 @@
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u091b\u093f\u091f\u094b \u0938\u093e\u092e\u0947\u0932"
+            "value" : "छिटो सामेल"
           }
         },
         "nl" : {
@@ -96724,25 +97323,25 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "szybkie do\u0142\u0105czenie"
+            "value" : "szybkie dołączenie"
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "entrada r\u00e1pida"
+            "value" : "entrada rápida"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "entrada r\u00e1pida"
+            "value" : "entrada rápida"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0431\u044b\u0441\u0442\u0440\u044b\u0439 \u0432\u0445\u043e\u0434"
+            "value" : "быстрый вход"
           }
         },
         "sv" : {
@@ -96754,31 +97353,31 @@
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0bb5\u0bbf\u0bb0\u0bc8\u0bb5\u0bc1 \u0b9a\u0bc7\u0bb0\u0bcd\u0b95\u0bcd\u0b95\u0bc8"
+            "value" : "விரைவு சேர்க்கை"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0e40\u0e02\u0e49\u0e32\u0e23\u0e48\u0e27\u0e21\u0e14\u0e48\u0e27\u0e19"
+            "value" : "เข้าร่วมด่วน"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "h\u0131zl\u0131 kat\u0131l\u0131m"
+            "value" : "hızlı katılım"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0448\u0432\u0438\u0434\u043a\u0438\u0439 \u0432\u0445\u0456\u0434"
+            "value" : "швидкий вхід"
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0641\u0648\u0631\u06cc \u0634\u0645\u0648\u0644\u06cc\u062a"
+            "value" : "فوری شمولیت"
           }
         },
         "vi" : {
@@ -96790,13 +97389,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u5feb\u901f\u52a0\u5165"
+            "value" : "快速加入"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u5feb\u901f\u52a0\u5165"
+            "value" : "快速加入"
           }
         }
       }
@@ -96808,181 +97407,181 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0642\u0646\u0627\u0629 \u0627\u0644\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u062a\u064a \u064a\u062a\u062c\u0645\u0639 \u0641\u064a\u0647\u0627 \u0639\u0627\u062f\u0629\u064b \u0627\u0644\u0646\u0627\u0633 \u0645\u0646 %@ \u2014 \u0627\u0644\u062e\u0644\u064a\u0629 \u0627\u0644\u0648\u0627\u0633\u0639\u0629 \u062d\u0648\u0644 \u0623\u0643\u0628\u0631 \u0645\u0631\u0643\u0632 \u0633\u0643\u0627\u0646\u064a\u060c \u0648\u0644\u064a\u0633\u062a \u0645\u0648\u0642\u0639\u0643. \u0625\u0646\u0647\u0627 \u0639\u0627\u0645\u0629 \u0648\u0645\u0639\u0631\u0648\u0641\u0629 \u0644\u0644\u062c\u0645\u064a\u0639\u060c \u0641\u0627\u0641\u062a\u0631\u0636 \u0623\u0646\u0647\u0627 \u0645\u0631\u0627\u0642\u0628\u0629: \u0627\u0644\u0627\u0646\u0636\u0645\u0627\u0645 \u0627\u0644\u0633\u0631\u064a\u0639 \u064a\u0648\u0641\u0651\u0631 \u0639\u0644\u064a\u0643 \u0643\u062a\u0627\u0628\u0629 \u0627\u0644\u062c\u064a\u0648\u0647\u0627\u0634 \u0641\u0642\u0637\u061b \u0644\u0627 \u064a\u062e\u0641\u064a\u0643 \u0648\u0644\u0627 \u064a\u062a\u062c\u0627\u0648\u0632 \u0627\u0644\u062d\u062c\u0628."
+            "value" : "قناة المنطقة التي يتجمع فيها عادةً الناس من %@ — الخلية الواسعة حول أكبر مركز سكاني، وليست موقعك. إنها عامة ومعروفة للجميع، فافترض أنها مراقبة: الانضمام السريع يوفّر عليك كتابة الجيوهاش فقط؛ لا يخفيك ولا يتجاوز الحجب."
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u09af\u09c7 \u0985\u099e\u09cd\u099a\u09b2-\u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2\u09c7 %@-\u098f\u09b0 \u09ae\u09be\u09a8\u09c1\u09b7 \u09b8\u09be\u09a7\u09be\u09b0\u09a3\u09a4 \u099c\u09a1\u09bc\u09cb \u09b9\u09af\u09bc \u2014 \u09b8\u09ac\u099a\u09c7\u09af\u09bc\u09c7 \u09ac\u09a1\u09bc \u099c\u09a8\u0995\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0\u09c7\u09b0 \u099a\u09be\u09b0\u09aa\u09be\u09b6\u09c7\u09b0 \u09ac\u09bf\u09b8\u09cd\u09a4\u09c3\u09a4 \u09b8\u09c7\u09b2, \u0986\u09aa\u09a8\u09be\u09b0 \u0985\u09ac\u09b8\u09cd\u09a5\u09be\u09a8 \u09a8\u09af\u09bc\u0964 \u098f\u099f\u09bf \u09aa\u09cd\u09b0\u0995\u09be\u09b6\u09cd\u09af \u0993 \u09b8\u09c1\u09aa\u09b0\u09bf\u099a\u09bf\u09a4, \u09a4\u09be\u0987 \u09a7\u09b0\u09c7 \u09a8\u09bf\u09a8 \u098f\u099f\u09bf \u09a8\u099c\u09b0\u09a6\u09be\u09b0\u09bf\u09a4\u09c7 \u0986\u099b\u09c7: \u09a6\u09cd\u09b0\u09c1\u09a4 \u09af\u09cb\u0997 \u09b6\u09c1\u09a7\u09c1 \u099c\u09bf\u0993\u09b9\u09cd\u09af\u09be\u09b6 \u099f\u09be\u0987\u09aa \u0995\u09b0\u09be \u09ac\u09be\u0981\u099a\u09be\u09af\u09bc; \u098f\u099f\u09bf \u0986\u09aa\u09a8\u09be\u0995\u09c7 \u09b2\u09c1\u0995\u09be\u09af\u09bc \u09a8\u09be, \u09ac\u09cd\u09b2\u0995\u0993 \u098f\u09a1\u09bc\u09be\u09af\u09bc \u09a8\u09be\u0964"
+            "value" : "যে অঞ্চল-চ্যানেলে %@-এর মানুষ সাধারণত জড়ো হয় — সবচেয়ে বড় জনকেন্দ্রের চারপাশের বিস্তৃত সেল, আপনার অবস্থান নয়। এটি প্রকাশ্য ও সুপরিচিত, তাই ধরে নিন এটি নজরদারিতে আছে: দ্রুত যোগ শুধু জিওহ্যাশ টাইপ করা বাঁচায়; এটি আপনাকে লুকায় না, ব্লকও এড়ায় না।"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "der regionskanal, in dem sich leute aus %@ meist sammeln \u2014 die weite zelle um das gr\u00f6\u00dfte bev\u00f6lkerungszentrum, nicht dein standort. er ist \u00f6ffentlich und allgemein bekannt, geh also davon aus, dass er beobachtet wird: schnellbeitritt spart nur das eintippen des geohash; er versteckt dich nicht und umgeht keine sperren."
+            "value" : "der regionskanal, in dem sich leute aus %@ meist sammeln — die weite zelle um das größte bevölkerungszentrum, nicht dein standort. er ist öffentlich und allgemein bekannt, geh also davon aus, dass er beobachtet wird: schnellbeitritt spart nur das eintippen des geohash; er versteckt dich nicht und umgeht keine sperren."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "the region channel where people from %@ tend to gather \u2014 the wide cell around the main population center, not your location. it's public and well-known, so assume it's watched: quick join saves typing a geohash; it doesn't hide you or bypass blocks."
+            "value" : "the region channel where people from %@ tend to gather — the wide cell around the main population center, not your location. it's public and well-known, so assume it's watched: quick join saves typing a geohash; it doesn't hide you or bypass blocks."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "el canal de regi\u00f3n donde suele reunirse la gente de %@ \u2014 la celda amplia alrededor del mayor centro de poblaci\u00f3n, no tu ubicaci\u00f3n. es p\u00fablico y conocido, as\u00ed que asume que est\u00e1 vigilado: el acceso r\u00e1pido solo te ahorra escribir el geohash; no te oculta ni evita bloqueos."
+            "value" : "el canal de región donde suele reunirse la gente de %@ — la celda amplia alrededor del mayor centro de población, no tu ubicación. es público y conocido, así que asume que está vigilado: el acceso rápido solo te ahorra escribir el geohash; no te oculta ni evita bloqueos."
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u06a9\u0627\u0646\u0627\u0644 \u0645\u0646\u0637\u0642\u0647\u200c\u0627\u06cc \u06a9\u0647 \u0645\u0631\u062f\u0645 %@ \u0645\u0639\u0645\u0648\u0644\u0627\u064b \u062f\u0631 \u0622\u0646 \u062c\u0645\u0639 \u0645\u06cc\u200c\u0634\u0648\u0646\u062f \u2014 \u0633\u0644\u0648\u0644 \u067e\u0647\u0646\u0627\u0648\u0631 \u062f\u0648\u0631 \u0628\u0632\u0631\u06af\u200c\u062a\u0631\u06cc\u0646 \u0645\u0631\u06a9\u0632 \u062c\u0645\u0639\u06cc\u062a\u060c \u0646\u0647 \u0645\u0648\u0642\u0639\u06cc\u062a \u0634\u0645\u0627. \u0639\u0645\u0648\u0645\u06cc \u0648 \u0634\u0646\u0627\u062e\u062a\u0647\u200c\u0634\u062f\u0647 \u0627\u0633\u062a\u060c \u067e\u0633 \u0641\u0631\u0636 \u06a9\u0646\u06cc\u062f \u0632\u06cc\u0631 \u0646\u0638\u0631 \u0627\u0633\u062a: \u067e\u06cc\u0648\u0633\u062a\u0646 \u0633\u0631\u06cc\u0639 \u0641\u0642\u0637 \u062a\u0627\u06cc\u067e \u0698\u0626\u0648\u0647\u0634 \u0631\u0627 \u06a9\u0645 \u0645\u06cc\u200c\u06a9\u0646\u062f\u061b \u0634\u0645\u0627 \u0631\u0627 \u067e\u0646\u0647\u0627\u0646 \u0646\u0645\u06cc\u200c\u06a9\u0646\u062f \u0648 \u0641\u06cc\u0644\u062a\u0631\u0647\u0627 \u0631\u0627 \u062f\u0648\u0631 \u0646\u0645\u06cc\u200c\u0632\u0646\u062f."
+            "value" : "کانال منطقه‌ای که مردم %@ معمولاً در آن جمع می‌شوند — سلول پهناور دور بزرگ‌ترین مرکز جمعیت، نه موقعیت شما. عمومی و شناخته‌شده است، پس فرض کنید زیر نظر است: پیوستن سریع فقط تایپ ژئوهش را کم می‌کند؛ شما را پنهان نمی‌کند و فیلترها را دور نمی‌زند."
           }
         },
         "fil" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ang region channel kung saan karaniwang nagtitipon ang mga tao mula sa %@ \u2014 ang malawak na cell sa paligid ng pinakamalaking sentro ng populasyon, hindi ang iyong lokasyon. pampubliko ito at kilala, kaya ipagpalagay na binabantayan: ang mabilis na pagsali ay nagtitipid lang ng pag-type ng geohash; hindi ka nito itinatago at hindi nito nilalampasan ang mga block."
+            "value" : "ang region channel kung saan karaniwang nagtitipon ang mga tao mula sa %@ — ang malawak na cell sa paligid ng pinakamalaking sentro ng populasyon, hindi ang iyong lokasyon. pampubliko ito at kilala, kaya ipagpalagay na binabantayan: ang mabilis na pagsali ay nagtitipid lang ng pag-type ng geohash; hindi ka nito itinatago at hindi nito nilalampasan ang mga block."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "le canal de r\u00e9gion o\u00f9 les gens de %@ se retrouvent le plus souvent \u2014 la large cellule autour du principal centre de population, pas votre position. il est public et bien connu : partez du principe qu'il est surveill\u00e9. l'acc\u00e8s rapide \u00e9vite seulement de taper le geohash ; il ne vous cache pas et ne contourne aucun blocage."
+            "value" : "le canal de région où les gens de %@ se retrouvent le plus souvent — la large cellule autour du principal centre de population, pas votre position. il est public et bien connu : partez du principe qu'il est surveillé. l'accès rapide évite seulement de taper le geohash ; il ne vous cache pas et ne contourne aucun blocage."
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u05e2\u05e8\u05d5\u05e5 \u05d4\u05d0\u05d6\u05d5\u05e8 \u05e9\u05d1\u05d5 \u05d0\u05e0\u05e9\u05d9\u05dd \u05de%@ \u05d1\u05d3\u05e8\u05da \u05db\u05dc\u05dc \u05de\u05ea\u05e7\u05d1\u05e6\u05d9\u05dd \u2014 \u05d4\u05ea\u05d0 \u05d4\u05e8\u05d7\u05d1 \u05e1\u05d1\u05d9\u05d1 \u05de\u05e8\u05db\u05d6 \u05d4\u05d0\u05d5\u05db\u05dc\u05d5\u05e1\u05d9\u05d9\u05d4 \u05d4\u05d2\u05d3\u05d5\u05dc \u05d1\u05d9\u05d5\u05ea\u05e8, \u05dc\u05d0 \u05d4\u05de\u05d9\u05e7\u05d5\u05dd \u05e9\u05dc\u05da. \u05d4\u05d5\u05d0 \u05e6\u05d9\u05d1\u05d5\u05e8\u05d9 \u05d5\u05de\u05d5\u05db\u05e8, \u05d0\u05d6 \u05d9\u05e9 \u05dc\u05d4\u05e0\u05d9\u05d7 \u05e9\u05d4\u05d5\u05d0 \u05de\u05e0\u05d5\u05d8\u05e8: \u05d4\u05e6\u05d8\u05e8\u05e4\u05d5\u05ea \u05de\u05d4\u05d9\u05e8\u05d4 \u05e8\u05e7 \u05d7\u05d5\u05e1\u05db\u05ea \u05d4\u05e7\u05dc\u05d3\u05ea geohash; \u05d4\u05d9\u05d0 \u05dc\u05d0 \u05de\u05e1\u05ea\u05d9\u05e8\u05d4 \u05d0\u05d5\u05ea\u05da \u05d5\u05dc\u05d0 \u05e2\u05d5\u05e7\u05e4\u05ea \u05d7\u05e1\u05d9\u05de\u05d5\u05ea."
+            "value" : "ערוץ האזור שבו אנשים מ%@ בדרך כלל מתקבצים — התא הרחב סביב מרכז האוכלוסייה הגדול ביותר, לא המיקום שלך. הוא ציבורי ומוכר, אז יש להניח שהוא מנוטר: הצטרפות מהירה רק חוסכת הקלדת geohash; היא לא מסתירה אותך ולא עוקפת חסימות."
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0935\u0939 \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u091a\u0948\u0928\u0932 \u091c\u0939\u093e\u0901 %@ \u0915\u0947 \u0932\u094b\u0917 \u0906\u092e\u0924\u094c\u0930 \u092a\u0930 \u091c\u0941\u091f\u0924\u0947 \u0939\u0948\u0902 \u2014 \u0938\u092c\u0938\u0947 \u092c\u0921\u093c\u0947 \u0906\u092c\u093e\u0926\u0940 \u0915\u0947\u0902\u0926\u094d\u0930 \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u0915\u0940 \u091a\u094c\u0921\u093c\u0940 \u0938\u0947\u0932, \u0906\u092a\u0915\u0940 \u0932\u094b\u0915\u0947\u0936\u0928 \u0928\u0939\u0940\u0902\u0964 \u092f\u0939 \u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915 \u0914\u0930 \u091c\u093e\u0928\u093e-\u092a\u0939\u091a\u093e\u0928\u093e \u0939\u0948, \u0907\u0938\u0932\u093f\u090f \u092e\u093e\u0928 \u0932\u0947\u0902 \u0915\u093f \u0907\u0938 \u092a\u0930 \u0928\u091c\u093c\u0930 \u0939\u0948: \u091d\u091f\u092a\u091f \u091c\u0941\u0921\u093c\u0928\u093e \u0938\u093f\u0930\u094d\u092b\u093c geohash \u091f\u093e\u0907\u092a \u0915\u0930\u0928\u0947 \u0938\u0947 \u092c\u091a\u093e\u0924\u093e \u0939\u0948; \u092f\u0939 \u0906\u092a\u0915\u094b \u091b\u093f\u092a\u093e\u0924\u093e \u0928\u0939\u0940\u0902 \u0914\u0930 \u0928 \u0939\u0940 \u092c\u094d\u0932\u0949\u0915 \u0939\u091f\u093e\u0924\u093e \u0939\u0948\u0964"
+            "value" : "वह क्षेत्र चैनल जहाँ %@ के लोग आमतौर पर जुटते हैं — सबसे बड़े आबादी केंद्र के चारों ओर की चौड़ी सेल, आपकी लोकेशन नहीं। यह सार्वजनिक और जाना-पहचाना है, इसलिए मान लें कि इस पर नज़र है: झटपट जुड़ना सिर्फ़ geohash टाइप करने से बचाता है; यह आपको छिपाता नहीं और न ही ब्लॉक हटाता है।"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "channel wilayah tempat orang-orang dari %@ biasanya berkumpul \u2014 sel luas di sekitar pusat populasi terbesar, bukan lokasimu. channel ini publik dan dikenal luas, jadi anggap saja dipantau: gabung cepat hanya menghemat pengetikan geohash; tidak menyembunyikanmu dan tidak menembus blokir."
+            "value" : "channel wilayah tempat orang-orang dari %@ biasanya berkumpul — sel luas di sekitar pusat populasi terbesar, bukan lokasimu. channel ini publik dan dikenal luas, jadi anggap saja dipantau: gabung cepat hanya menghemat pengetikan geohash; tidak menyembunyikanmu dan tidak menembus blokir."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "il canale di regione dove di solito si ritrovano le persone di %@ \u2014 la cella ampia attorno al principale centro abitato, non la tua posizione. \u00e8 pubblico e ben noto, quindi dai per scontato che sia sorvegliato: l'accesso rapido ti evita solo di digitare il geohash; non ti nasconde e non aggira i blocchi."
+            "value" : "il canale di regione dove di solito si ritrovano le persone di %@ — la cella ampia attorno al principale centro abitato, non la tua posizione. è pubblico e ben noto, quindi dai per scontato che sia sorvegliato: l'accesso rapido ti evita solo di digitare il geohash; non ti nasconde e non aggira i blocchi."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@\u306e\u4eba\u3005\u304c\u96c6\u307e\u308a\u3084\u3059\u3044\u5730\u57df\u30c1\u30e3\u30f3\u30cd\u30eb \u2014 \u6700\u5927\u306e\u4eba\u53e3\u96c6\u4e2d\u5730\u3092\u56f2\u3080\u5e83\u3044\u30bb\u30eb\u3067\u3001\u3042\u306a\u305f\u306e\u4f4d\u7f6e\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u516c\u958b\u3055\u308c\u3066\u3044\u3066\u8ab0\u3082\u304c\u77e5\u308b\u5834\u6240\u306a\u306e\u3067\u3001\u76e3\u8996\u3055\u308c\u3066\u3044\u308b\u524d\u63d0\u3067\u3002\u30af\u30a4\u30c3\u30af\u53c2\u52a0\u306f\u30b8\u30aa\u30cf\u30c3\u30b7\u30e5\u5165\u529b\u3092\u7701\u304f\u3060\u3051\u3067\u3001\u3042\u306a\u305f\u3092\u96a0\u3057\u305f\u308a\u30d6\u30ed\u30c3\u30af\u3092\u56de\u907f\u3057\u305f\u308a\u306f\u3057\u307e\u305b\u3093\u3002"
+            "value" : "%@の人々が集まりやすい地域チャンネル — 最大の人口集中地を囲む広いセルで、あなたの位置ではありません。公開されていて誰もが知る場所なので、監視されている前提で。クイック参加はジオハッシュ入力を省くだけで、あなたを隠したりブロックを回避したりはしません。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ \uc0ac\ub78c\ub4e4\uc774 \uc8fc\ub85c \ubaa8\uc774\ub294 \uc9c0\uc5ed \ucc44\ub110 \u2014 \ucd5c\ub300 \uc778\uad6c \ubc00\uc9d1\uc9c0 \uc8fc\ubcc0\uc758 \ub113\uc740 \uc140\uc774\uba70, \ub2f9\uc2e0\uc758 \uc704\uce58\uac00 \uc544\ub2d9\ub2c8\ub2e4. \uacf5\uac1c\ub418\uc5b4 \uc788\uace0 \ub110\ub9ac \uc54c\ub824\uc838 \uc788\uc73c\ub2c8 \uac10\uc2dc\ub41c\ub2e4\uace0 \uac00\uc815\ud558\uc138\uc694: \ube60\ub978 \ucc38\uc5ec\ub294 \uc9c0\uc624\ud574\uc2dc \uc785\ub825\ub9cc \uc904\uc5ec\uc904 \ubfd0, \ub2f9\uc2e0\uc744 \uc228\uae30\uac70\ub098 \ucc28\ub2e8\uc744 \uc6b0\ud68c\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4."
+            "value" : "%@ 사람들이 주로 모이는 지역 채널 — 최대 인구 밀집지 주변의 넓은 셀이며, 당신의 위치가 아닙니다. 공개되어 있고 널리 알려져 있으니 감시된다고 가정하세요: 빠른 참여는 지오해시 입력만 줄여줄 뿐, 당신을 숨기거나 차단을 우회하지 않습니다."
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "saluran wilayah tempat orang dari %@ biasanya berkumpul \u2014 sel luas di sekitar pusat penduduk terbesar, bukan lokasi anda. ia terbuka dan dikenali ramai, jadi anggap ia dipantau: sertai pantas cuma menjimatkan menaip geohash; ia tidak menyembunyikan anda dan tidak memintas sekatan."
+            "value" : "saluran wilayah tempat orang dari %@ biasanya berkumpul — sel luas di sekitar pusat penduduk terbesar, bukan lokasi anda. ia terbuka dan dikenali ramai, jadi anggap ia dipantau: sertai pantas cuma menjimatkan menaip geohash; ia tidak menyembunyikan anda dan tidak memintas sekatan."
           }
         },
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ \u0915\u093e \u092e\u093e\u0928\u093f\u0938\u0939\u0930\u0942 \u092a\u094d\u0930\u093e\u092f\u0903 \u092d\u0947\u0932\u093e \u0939\u0941\u0928\u0947 \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u091a\u094d\u092f\u093e\u0928\u0932 \u2014 \u0938\u092c\u0948\u092d\u0928\u094d\u0926\u093e \u0920\u0942\u0932\u094b \u091c\u0928\u0938\u0902\u0916\u094d\u092f\u093e \u0915\u0947\u0928\u094d\u0926\u094d\u0930 \u0935\u0930\u093f\u092a\u0930\u093f\u0915\u094b \u092b\u0930\u093e\u0915\u093f\u0932\u094b \u0938\u0947\u0932, \u0924\u092a\u093e\u0908\u0902\u0915\u094b \u0938\u094d\u0925\u093e\u0928 \u0939\u094b\u0907\u0928\u0964 \u092f\u094b \u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915 \u0930 \u0938\u092c\u0948\u0932\u093e\u0908 \u0925\u093e\u0939\u093e \u092d\u090f\u0915\u094b \u0939\u0941\u0928\u093e\u0932\u0947 \u0928\u093f\u0917\u0930\u093e\u0928\u0940\u092e\u093e \u091b \u092d\u0928\u0940 \u092e\u093e\u0928\u094d\u0928\u0941\u0939\u094b\u0938\u094d: \u091b\u093f\u091f\u094b \u0938\u093e\u092e\u0947\u0932\u0932\u0947 geohash \u091f\u093e\u0907\u092a \u0917\u0930\u094d\u0928\u092c\u093e\u091f \u092e\u093e\u0924\u094d\u0930 \u091c\u094b\u0917\u093e\u0909\u0901\u091b; \u092f\u0938\u0932\u0947 \u0924\u092a\u093e\u0908\u0902\u0932\u093e\u0908 \u0932\u0941\u0915\u093e\u0909\u0901\u0926\u0948\u0928 \u0930 \u092c\u094d\u0932\u0915 \u091b\u0932\u094d\u0926\u0948\u0928\u0964"
+            "value" : "%@ का मानिसहरू प्रायः भेला हुने क्षेत्र च्यानल — सबैभन्दा ठूलो जनसंख्या केन्द्र वरिपरिको फराकिलो सेल, तपाईंको स्थान होइन। यो सार्वजनिक र सबैलाई थाहा भएको हुनाले निगरानीमा छ भनी मान्नुहोस्: छिटो सामेलले geohash टाइप गर्नबाट मात्र जोगाउँछ; यसले तपाईंलाई लुकाउँदैन र ब्लक छल्दैन।"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "het regiokanaal waar mensen uit %@ meestal samenkomen \u2014 de brede cel rond het grootste bevolkingscentrum, niet jouw locatie. het is openbaar en algemeen bekend, ga er dus van uit dat er wordt meegekeken: snel deelnemen bespaart alleen het intypen van de geohash; het verbergt je niet en omzeilt geen blokkades."
+            "value" : "het regiokanaal waar mensen uit %@ meestal samenkomen — de brede cel rond het grootste bevolkingscentrum, niet jouw locatie. het is openbaar en algemeen bekend, ga er dus van uit dat er wordt meegekeken: snel deelnemen bespaart alleen het intypen van de geohash; het verbergt je niet en omzeilt geen blokkades."
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "kana\u0142 regionu, w kt\u00f3rym zwykle zbieraj\u0105 si\u0119 ludzie z %@ \u2014 szeroka kom\u00f3rka wok\u00f3\u0142 najwi\u0119kszego skupiska ludno\u015bci, nie twoja lokalizacja. jest publiczny i powszechnie znany, wi\u0119c za\u0142\u00f3\u017c, \u017ce jest obserwowany: szybkie do\u0142\u0105czenie oszcz\u0119dza tylko wpisywania geohasha; nie ukrywa ci\u0119 i nie omija blokad."
+            "value" : "kanał regionu, w którym zwykle zbierają się ludzie z %@ — szeroka komórka wokół największego skupiska ludności, nie twoja lokalizacja. jest publiczny i powszechnie znany, więc załóż, że jest obserwowany: szybkie dołączenie oszczędza tylko wpisywania geohasha; nie ukrywa cię i nie omija blokad."
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "o canal de regi\u00e3o onde as pessoas de %@ costumam reunir-se \u2014 a c\u00e9lula ampla em torno do maior centro populacional, n\u00e3o a sua localiza\u00e7\u00e3o. \u00e9 p\u00fablico e conhecido, por isso presuma que est\u00e1 vigiado: a entrada r\u00e1pida apenas evita escrever o geohash; n\u00e3o o esconde nem contorna bloqueios."
+            "value" : "o canal de região onde as pessoas de %@ costumam reunir-se — a célula ampla em torno do maior centro populacional, não a sua localização. é público e conhecido, por isso presuma que está vigiado: a entrada rápida apenas evita escrever o geohash; não o esconde nem contorna bloqueios."
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "o canal de regi\u00e3o onde as pessoas de %@ costumam se reunir \u2014 a c\u00e9lula ampla em torno do maior centro populacional, n\u00e3o a sua localiza\u00e7\u00e3o. \u00e9 p\u00fablico e conhecido, ent\u00e3o presuma que est\u00e1 vigiado: a entrada r\u00e1pida s\u00f3 poupa digitar o geohash; n\u00e3o esconde voc\u00ea nem contorna bloqueios."
+            "value" : "o canal de região onde as pessoas de %@ costumam se reunir — a célula ampla em torno do maior centro populacional, não a sua localização. é público e conhecido, então presuma que está vigiado: a entrada rápida só poupa digitar o geohash; não esconde você nem contorna bloqueios."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b, \u0433\u0434\u0435 \u043e\u0431\u044b\u0447\u043d\u043e \u0441\u043e\u0431\u0438\u0440\u0430\u044e\u0442\u0441\u044f \u043b\u044e\u0434\u0438 \u0438\u0437 %@ \u2014 \u0448\u0438\u0440\u043e\u043a\u0430\u044f \u044f\u0447\u0435\u0439\u043a\u0430 \u0432\u043e\u043a\u0440\u0443\u0433 \u043a\u0440\u0443\u043f\u043d\u0435\u0439\u0448\u0435\u0433\u043e \u0446\u0435\u043d\u0442\u0440\u0430 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u044f, \u0430 \u043d\u0435 \u0432\u0430\u0448\u0435 \u043c\u0435\u0441\u0442\u043e\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435. \u043e\u043d \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u044b\u0439 \u0438 \u0432\u0441\u0435\u043c \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u0441\u0447\u0438\u0442\u0430\u0439\u0442\u0435, \u0447\u0442\u043e \u0437\u0430 \u043d\u0438\u043c \u043d\u0430\u0431\u043b\u044e\u0434\u0430\u044e\u0442: \u0431\u044b\u0441\u0442\u0440\u044b\u0439 \u0432\u0445\u043e\u0434 \u043b\u0438\u0448\u044c \u0438\u0437\u0431\u0430\u0432\u043b\u044f\u0435\u0442 \u043e\u0442 \u0432\u0432\u043e\u0434\u0430 \u0433\u0435\u043e\u0445\u044d\u0448\u0430; \u043e\u043d \u043d\u0435 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u0442 \u0432\u0430\u0441 \u0438 \u043d\u0435 \u043e\u0431\u0445\u043e\u0434\u0438\u0442 \u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043a\u0438."
+            "value" : "региональный канал, где обычно собираются люди из %@ — широкая ячейка вокруг крупнейшего центра населения, а не ваше местоположение. он публичный и всем известный, поэтому считайте, что за ним наблюдают: быстрый вход лишь избавляет от ввода геохэша; он не скрывает вас и не обходит блокировки."
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "regionkanalen d\u00e4r folk fr\u00e5n %@ oftast samlas \u2014 den vida cellen kring det st\u00f6rsta befolkningscentrumet, inte din plats. den \u00e4r offentlig och v\u00e4lk\u00e4nd, s\u00e5 utg\u00e5 fr\u00e5n att den bevakas: snabbanslutning sparar bara geohash-skrivandet; den d\u00f6ljer dig inte och kringg\u00e5r inga blockeringar."
+            "value" : "regionkanalen där folk från %@ oftast samlas — den vida cellen kring det största befolkningscentrumet, inte din plats. den är offentlig och välkänd, så utgå från att den bevakas: snabbanslutning sparar bara geohash-skrivandet; den döljer dig inte och kringgår inga blockeringar."
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ \u0bae\u0b95\u0bcd\u0b95\u0bb3\u0bcd \u0baa\u0bca\u0ba4\u0bc1\u0bb5\u0bbe\u0b95\u0b95\u0bcd \u0b95\u0bc2\u0b9f\u0bc1\u0bae\u0bcd \u0bae\u0ba3\u0bcd\u0b9f\u0bb2 \u0b9a\u0bc7\u0ba9\u0bb2\u0bcd \u2014 \u0bae\u0bbf\u0b95\u0baa\u0bcd\u0baa\u0bc6\u0bb0\u0bbf\u0baf \u0bae\u0b95\u0bcd\u0b95\u0bb3\u0bcd\u0ba4\u0bca\u0b95\u0bc8 \u0bae\u0bc8\u0baf\u0ba4\u0bcd\u0ba4\u0bc8\u0b9a\u0bcd \u0b9a\u0bc1\u0bb1\u0bcd\u0bb1\u0bbf\u0baf\u0bc1\u0bb3\u0bcd\u0bb3 \u0b85\u0b95\u0ba9\u0bcd\u0bb1 \u0b9a\u0bc6\u0bb2\u0bcd, \u0b89\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b87\u0bb0\u0bc1\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bae\u0bcd \u0b85\u0bb2\u0bcd\u0bb2. \u0b87\u0ba4\u0bc1 \u0baa\u0bca\u0ba4\u0bc1\u0bb5\u0bbe\u0ba9\u0ba4\u0bc1, \u0ba8\u0ba9\u0bcd\u0b95\u0bc1 \u0b85\u0bb1\u0bbf\u0baf\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0ba4\u0bc1; \u0b8e\u0ba9\u0bb5\u0bc7 \u0b95\u0ba3\u0bcd\u0b95\u0bbe\u0ba3\u0bbf\u0b95\u0bcd\u0b95\u0baa\u0bcd\u0baa\u0b9f\u0bc1\u0b95\u0bbf\u0bb1\u0ba4\u0bc1 \u0b8e\u0ba9\u0bcd\u0bb1\u0bc7 \u0b95\u0bb0\u0bc1\u0ba4\u0bc1\u0b99\u0bcd\u0b95\u0bb3\u0bcd: \u0bb5\u0bbf\u0bb0\u0bc8\u0bb5\u0bc1 \u0b9a\u0bc7\u0bb0\u0bcd\u0b95\u0bcd\u0b95\u0bc8 geohash \u0ba4\u0b9f\u0bcd\u0b9f\u0b9a\u0bcd\u0b9a\u0bc8 \u0bae\u0b9f\u0bcd\u0b9f\u0bc1\u0bae\u0bc7 \u0ba4\u0bb5\u0bbf\u0bb0\u0bcd\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0ba4\u0bc1; \u0b89\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0bae\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bbe\u0ba4\u0bc1, \u0ba4\u0b9f\u0bc8\u0b95\u0bb3\u0bc8\u0baf\u0bc1\u0bae\u0bcd \u0ba4\u0bbe\u0ba3\u0bcd\u0b9f\u0bbe\u0ba4\u0bc1."
+            "value" : "%@ மக்கள் பொதுவாகக் கூடும் மண்டல சேனல் — மிகப்பெரிய மக்கள்தொகை மையத்தைச் சுற்றியுள்ள அகன்ற செல், உங்கள் இருப்பிடம் அல்ல. இது பொதுவானது, நன்கு அறியப்பட்டது; எனவே கண்காணிக்கப்படுகிறது என்றே கருதுங்கள்: விரைவு சேர்க்கை geohash தட்டச்சை மட்டுமே தவிர்க்கிறது; உங்களை மறைக்காது, தடைகளையும் தாண்டாது."
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0e41\u0e0a\u0e19\u0e41\u0e19\u0e25\u0e20\u0e39\u0e21\u0e34\u0e20\u0e32\u0e04\u0e17\u0e35\u0e48\u0e1c\u0e39\u0e49\u0e04\u0e19\u0e08\u0e32\u0e01 %@ \u0e21\u0e31\u0e01\u0e21\u0e32\u0e23\u0e27\u0e21\u0e01\u0e31\u0e19 \u2014 \u0e40\u0e0b\u0e25\u0e25\u0e4c\u0e01\u0e27\u0e49\u0e32\u0e07\u0e23\u0e2d\u0e1a\u0e28\u0e39\u0e19\u0e22\u0e4c\u0e01\u0e25\u0e32\u0e07\u0e1b\u0e23\u0e30\u0e0a\u0e32\u0e01\u0e23\u0e17\u0e35\u0e48\u0e43\u0e2b\u0e0d\u0e48\u0e17\u0e35\u0e48\u0e2a\u0e38\u0e14 \u0e44\u0e21\u0e48\u0e43\u0e0a\u0e48\u0e15\u0e33\u0e41\u0e2b\u0e19\u0e48\u0e07\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13 \u0e21\u0e31\u0e19\u0e40\u0e1b\u0e34\u0e14\u0e2a\u0e32\u0e18\u0e32\u0e23\u0e13\u0e30\u0e41\u0e25\u0e30\u0e40\u0e1b\u0e47\u0e19\u0e17\u0e35\u0e48\u0e23\u0e39\u0e49\u0e08\u0e31\u0e01 \u0e43\u0e2b\u0e49\u0e16\u0e37\u0e2d\u0e27\u0e48\u0e32\u0e16\u0e39\u0e01\u0e08\u0e31\u0e1a\u0e15\u0e32\u0e21\u0e2d\u0e07: \u0e40\u0e02\u0e49\u0e32\u0e23\u0e48\u0e27\u0e21\u0e14\u0e48\u0e27\u0e19\u0e41\u0e04\u0e48\u0e0a\u0e48\u0e27\u0e22\u0e43\u0e2b\u0e49\u0e44\u0e21\u0e48\u0e15\u0e49\u0e2d\u0e07\u0e1e\u0e34\u0e21\u0e1e\u0e4c geohash \u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e0b\u0e48\u0e2d\u0e19\u0e15\u0e31\u0e27\u0e04\u0e38\u0e13\u0e41\u0e25\u0e30\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e02\u0e49\u0e32\u0e21\u0e01\u0e32\u0e23\u0e1a\u0e25\u0e47\u0e2d\u0e01"
+            "value" : "แชนแนลภูมิภาคที่ผู้คนจาก %@ มักมารวมกัน — เซลล์กว้างรอบศูนย์กลางประชากรที่ใหญ่ที่สุด ไม่ใช่ตำแหน่งของคุณ มันเปิดสาธารณะและเป็นที่รู้จัก ให้ถือว่าถูกจับตามอง: เข้าร่วมด่วนแค่ช่วยให้ไม่ต้องพิมพ์ geohash ไม่ได้ซ่อนตัวคุณและไม่ได้ข้ามการบล็อก"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ insanlar\u0131n\u0131n genellikle topland\u0131\u011f\u0131 b\u00f6lge kanal\u0131 \u2014 en b\u00fcy\u00fck n\u00fcfus merkezinin \u00e7evresindeki geni\u015f h\u00fccre, sizin konumunuz de\u011fil. herkese a\u00e7\u0131k ve iyi bilinir, bu y\u00fczden izlendi\u011fini varsay\u0131n: h\u0131zl\u0131 kat\u0131l\u0131m yaln\u0131zca geohash yazmaktan kurtar\u0131r; sizi gizlemez ve engelleri a\u015fmaz."
+            "value" : "%@ insanlarının genellikle toplandığı bölge kanalı — en büyük nüfus merkezinin çevresindeki geniş hücre, sizin konumunuz değil. herkese açık ve iyi bilinir, bu yüzden izlendiğini varsayın: hızlı katılım yalnızca geohash yazmaktan kurtarır; sizi gizlemez ve engelleri aşmaz."
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0440\u0435\u0433\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0438\u0439 \u043a\u0430\u043d\u0430\u043b, \u0434\u0435 \u0437\u0430\u0437\u0432\u0438\u0447\u0430\u0439 \u0437\u0431\u0438\u0440\u0430\u044e\u0442\u044c\u0441\u044f \u043b\u044e\u0434\u0438 \u0437 %@ \u2014 \u0448\u0438\u0440\u043e\u043a\u0430 \u043a\u043e\u043c\u0456\u0440\u043a\u0430 \u043d\u0430\u0432\u043a\u043e\u043b\u043e \u043d\u0430\u0439\u0431\u0456\u043b\u044c\u0448\u043e\u0433\u043e \u0446\u0435\u043d\u0442\u0440\u0443 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u044f, \u0430 \u043d\u0435 \u0442\u0432\u043e\u0454 \u043c\u0456\u0441\u0446\u0435\u0437\u043d\u0430\u0445\u043e\u0434\u0436\u0435\u043d\u043d\u044f. \u0432\u0456\u043d \u043f\u0443\u0431\u043b\u0456\u0447\u043d\u0438\u0439 \u0456 \u0432\u0441\u0456\u043c \u0432\u0456\u0434\u043e\u043c\u0438\u0439, \u0442\u043e\u0436 \u0432\u0432\u0430\u0436\u0430\u0439, \u0449\u043e \u0437\u0430 \u043d\u0438\u043c \u0441\u0442\u0435\u0436\u0430\u0442\u044c: \u0448\u0432\u0438\u0434\u043a\u0438\u0439 \u0432\u0445\u0456\u0434 \u043b\u0438\u0448\u0435 \u043f\u043e\u0437\u0431\u0430\u0432\u043b\u044f\u0454 \u0432\u0432\u0435\u0434\u0435\u043d\u043d\u044f \u0433\u0435\u043e\u0445\u0435\u0448\u0443; \u0432\u0456\u043d \u043d\u0435 \u0445\u043e\u0432\u0430\u0454 \u0442\u0435\u0431\u0435 \u0439 \u043d\u0435 \u043e\u0431\u0445\u043e\u0434\u0438\u0442\u044c \u0431\u043b\u043e\u043a\u0443\u0432\u0430\u043d\u043d\u044f."
+            "value" : "регіональний канал, де зазвичай збираються люди з %@ — широка комірка навколо найбільшого центру населення, а не твоє місцезнаходження. він публічний і всім відомий, тож вважай, що за ним стежать: швидкий вхід лише позбавляє введення геохешу; він не ховає тебе й не обходить блокування."
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0648\u06c1 \u0639\u0644\u0627\u0642\u0627\u0626\u06cc \u0686\u06cc\u0646\u0644 \u062c\u06c1\u0627\u06ba %@ \u06a9\u06d2 \u0644\u0648\u06af \u0639\u0645\u0648\u0645\u0627\u064b \u062c\u0645\u0639 \u06c1\u0648\u062a\u06d2 \u06c1\u06cc\u06ba \u2014 \u0633\u0628 \u0633\u06d2 \u0628\u0691\u06d2 \u0622\u0628\u0627\u062f\u06cc \u06a9\u06d2 \u0645\u0631\u06a9\u0632 \u06a9\u06d2 \u06af\u0631\u062f \u0648\u0633\u06cc\u0639 \u0633\u06cc\u0644\u060c \u0622\u067e \u06a9\u0627 \u0645\u0642\u0627\u0645 \u0646\u06c1\u06cc\u06ba\u06d4 \u06cc\u06c1 \u0639\u0648\u0627\u0645\u06cc \u0627\u0648\u0631 \u0645\u0639\u0631\u0648\u0641 \u06c1\u06d2\u060c \u0627\u0633 \u0644\u06cc\u06d2 \u0641\u0631\u0636 \u06a9\u0631\u06cc\u06ba \u06a9\u06c1 \u0627\u0633 \u067e\u0631 \u0646\u0638\u0631 \u06c1\u06d2: \u0641\u0648\u0631\u06cc \u0634\u0645\u0648\u0644\u06cc\u062a \u0635\u0631\u0641 geohash \u0679\u0627\u0626\u067e \u06a9\u0631\u0646\u06d2 \u0633\u06d2 \u0628\u0686\u0627\u062a\u06cc \u06c1\u06d2\u061b \u06cc\u06c1 \u0622\u067e \u06a9\u0648 \u0686\u06be\u067e\u0627\u062a\u06cc \u0646\u06c1\u06cc\u06ba \u0627\u0648\u0631 \u0646\u06c1 \u0628\u0646\u062f\u0634\u06cc\u06ba \u0639\u0628\u0648\u0631 \u06a9\u0631\u062a\u06cc \u06c1\u06d2\u06d4"
+            "value" : "وہ علاقائی چینل جہاں %@ کے لوگ عموماً جمع ہوتے ہیں — سب سے بڑے آبادی کے مرکز کے گرد وسیع سیل، آپ کا مقام نہیں۔ یہ عوامی اور معروف ہے، اس لیے فرض کریں کہ اس پر نظر ہے: فوری شمولیت صرف geohash ٹائپ کرنے سے بچاتی ہے؛ یہ آپ کو چھپاتی نہیں اور نہ بندشیں عبور کرتی ہے۔"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "k\u00eanh khu v\u1ef1c n\u01a1i m\u1ecdi ng\u01b0\u1eddi t\u1eeb %@ th\u01b0\u1eddng t\u1ee5 h\u1ecdp \u2014 \u00f4 r\u1ed9ng quanh trung t\u00e2m d\u00e2n c\u01b0 l\u1edbn nh\u1ea5t, kh\u00f4ng ph\u1ea3i v\u1ecb tr\u00ed c\u1ee7a b\u1ea1n. k\u00eanh n\u00e0y c\u00f4ng khai v\u00e0 ai c\u0169ng bi\u1ebft, n\u00ean h\u00e3y m\u1eb7c \u0111\u1ecbnh l\u00e0 n\u00f3 b\u1ecb theo d\u00f5i: tham gia nhanh ch\u1ec9 gi\u00fap kh\u1ecfi g\u00f5 geohash; n\u00f3 kh\u00f4ng che gi\u1ea5u b\u1ea1n v\u00e0 kh\u00f4ng v\u01b0\u1ee3t ch\u1eb7n."
+            "value" : "kênh khu vực nơi mọi người từ %@ thường tụ họp — ô rộng quanh trung tâm dân cư lớn nhất, không phải vị trí của bạn. kênh này công khai và ai cũng biết, nên hãy mặc định là nó bị theo dõi: tham gia nhanh chỉ giúp khỏi gõ geohash; nó không che giấu bạn và không vượt chặn."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@\u7684\u4eba\u4eec\u901a\u5e38\u805a\u96c6\u7684\u533a\u57df\u9891\u9053\u2014\u2014\u56f4\u7ed5\u6700\u5927\u4eba\u53e3\u4e2d\u5fc3\u7684\u5bbd\u9614\u5355\u5143\u683c\uff0c\u800c\u4e0d\u662f\u4f60\u7684\u4f4d\u7f6e\u3002\u5b83\u516c\u5f00\u4e14\u4f17\u6240\u5468\u77e5\uff0c\u8bf7\u9ed8\u8ba4\u5b83\u88ab\u76d1\u89c6\uff1a\u5feb\u901f\u52a0\u5165\u53ea\u662f\u7701\u53bb\u8f93\u5165 geohash\uff1b\u5b83\u4e0d\u4f1a\u9690\u85cf\u4f60\uff0c\u4e5f\u4e0d\u4f1a\u7ed5\u8fc7\u5c01\u9501\u3002"
+            "value" : "%@的人们通常聚集的区域频道——围绕最大人口中心的宽阔单元格，而不是你的位置。它公开且众所周知，请默认它被监视：快速加入只是省去输入 geohash；它不会隐藏你，也不会绕过封锁。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@\u7684\u4eba\u5011\u901a\u5e38\u805a\u96c6\u7684\u5340\u57df\u983b\u9053\u2014\u2014\u570d\u7e5e\u6700\u5927\u4eba\u53e3\u4e2d\u5fc3\u7684\u5bec\u95ca\u55ae\u5143\u683c\uff0c\u800c\u4e0d\u662f\u4f60\u7684\u4f4d\u7f6e\u3002\u5b83\u516c\u958b\u4e14\u773e\u6240\u5468\u77e5\uff0c\u8acb\u9810\u8a2d\u5b83\u53d7\u5230\u76e3\u8996\uff1a\u5feb\u901f\u52a0\u5165\u53ea\u662f\u7701\u53bb\u8f38\u5165 geohash\uff1b\u5b83\u4e0d\u6703\u96b1\u85cf\u4f60\uff0c\u4e5f\u4e0d\u6703\u7e5e\u904e\u5c01\u9396\u3002"
+            "value" : "%@的人們通常聚集的區域頻道——圍繞最大人口中心的寬闊單元格，而不是你的位置。它公開且眾所周知，請預設它受到監視：快速加入只是省去輸入 geohash；它不會隱藏你，也不會繞過封鎖。"
           }
         }
       }
@@ -96994,13 +97593,13 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0627\u0644\u0627\u0646\u0636\u0645\u0627\u0645 \u0625\u0644\u0649 \u0642\u0646\u0627\u0629 \u0645\u0646\u0637\u0642\u0629 %@"
+            "value" : "الانضمام إلى قناة منطقة %@"
           }
         },
         "bn" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@-\u098f\u09b0 \u0985\u099e\u09cd\u099a\u09b2-\u099a\u09cd\u09af\u09be\u09a8\u09c7\u09b2\u09c7 \u09af\u09cb\u0997 \u09a6\u09bf\u09a8"
+            "value" : "%@-এর অঞ্চল-চ্যানেলে যোগ দিন"
           }
         },
         "de" : {
@@ -97018,13 +97617,13 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "unirse al canal de regi\u00f3n de %@"
+            "value" : "unirse al canal de región de %@"
           }
         },
         "fa" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u067e\u06cc\u0648\u0633\u062a\u0646 \u0628\u0647 \u06a9\u0627\u0646\u0627\u0644 \u0645\u0646\u0637\u0642\u0647\u200c\u0627\u06cc %@"
+            "value" : "پیوستن به کانال منطقه‌ای %@"
           }
         },
         "fil" : {
@@ -97036,19 +97635,19 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "rejoindre le canal de r\u00e9gion de %@"
+            "value" : "rejoindre le canal de région de %@"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u05d4\u05e6\u05d8\u05e8\u05e4\u05d5\u05ea \u05dc\u05e2\u05e8\u05d5\u05e5 \u05d4\u05d0\u05d6\u05d5\u05e8 \u05e9\u05dc %@"
+            "value" : "הצטרפות לערוץ האזור של %@"
           }
         },
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ \u0915\u0947 \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u091a\u0948\u0928\u0932 \u0938\u0947 \u091c\u0941\u0921\u093c\u0947\u0902"
+            "value" : "%@ के क्षेत्र चैनल से जुड़ें"
           }
         },
         "id" : {
@@ -97066,13 +97665,13 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@\u306e\u5730\u57df\u30c1\u30e3\u30f3\u30cd\u30eb\u306b\u53c2\u52a0"
+            "value" : "%@の地域チャンネルに参加"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ \uc9c0\uc5ed \ucc44\ub110 \ucc38\uc5ec"
+            "value" : "%@ 지역 채널 참여"
           }
         },
         "ms" : {
@@ -97084,7 +97683,7 @@
         "ne" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ \u0915\u094b \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u091a\u094d\u092f\u093e\u0928\u0932\u092e\u093e \u0938\u093e\u092e\u0947\u0932 \u0939\u0941\u0928\u0941\u0939\u094b\u0938\u094d"
+            "value" : "%@ को क्षेत्र च्यानलमा सामेल हुनुहोस्"
           }
         },
         "nl" : {
@@ -97096,79 +97695,79 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "do\u0142\u0105cz do kana\u0142u regionu %@"
+            "value" : "dołącz do kanału regionu %@"
           }
         },
         "pt" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "entrar no canal de regi\u00e3o de %@"
+            "value" : "entrar no canal de região de %@"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "entrar no canal de regi\u00e3o de %@"
+            "value" : "entrar no canal de região de %@"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0432\u043e\u0439\u0442\u0438 \u0432 \u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b %@"
+            "value" : "войти в региональный канал %@"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "g\u00e5 med i regionkanalen f\u00f6r %@"
+            "value" : "gå med i regionkanalen för %@"
           }
         },
         "ta" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ \u0bae\u0ba3\u0bcd\u0b9f\u0bb2 \u0b9a\u0bc7\u0ba9\u0bb2\u0bbf\u0bb2\u0bcd \u0b9a\u0bc7\u0bb0\u0bcd"
+            "value" : "%@ மண்டல சேனலில் சேர்"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0e40\u0e02\u0e49\u0e32\u0e23\u0e48\u0e27\u0e21\u0e41\u0e0a\u0e19\u0e41\u0e19\u0e25\u0e20\u0e39\u0e21\u0e34\u0e20\u0e32\u0e04\u0e02\u0e2d\u0e07 %@"
+            "value" : "เข้าร่วมแชนแนลภูมิภาคของ %@"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ b\u00f6lge kanal\u0131na kat\u0131l"
+            "value" : "%@ bölge kanalına katıl"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u0443\u0432\u0456\u0439\u0442\u0438 \u0434\u043e \u0440\u0435\u0433\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043a\u0430\u043d\u0430\u043b\u0443 %@"
+            "value" : "увійти до регіонального каналу %@"
           }
         },
         "ur" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ \u06a9\u06d2 \u0639\u0644\u0627\u0642\u0627\u0626\u06cc \u0686\u06cc\u0646\u0644 \u0645\u06cc\u06ba \u0634\u0627\u0645\u0644 \u06c1\u0648\u06ba"
+            "value" : "%@ کے علاقائی چینل میں شامل ہوں"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "tham gia k\u00eanh khu v\u1ef1c c\u1ee7a %@"
+            "value" : "tham gia kênh khu vực của %@"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u52a0\u5165%@\u7684\u533a\u57df\u9891\u9053"
+            "value" : "加入%@的区域频道"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\u52a0\u5165%@\u7684\u5340\u57df\u983b\u9053"
+            "value" : "加入%@的區域頻道"
           }
         }
       }

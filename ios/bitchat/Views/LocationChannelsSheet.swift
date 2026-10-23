@@ -53,7 +53,7 @@ struct LocationChannelsSheet: View {
         static let removeBookmark = String(localized: "location_channels.accessibility.remove_bookmark", comment: "Accessibility action name for removing a channel bookmark")
         static let shareChannel = String(localized: "channel.share.action", defaultValue: "share channel", comment: "Context-menu / accessibility action that shares a location-channel invite")
         static let sharePrecisionTitle = String(localized: "channel.share.precision_warning.title", defaultValue: "share a precise location channel?", comment: "Title of the confirmation before sharing a neighborhood-or-finer geohash invite")
-        static let sharePrecisionMessage = String(localized: "channel.share.precision_warning.message", defaultValue: "this channel covers a small area. an invite sent over sms or imessage is visible to the carrier and both handsets — it discloses interest in that place, not only that someone uses bitchat.", comment: "Body of the confirmation before sharing a fine-precision geohash invite")
+        static let sharePrecisionMessage = String(localized: "channel.share.precision_warning.message", defaultValue: "this channel covers a small area. an invite sent over sms or imessage is visible to the carrier and both handsets — it discloses interest in that place, not only that someone uses MeshTalk.", comment: "Body of the confirmation before sharing a fine-precision geohash invite")
         static let shareAnyway = String(localized: "channel.share.precision_warning.confirm", defaultValue: "share anyway", comment: "Confirms sharing a fine-precision location channel after the OpSec warning")
 
         static func meshTitle(_ count: Int) -> String {

@@ -94,7 +94,7 @@ struct LocalizationCoverageTests {
         let sharedSources = try Self.shareExtensionMembershipExceptions()
 
         for (sourceRoot, ownKeys, otherKeys, ownCatalog, otherCatalog) in [
-            ("bitchat", mainKeys, shareKeys, Self.mainCatalogPath, Self.shareExtensionCatalogPath),
+            ("meshtalk", mainKeys, shareKeys, Self.mainCatalogPath, Self.shareExtensionCatalogPath),
             ("bitchatShareExtension", shareKeys, mainKeys,
              Self.shareExtensionCatalogPath, Self.mainCatalogPath)
         ] {
@@ -118,7 +118,7 @@ struct LocalizationCoverageTests {
                 """
             )
 
-            guard sourceRoot == "bitchat" else { continue }
+            guard sourceRoot == "meshtalk" else { continue }
             let missingInBoth = references
                 .filter { sharedSources.contains($0.location.prefix(while: { $0 != ":" }).description) }
                 .filter { !shareKeys.contains($0.key) }
@@ -144,7 +144,7 @@ struct LocalizationCoverageTests {
             contentsOf: repoRoot.appendingPathComponent("bitchat.xcodeproj/project.pbxproj"),
             encoding: .utf8
         )
-        let marker = #"Exceptions for "bitchat" folder in "bitchatShareExtension" target"#
+        let marker = #"Exceptions for "meshtalk" folder in "bitchatShareExtension" target"#
         guard let markerRange = project.range(of: marker),
               let listStart = project.range(
                 of: "membershipExceptions = (", range: markerRange.upperBound..<project.endIndex

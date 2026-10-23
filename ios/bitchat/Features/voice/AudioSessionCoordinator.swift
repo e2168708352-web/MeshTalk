@@ -210,7 +210,7 @@ final class AudioSessionCoordinator: @unchecked Sendable {
     /// Confines all mutable state, serializes whole acquire/release
     /// operations (two rapid presses can't interleave their category and
     /// activation calls), and hosts the blocking session IPC off main.
-    private let queue = DispatchQueue(label: "chat.bitchat.audio-session", qos: .userInitiated)
+    private let queue = DispatchQueue(label: "chat.meshtalk.audio-session", qos: .userInitiated)
 
     // Queue-confined state.
     private var holders: [ObjectIdentifier: Token] = [:]

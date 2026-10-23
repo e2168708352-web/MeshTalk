@@ -1,8 +1,9 @@
 // Your Apple Developer Team ID - https://stackoverflow.com/a/18727947
 DEVELOPMENT_TEAM = ABC123
 
-// Unique bundle id to be able to register and run locally
-PRODUCT_BUNDLE_IDENTIFIER = chat.bitchat.$(DEVELOPMENT_TEAM)
+// Keep the shipping identifiers unless you need a separate development build.
+// For a personal build you can use a suffix, e.g. com.meshtalk.app.ABC123
+PRODUCT_BUNDLE_IDENTIFIER = com.meshtalk.app
 
 // App and share extension must use an App Group registered to your team.
-APP_GROUP_ID = group.chat.bitchat.$(DEVELOPMENT_TEAM)
+APP_GROUP_ID = group.com.meshtalk.app

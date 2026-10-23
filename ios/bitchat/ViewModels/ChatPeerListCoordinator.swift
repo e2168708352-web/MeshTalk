@@ -34,7 +34,7 @@ protocol ChatPeerListContext: AnyObject {
     func updateEncryptionStatusForPeers()
 
     // MARK: Notifications
-    /// Posts the "bitchatters nearby" local notification.
+    /// Posts the "MeshTalkers nearby" local notification.
     func notifyNetworkAvailable(peerCount: Int)
 
     /// Records peers seen within range for the daily ambient sightings tally.
@@ -74,7 +74,7 @@ extension ChatViewModel: ChatPeerListContext {
 final class ChatPeerListCoordinator: @unchecked Sendable {
     private unowned let context: any ChatPeerListContext
     private var recentlySeenPeers: Set<PeerID> = []
-    // The "bitchatters nearby" notification only fires on the transition from
+    // The "MeshTalkers nearby" notification only fires on the transition from
     // an empty mesh to a populated one — joining peers while already meshed
     // are visible in the app and must not notify. Set back to true only after
     // a confirmed-empty reset, so brief link flaps stay silent.
@@ -161,7 +161,7 @@ private extension ChatPeerListCoordinator {
             lastNetworkNotificationTime = Date()
             context.notifyNetworkAvailable(peerCount: meshPeers.count)
             SecureLogger.info(
-                "👥 Sent bitchatters nearby notification for \(meshPeers.count) mesh peers (new: \(newPeers.count))",
+                "👥 Sent MeshTalkers nearby notification for \(meshPeers.count) mesh peers (new: \(newPeers.count))",
                 category: .session
             )
         }

@@ -83,26 +83,44 @@ struct ThemePalette {
 
     static func matrix(_ colorScheme: ColorScheme) -> ThemePalette {
         let isDark = colorScheme == .dark
-        let green = isDark ? Color.green : Color(red: 0, green: 0.5, blue: 0)
         return ThemePalette(
-            background: isDark ? Color.black : Color.white,
-            primary: green,
-            secondary: green.opacity(0.8),
-            accent: green,
-            locationAccent: green,
-            accentBlue: Color(red: 0.0, green: 0.478, blue: 1.0),
-            alertRed: Color(red: 0.75, green: 0.1, blue: 0.1),
-            divider: isDark ? Color.white.opacity(0.12) : Color.black.opacity(0.08)
+            background: isDark
+                ? Color(red: 0.027, green: 0.043, blue: 0.078)
+                : Color(red: 0.965, green: 0.973, blue: 0.988),
+            primary: isDark
+                ? Color(red: 0.93, green: 0.96, blue: 0.98)
+                : Color(red: 0.05, green: 0.09, blue: 0.16),
+            secondary: isDark
+                ? Color(red: 0.62, green: 0.69, blue: 0.78)
+                : Color(red: 0.32, green: 0.38, blue: 0.48),
+            accent: isDark
+                ? Color(red: 0.369, green: 0.918, blue: 0.831)
+                : Color(red: 0.059, green: 0.463, blue: 0.431),
+            locationAccent: isDark
+                ? Color(red: 0.647, green: 0.706, blue: 0.988)
+                : Color(red: 0.388, green: 0.400, blue: 0.945),
+            accentBlue: isDark
+                ? Color(red: 0.220, green: 0.741, blue: 0.973)
+                : Color(red: 0.012, green: 0.518, blue: 0.780),
+            alertRed: isDark
+                ? Color(red: 0.984, green: 0.443, blue: 0.522)
+                : Color(red: 0.863, green: 0.149, blue: 0.149),
+            divider: isDark ? Color.white.opacity(0.10) : Color.black.opacity(0.07)
         )
     }
 
-    static func liquidGlass(_: ColorScheme) -> ThemePalette {
-        ThemePalette(
+    static func liquidGlass(_ colorScheme: ColorScheme) -> ThemePalette {
+        let isDark = colorScheme == .dark
+        return ThemePalette(
             background: systemBackground,
             primary: .primary,
             secondary: .secondary,
-            accent: .blue,
-            locationAccent: .green,
+            accent: isDark
+                ? Color(red: 0.369, green: 0.918, blue: 0.831)
+                : Color(red: 0.059, green: 0.463, blue: 0.431),
+            locationAccent: isDark
+                ? Color(red: 0.647, green: 0.706, blue: 0.988)
+                : Color(red: 0.388, green: 0.400, blue: 0.945),
             accentBlue: .blue,
             alertRed: .red,
             divider: separator
@@ -172,33 +190,37 @@ struct ThemedRootBackground: View {
     @ThemedPalette private var palette
 
     var body: some View {
-        if theme.usesGlassChrome {
-            let isDark = colorScheme == .dark
-            ZStack {
+        let isDark = colorScheme == .dark
+        ZStack {
+            palette.background
+
+            // MeshTalk brand atmosphere: a mint node glow in one corner and a
+            // periwinkle relay glow in the other. Kept static so the chat
+            // surface stays calm while messages move.
+            RadialGradient(
+                colors: [palette.accent.opacity(isDark ? 0.16 : 0.10), .clear],
+                center: .topLeading,
+                startRadius: 0,
+                endRadius: 560
+            )
+            RadialGradient(
+                colors: [palette.locationAccent.opacity(isDark ? 0.13 : 0.08), .clear],
+                center: .bottomTrailing,
+                startRadius: 0,
+                endRadius: 480
+            )
+
+            if theme.usesGlassChrome {
                 LinearGradient(
                     colors: isDark
-                        ? [Color(red: 0.09, green: 0.10, blue: 0.15), Color(red: 0.04, green: 0.04, blue: 0.07)]
-                        : [Color(red: 0.93, green: 0.95, blue: 1.0), Color(red: 0.98, green: 0.97, blue: 0.99)],
+                        ? [Color.white.opacity(0.03), Color.clear]
+                        : [Color.white.opacity(0.55), Color.clear],
                     startPoint: .top,
                     endPoint: .bottom
                 )
-                RadialGradient(
-                    colors: [Color.blue.opacity(isDark ? 0.22 : 0.12), .clear],
-                    center: .topLeading,
-                    startRadius: 0,
-                    endRadius: 600
-                )
-                RadialGradient(
-                    colors: [Color.purple.opacity(isDark ? 0.14 : 0.08), .clear],
-                    center: .bottomTrailing,
-                    startRadius: 0,
-                    endRadius: 500
-                )
             }
-            .ignoresSafeArea()
-        } else {
-            palette.background
         }
+        .ignoresSafeArea()
     }
 }
 

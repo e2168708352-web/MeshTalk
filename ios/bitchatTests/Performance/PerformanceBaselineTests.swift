@@ -895,5 +895,5 @@ private final class PerfFormattingContext: MessageFormattingContext {
     init(nickname: String) { self.nickname = nickname }
     func isSelfMessage(_ message: BitchatMessage) -> Bool { false }
     func senderColor(for message: BitchatMessage, isDark: Bool) -> Color { .blue }
-    func peerURL(for peerID: PeerID) -> URL? { URL(string: "bitchat://peer/\(peerID.id)") }
+    func peerURL(for peerID: PeerID) -> URL? { URL(string: "meshtalk://peer/\(peerID.id)") }
 }

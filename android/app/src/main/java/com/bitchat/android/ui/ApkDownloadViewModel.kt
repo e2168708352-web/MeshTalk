@@ -10,13 +10,10 @@ import androidx.lifecycle.viewModelScope
 import com.bitchat.android.R
 import com.bitchat.android.util.ApkDownloader
 import com.bitchat.android.util.AppVersion
-import com.bitchat.android.util.GitHubReleaseClient
-import com.bitchat.android.util.LatestReleaseProvider
 import com.bitchat.android.util.ShareableApkVariant
 import com.bitchat.android.util.UniversalApkManager
 import com.bitchat.android.util.WorkManagerApkDownloader
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.Job
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -154,15 +151,13 @@ sealed class ApkUiEffect {
 class ApkDownloadViewModel internal constructor(
     application: Application,
     private val apkManager: UniversalApkManager,
-    private val downloader: ApkDownloader,
-    private val latestReleaseProvider: LatestReleaseProvider
+    private val downloader: ApkDownloader
 ) : AndroidViewModel(application) {
 
     constructor(application: Application) : this(
         application = application,
         apkManager = UniversalApkManager(application),
-        downloader = WorkManagerApkDownloader(application),
-        latestReleaseProvider = GitHubReleaseClient(application)
+        downloader = WorkManagerApkDownloader(application)
     )
 
     companion object {
@@ -174,8 +169,6 @@ class ApkDownloadViewModel internal constructor(
 
     private val _effect = Channel<ApkUiEffect>(Channel.BUFFERED)
     val effect = _effect.receiveAsFlow()
-
-    private var metadataRefreshJob: Job? = null
 
     init {
         observeDownloader()
@@ -340,39 +333,10 @@ class ApkDownloadViewModel internal constructor(
                     )
                 }
             }
-            // Metadata is skipped while work is active, as it was before: an in-flight download
-            // has no use for a freshness check and the API budget is scarce.
-            if (_state.value.apkStatus is ApkPreparationStatus.Downloading) return@launch
-            // Local availability is resolved and published before this independent network task
-            // starts. Metadata can add a freshness warning, but can never hide sharing.
-            refreshReleaseMetadata()
-        }
-    }
-
-    private fun refreshReleaseMetadata() {
-        if (metadataRefreshJob?.isActive == true) return
-        metadataRefreshJob = viewModelScope.launch {
-            _state.update { it.copy(releaseStatus = ApkReleaseStatus.Checking) }
-            latestReleaseProvider.latestRelease()
-                .onSuccess { snapshot ->
-                    val shared = shareableReady(_state.value.apkStatus)
-                    _state.update {
-                        it.copy(
-                            releaseStatus = ApkReleaseStatus.Known(
-                                version = snapshot.release.versionName,
-                                sizeMB = (snapshot.release.universalApkSize / 1024 / 1024).toInt(),
-                                isNewerThanSharedApk = shared?.let { ready ->
-                                    AppVersion.isNewer(ready.version, snapshot.release.versionName)
-                                } ?: false,
-                                fromStaleCache = snapshot.isStale
-                            )
-                        )
-                    }
-                }
-                .onFailure {
-                    // Metadata is an optional enhancement. Keep the locally resolved APK state.
-                    _state.update { it.copy(releaseStatus = ApkReleaseStatus.Unknown) }
-                }
+            // MeshTalk has no remote APK source, so there is no release metadata to refresh.
+            // Keeping the state Unknown also suppresses "update available" prompts that would
+            // otherwise point at the upstream project's downloads.
+            _state.update { it.copy(releaseStatus = ApkReleaseStatus.Unknown) }
         }
     }
 

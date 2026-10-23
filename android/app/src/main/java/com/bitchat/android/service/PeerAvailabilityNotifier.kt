@@ -154,7 +154,7 @@ private class AndroidPeerAvailabilityTextProvider(
 }
 
 /**
- * Owns the user-visible "bitchatters nearby" notification independently of the UI delegate.
+ * Owns the user-visible "MeshTalk users nearby" notification independently of the UI delegate.
  * The first eligible peer starts a fixed aggregation window; arrivals within that window update
  * the count without postponing the alert indefinitely.
  */
@@ -182,7 +182,7 @@ internal class PeerAvailabilityNotifier(
     }
 ) {
     companion object {
-        internal const val CHANNEL_ID = "bitchat_peer_availability_notifications"
+        internal const val CHANNEL_ID = "meshtalk_peer_availability_notifications"
         internal const val NOTIFICATION_ID = 997
         internal const val AGGREGATION_WINDOW_MS = 10_000L
         private const val TAG = "PeerAvailability"

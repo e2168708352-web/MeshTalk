@@ -80,7 +80,7 @@ struct MessageOutboxStoreTests {
 
         // Models a device restore: Application Support brought the sealed
         // file across, but its AfterFirstUnlockThisDeviceOnly key cannot.
-        keychain.deleteAll(service: "chat.bitchat.outbox")
+        keychain.deleteAll(service: "chat.meshtalk.outbox")
         let restored = MessageOutboxStore(keychain: keychain, fileURL: fileURL)
         #expect(restored.load().isEmpty)
         #expect(!FileManager.default.fileExists(atPath: fileURL.path))

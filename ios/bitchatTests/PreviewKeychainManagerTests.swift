@@ -34,7 +34,7 @@ struct PreviewKeychainManagerTests {
 
     @Test("Accessibility migration covers custom services and retries after any incomplete update")
     func accessibilityMigrationCoversEveryApplicationOwnedService() {
-        let primaryService = "chat.bitchat.test-primary"
+        let primaryService = "chat.meshtalk.test-primary"
         var visitedServices: [String] = []
 
         let completed = KeychainManager
@@ -42,7 +42,7 @@ struct PreviewKeychainManagerTests {
                 primaryService: primaryService
             ) { service in
                 visitedServices.append(service)
-                return service == "chat.bitchat.favorites"
+                return service == "chat.meshtalk.favorites"
                     ? errSecInteractionNotAllowed
                     : errSecItemNotFound
             }
@@ -50,9 +50,9 @@ struct PreviewKeychainManagerTests {
         #expect(!completed)
         #expect(visitedServices.first == primaryService)
         #expect(Set(visitedServices).isSuperset(of: [
-            "chat.bitchat.nostr",
-            "chat.bitchat.favorites",
-            "chat.bitchat.outbox"
+            "chat.meshtalk.nostr",
+            "chat.meshtalk.favorites",
+            "chat.meshtalk.outbox"
         ]))
         #expect(Set(visitedServices).count == visitedServices.count)
 
@@ -65,7 +65,7 @@ struct PreviewKeychainManagerTests {
 
     @Test("Keychain cleanup is complete only when every owned scope is clean")
     func keychainCleanupRequiresEveryApplicationOwnedService() {
-        let primaryService = "chat.bitchat.test-primary"
+        let primaryService = "chat.meshtalk.test-primary"
         var visitedServices: [String] = []
 
         let partialCleanup = KeychainManager
@@ -73,7 +73,7 @@ struct PreviewKeychainManagerTests {
                 primaryService: primaryService
             ) { service in
                 visitedServices.append(service)
-                return service == "chat.bitchat.outbox"
+                return service == "chat.meshtalk.outbox"
                     ? errSecInteractionNotAllowed
                     : errSecSuccess
             }
@@ -81,9 +81,9 @@ struct PreviewKeychainManagerTests {
         #expect(!partialCleanup)
         #expect(visitedServices.first == primaryService)
         #expect(Set(visitedServices).isSuperset(of: [
-            "chat.bitchat.nostr",
-            "chat.bitchat.favorites",
-            "chat.bitchat.outbox"
+            "chat.meshtalk.nostr",
+            "chat.meshtalk.favorites",
+            "chat.meshtalk.outbox"
         ]))
         #expect(Set(visitedServices).count == visitedServices.count)
 
@@ -175,19 +175,19 @@ struct PreviewKeychainManagerTests {
         manager.save(
             key: "favorite",
             data: staleFavorite,
-            service: "chat.bitchat.favorites",
+            service: "chat.meshtalk.favorites",
             accessible: nil
         )
         manager.save(
             key: "outbox",
             data: staleOutbox,
-            service: "chat.bitchat.outbox",
+            service: "chat.meshtalk.outbox",
             accessible: nil
         )
         manager.save(
             key: "custom",
             data: staleCustom,
-            service: "chat.bitchat.future-custom",
+            service: "chat.meshtalk.future-custom",
             accessible: nil
         )
 
@@ -203,9 +203,9 @@ struct PreviewKeychainManagerTests {
         }
 
         for (key, service) in [
-            ("favorite", "chat.bitchat.favorites"),
-            ("outbox", "chat.bitchat.outbox"),
-            ("custom", "chat.bitchat.future-custom")
+            ("favorite", "chat.meshtalk.favorites"),
+            ("outbox", "chat.meshtalk.outbox"),
+            ("custom", "chat.meshtalk.future-custom")
         ] {
             #expect(manager.load(key: key, service: service) == nil)
             if case .accessDenied = manager.loadWithResult(
@@ -241,15 +241,15 @@ struct PreviewKeychainManagerTests {
         #expect(reconciliationAttempts == failedAttempts + 1)
         #expect(manager.load(
             key: "favorite",
-            service: "chat.bitchat.favorites"
+            service: "chat.meshtalk.favorites"
         ) == nil)
         #expect(manager.load(
             key: "outbox",
-            service: "chat.bitchat.outbox"
+            service: "chat.meshtalk.outbox"
         ) == nil)
         #expect(manager.load(
             key: "custom",
-            service: "chat.bitchat.future-custom"
+            service: "chat.meshtalk.future-custom"
         ) == nil)
 
         let replacementIdentity = Data([21, 22, 23])
@@ -264,12 +264,12 @@ struct PreviewKeychainManagerTests {
         manager.save(
             key: "custom",
             data: replacementCustom,
-            service: "chat.bitchat.future-custom",
+            service: "chat.meshtalk.future-custom",
             accessible: nil
         )
         #expect(manager.load(
             key: "custom",
-            service: "chat.bitchat.future-custom"
+            service: "chat.meshtalk.future-custom"
         ) == replacementCustom)
     }
 }

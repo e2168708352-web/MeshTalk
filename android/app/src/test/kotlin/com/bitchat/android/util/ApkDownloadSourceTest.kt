@@ -22,17 +22,8 @@ class ApkDownloadSourceTest {
     private val now = 1_700_000_000_000L
 
     @Test
-    fun `default source downloads the stable latest universal asset directly`() {
-        assertEquals(
-            "https://github.com/permissionlesstech/bitchat-android/releases/latest/" +
-                "download/bitchat-android-universal.apk",
-            DefaultApkDownloadSources.all.single().latestApkUrls.first()
-        )
-        assertEquals(
-            "https://github.com/permissionlesstech/bitchat-android/releases/latest/" +
-                "download/app-universal-release.apk",
-            DefaultApkDownloadSources.all.single().latestApkUrls[1]
-        )
+    fun `MeshTalk has no remote APK download source`() {
+        assertTrue(DefaultApkDownloadSources.all.isEmpty())
     }
 
     @Test

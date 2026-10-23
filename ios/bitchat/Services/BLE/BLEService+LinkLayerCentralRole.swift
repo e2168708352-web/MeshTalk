@@ -402,7 +402,7 @@ extension BLEService: CBPeripheralDelegate {
             $0.assembler = NotificationStreamAssembler()
         }
 
-        SecureLogger.debug("🔄 BitChat service changed for \(peripheral.name ?? peripheral.identifier.uuidString), rediscovering", category: .session)
+        SecureLogger.debug("🔄 MeshTalk service changed for \(peripheral.name ?? peripheral.identifier.uuidString), rediscovering", category: .session)
         peripheral.discoverServices([BLEService.serviceUUID])
     }
     

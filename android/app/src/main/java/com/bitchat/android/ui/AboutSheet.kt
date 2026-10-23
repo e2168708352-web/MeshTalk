@@ -660,21 +660,13 @@ fun AboutSheet(
                                         }
                                     }
 
-                                    // Prepare App for Sharing Row
+                                    // Local sharing readiness. Remote APK downloads are intentionally
+                                    // disabled, so this row is informational and never triggers a
+                                    // download or an update check.
+                                    if (shareableApk != null) {
                                     Row(
                                         modifier = Modifier
                                             .fillMaxWidth()
-                                            // Enabled by the same mapping that decides what the tap
-                                            // does, so the row can never look tappable and do
-                                            // nothing.
-                                            .clickable(
-                                                enabled = prepareRowTapAction(
-                                                    apkStatus,
-                                                    releaseStatus
-                                                ) != null
-                                            ) {
-                                                apkViewModel.onEvent(ApkUiEvent.PrepareRowClicked)
-                                            }
                                             .padding(horizontal = 16.dp, vertical = 14.dp),
                                         verticalAlignment = Alignment.CenterVertically
                                     ) {
@@ -801,74 +793,7 @@ fun AboutSheet(
                                                 progressPercent = downloadProgress
                                             )
                                         }
-
-                                        // One control, one width, in every state. The progress
-                                        // readout moved into the column above, so nothing else
-                                        // competes for this slot.
-                                        when (apkStatus) {
-                                            is ApkPreparationStatus.Downloading ->
-                                                ApkPrepareRowIconButton(
-                                                    icon = Icons.Default.Close,
-                                                    description = stringResource(
-                                                        R.string.prepare_apk_stop
-                                                    ),
-                                                    onClick = {
-                                                        apkViewModel.onEvent(
-                                                            ApkUiEvent.CancelDownload
-                                                        )
-                                                    }
-                                                )
-                                            is ApkPreparationStatus.Ready -> {
-                                                if (
-                                                    apkStatus.source ==
-                                                    UniversalApkManager.ApkSource.INSTALLED
-                                                ) {
-                                                    ApkPrepareRowIconButton(
-                                                        icon = Icons.Default.CloudDownload,
-                                                        description = stringResource(
-                                                            R.string.prepare_apk_get_universal
-                                                        ),
-                                                        onClick = {
-                                                            apkViewModel.onEvent(
-                                                                ApkUiEvent.DownloadUniversalClicked
-                                                            )
-                                                        },
-                                                        tint = colorScheme.primary
-                                                    )
-                                                } else if (
-                                                    apkStatus.source ==
-                                                    UniversalApkManager.ApkSource.DOWNLOADED
-                                                ) {
-                                                    ApkPrepareRowIconButton(
-                                                        icon = Icons.Default.Delete,
-                                                        description = stringResource(
-                                                            R.string.prepare_apk_button_delete
-                                                        ),
-                                                        onClick = {
-                                                            apkViewModel.onEvent(
-                                                                ApkUiEvent.DeleteClicked
-                                                            )
-                                                        },
-                                                        tint = colorScheme.error
-                                                    )
-                                                }
-                                            }
-                                            is ApkPreparationStatus.Resumable,
-                                            is ApkPreparationStatus.Error ->
-                                                ApkPrepareRowIconButton(
-                                                    icon = Icons.Default.Refresh,
-                                                    description = stringResource(
-                                                        R.string.prepare_apk_retry
-                                                    ),
-                                                    onClick = {
-                                                        apkViewModel.onEvent(
-                                                            ApkUiEvent.PrepareRowClicked
-                                                        )
-                                                    },
-                                                    tint = colorScheme.primary
-                                                )
-                                            else -> {}
-                                        }
+                                    }
                                     }
 
                                     // Prepare Dialog

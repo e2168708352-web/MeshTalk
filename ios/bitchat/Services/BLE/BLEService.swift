@@ -184,13 +184,13 @@ final class BLEService: NSObject {
     // MARK: - Constants
     
     #if DEBUG
-    static let serviceUUID = CBUUID(string: "F47B5E2D-4A9E-4C5A-9B3F-8E1D2C3A4B5A") // testnet
+    static let serviceUUID = CBUUID(string: "7A3C9E10-4B2D-4F68-A1C5-9D8E7F6A5B40") // MeshTalk testnet
     #else
-    static let serviceUUID = CBUUID(string: "F47B5E2D-4A9E-4C5A-9B3F-8E1D2C3A4B5C") // mainnet
+    static let serviceUUID = CBUUID(string: "7A3C9E10-4B2D-4F68-A1C5-9D8E7F6A5B40") // MeshTalk mainnet
     #endif
-    static let characteristicUUID = CBUUID(string: "A1B2C3D4-E5F6-4A5B-8C9D-0E1F2A3B4C5D")
-    private static let centralRestorationID = "chat.bitchat.ble.central"
-    private static let peripheralRestorationID = "chat.bitchat.ble.peripheral"
+    static let characteristicUUID = CBUUID(string: "B6E4D2C8-1A3F-4E57-9C0D-2F8A6B4E1C73")
+    private static let centralRestorationID = "chat.meshtalk.ble.central"
+    private static let peripheralRestorationID = "chat.meshtalk.ble.peripheral"
     
     // Default per-fragment chunk size when link limits are unknown
     private let defaultFragmentSize = TransportConfig.bleDefaultFragmentSize

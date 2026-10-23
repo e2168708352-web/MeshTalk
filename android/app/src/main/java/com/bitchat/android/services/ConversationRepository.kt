@@ -383,6 +383,13 @@ internal class ConversationDatabase(
         AndroidConversationStorageCipher()
 ) : SQLiteOpenHelper(context, databaseName, null, DATABASE_VERSION) {
 
+    init {
+        // Some test and embedded contexts report a database path whose parent
+        // directory has not been created yet. SQLite returns SQLITE_CANTOPEN
+        // instead of creating the directory itself.
+        context.getDatabasePath(databaseName).parentFile?.mkdirs()
+    }
+
     companion object {
         private const val TAG = "ConversationDatabase"
         const val MAX_MESSAGES_PER_CONVERSATION = 1_000

@@ -1,0 +1,25 @@
+# Build outputs
+dist/
+*.ipa
+*.apk
+*.aab
+*.xcarchive
+build/
+DerivedData/
+.DerivedData/
+
+# Signing material and local secrets
+ios/Configs/Local.xcconfig
+android/local.properties
+android/keystore.properties
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

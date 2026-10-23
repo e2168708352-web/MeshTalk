@@ -759,7 +759,7 @@ class HotspotManager(private val context: Context) {
             val powerManager = context.getSystemService(Context.POWER_SERVICE) as PowerManager
             wakeLock = powerManager.newWakeLock(
                 PowerManager.PARTIAL_WAKE_LOCK,
-                "BitChat:HotspotWakeLock"
+                "MeshTalk:HotspotWakeLock"
             )
             wakeLock?.acquire(30 * 60 * 1000L)
 
@@ -769,7 +769,7 @@ class HotspotManager(private val context: Context) {
             } else {
                 android.net.wifi.WifiManager.WIFI_MODE_FULL
             }
-            wifiLock = wifiManager.createWifiLock(lockType, "BitChat:HotspotWifiLock")
+            wifiLock = wifiManager.createWifiLock(lockType, "MeshTalk:HotspotWifiLock")
             wifiLock?.acquire()
 
             Log.d(TAG, "Acquired WakeLock and WifiLock")
@@ -831,7 +831,7 @@ class HotspotManager(private val context: Context) {
 
     /**
      * Generate random SSID.
-     * Format: DIRECT-BC-XXXXXXXX
+     * Format: DIRECT-MT-XXXXXXXX
      */
     private fun generateSsid(): String {
         val suffix = (1..SSID_SUFFIX_LENGTH)

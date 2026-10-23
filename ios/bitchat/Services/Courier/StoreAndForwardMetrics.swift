@@ -42,7 +42,7 @@ final class StoreAndForwardMetrics {
     private let lock = NSLock()
     private var counts: [String: Int]
     private let defaults: UserDefaults
-    private static let defaultsKey = "chat.bitchat.storeAndForwardMetrics"
+    private static let defaultsKey = "chat.meshtalk.storeAndForwardMetrics"
 
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults

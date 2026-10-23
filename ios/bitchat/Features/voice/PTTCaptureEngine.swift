@@ -98,7 +98,7 @@ final class PTTCaptureEngine: @unchecked Sendable {
     /// session keeps reporting a dead 0 Hz / 2 ch input format and fails to
     /// enable the mic (AURemoteIO -10851, observed on iPhone field tests).
     private var engine = AVAudioEngine()
-    private let queue = DispatchQueue(label: "chat.bitchat.ptt.capture", qos: .userInitiated)
+    private let queue = DispatchQueue(label: "chat.meshtalk.ptt.capture", qos: .userInitiated)
     private let coordinator: AudioSessionCoordinator
     private let sessionLease: PTTCaptureSessionLease
     private let captureGeneration = PTTCaptureGeneration()

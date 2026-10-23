@@ -96,15 +96,15 @@ final class KeychainManager: KeychainManagerProtocol {
     /// by older releases. Keep custom services here so one-time security
     /// migrations and panic deletion cannot silently miss them.
     private static let additionalApplicationOwnedServices = [
-        "chat.bitchat.nostr",
-        "chat.bitchat.favorites",
-        "chat.bitchat.outbox",
+        "chat.meshtalk.nostr",
+        "chat.meshtalk.favorites",
+        "chat.meshtalk.outbox",
         "com.bitchat.passwords",
         "com.bitchat.deviceidentity",
         "com.bitchat.noise.identity",
-        "chat.bitchat.passwords",
+        "chat.meshtalk.passwords",
         "bitchat.keychain",
-        "bitchat",
+        "meshtalk",
         "com.bitchat"
     ]
     // AfterFirstUnlock, not WhenUnlocked: the mesh keeps running with the
@@ -415,7 +415,7 @@ final class KeychainManager: KeychainManagerProtocol {
             kSecValueData as String: data,
             kSecAttrService as String: service,
             kSecAttrAccessible as String: Self.itemAccessibility,
-            kSecAttrLabel as String: "bitchat-\(key)"
+            kSecAttrLabel as String: "meshtalk-\(key)"
         ]
         #if os(macOS)
         base[kSecAttrSynchronizable as String] = false
@@ -575,7 +575,7 @@ final class KeychainManager: KeychainManagerProtocol {
             kSecValueData as String: data,
             kSecAttrService as String: service,
             kSecAttrAccessible as String: Self.itemAccessibility,
-            kSecAttrLabel as String: "bitchat-\(key)"
+            kSecAttrLabel as String: "meshtalk-\(key)"
         ]
         #if os(macOS)
         base[kSecAttrSynchronizable as String] = false

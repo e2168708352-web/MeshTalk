@@ -42,39 +42,44 @@ struct ContentHeaderView: View {
 
     var body: some View {
         HStack(spacing: 0) {
-            Text(verbatim: "bitchat/")
-                .bitchatFont(size: 18, weight: .medium)
-                .lineLimit(1)
-                .foregroundColor(palette.primary)
-                // When icons crowd the header, squeeze the nickname first
-                // (priority 0) and the logo only as a last resort; the icon
-                // cluster at priority 3 never gives up width.
-                .layoutPriority(2)
-                .onTapGesture(count: 3) {
-                    // Confirm before destroying: the same logo is the single-tap
-                    // App Info entry point and sits beside the nickname field, so
-                    // a fumbled tap must never be able to wipe the device. The
-                    // dialog matches the Settings-pane panic button; under duress
-                    // it costs one extra tap.
-                    appChromeModel.requestPanicWipe()
-                }
-                .onTapGesture(count: 1) {
-                    appChromeModel.presentAppInfo()
-                }
-                // The confirmation dialog itself is hosted on ContentView
-                // (next to the failed-wipe banner), not on this Text: a host
-                // that can be covered or removed could take the pending
-                // dialog down with it.
-                // This is the only entry point to App Info, but it reads as
-                // static text; surface the tap. (The triple-tap panic wipe
-                // stays undiscoverable on purpose — it's destructive.)
-                .accessibilityAddTraits(.isButton)
-                .accessibilityHint(
-                    String(localized: "content.accessibility.app_info_hint", comment: "Accessibility hint on the bitchat/ logo explaining a tap opens app info")
-                )
-                .accessibilityAction {
-                    appChromeModel.presentAppInfo()
-                }
+            HStack(spacing: 5) {
+                MeshMark(size: 15, color: palette.accent)
+                Text(verbatim: "meshtalk/")
+                    .bitchatFont(size: 18, weight: .semibold)
+                    .lineLimit(1)
+                    .foregroundColor(palette.accent)
+            }
+            // When icons crowd the header, squeeze the nickname first
+            // (priority 0) and the logo only as a last resort; the icon
+            // cluster at priority 3 never gives up width.
+            .layoutPriority(2)
+            .onTapGesture(count: 3) {
+                // Confirm before destroying: the same logo is the single-tap
+                // App Info entry point and sits beside the nickname field, so
+                // a fumbled tap must never be able to wipe the device. The
+                // dialog matches the Settings-pane panic button; under duress
+                // it costs one extra tap.
+                appChromeModel.requestPanicWipe()
+            }
+            .onTapGesture(count: 1) {
+                appChromeModel.presentAppInfo()
+            }
+            // The confirmation dialog itself is hosted on ContentView
+            // (next to the failed-wipe banner), not on this mark: a host
+            // that can be covered or removed could take the pending
+            // dialog down with it.
+            // This is the only entry point to App Info, but it reads as
+            // static text; surface the tap. (The triple-tap panic wipe
+            // stays undiscoverable on purpose — it's destructive.)
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(Text(verbatim: "MeshTalk"))
+            .accessibilityAddTraits(.isButton)
+            .accessibilityHint(
+                String(localized: "content.accessibility.app_info_hint", comment: "Accessibility hint on the MeshTalk logo explaining a tap opens app info")
+            )
+            .accessibilityAction {
+                appChromeModel.presentAppInfo()
+            }
 
             HStack(spacing: 0) {
                 Text(verbatim: "@")
@@ -374,7 +379,7 @@ struct ContentHeaderView: View {
                 pendingShareGeohash = nil
             }
         } message: {
-            Text(String(localized: "channel.share.precision_warning.message", defaultValue: "this channel covers a small area. an invite sent over sms or imessage is visible to the carrier and both handsets — it discloses interest in that place, not only that someone uses bitchat.", comment: "Body of the confirmation before sharing a fine-precision geohash invite"))
+            Text(String(localized: "channel.share.precision_warning.message", defaultValue: "this channel covers a small area. an invite sent over sms or imessage is visible to the carrier and both handsets — it discloses interest in that place, not only that someone uses MeshTalk.", comment: "Body of the confirmation before sharing a fine-precision geohash invite"))
         }
         .sheet(item: $activeSharePayload) { payload in
             ShareActivityView(text: payload.text)

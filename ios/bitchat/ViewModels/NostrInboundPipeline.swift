@@ -461,12 +461,12 @@ final class NostrInboundPipeline {
                 return
             }
 
-            if content.hasPrefix("bitchat1:") {
+            if content.hasPrefix("meshtalk1:") {
                 let packet: BitchatPacket? = await MainActor.run {
                     Self.decodeEmbeddedBitChatPacket(from: content)
                 }
                 guard let packet else {
-                    SecureLogger.error("Failed to decode embedded BitChat packet from Nostr DM", category: .session)
+                    SecureLogger.error("Failed to decode embedded MeshTalk packet from Nostr DM", category: .session)
                     return
                 }
 
@@ -573,8 +573,8 @@ extension NostrInboundPipeline {
 private extension NostrInboundPipeline {
     @MainActor
     static func decodeEmbeddedBitChatPacket(from content: String) -> BitchatPacket? {
-        guard content.hasPrefix("bitchat1:") else { return nil }
-        let encoded = String(content.dropFirst("bitchat1:".count))
+        guard content.hasPrefix("meshtalk1:") else { return nil }
+        let encoded = String(content.dropFirst("meshtalk1:".count))
         let maxBytes = FileTransferLimits.maxFramedFileBytes
         let maxEncoded = ((maxBytes + 2) / 3) * 4
         guard encoded.count <= maxEncoded else { return nil }

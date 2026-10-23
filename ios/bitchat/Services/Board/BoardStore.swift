@@ -90,7 +90,7 @@ final class BoardStore {
 
     private var posts: [StoredPost] = []
     private var tombstones: [StoredTombstone] = []
-    private let queue = DispatchQueue(label: "chat.bitchat.board.store")
+    private let queue = DispatchQueue(label: "chat.meshtalk.board.store")
     private let fileURL: URL?
     private let now: () -> Date
 

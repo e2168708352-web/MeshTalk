@@ -67,7 +67,7 @@ final class PrivacyScreen {
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
 
         let label = UILabel()
-        label.text = "bitchat"
+        label.text = "MeshTalk"
         label.font = .monospacedSystemFont(ofSize: 22, weight: .medium)
         label.textColor = .secondaryLabel
         label.translatesAutoresizingMaskIntoConstraints = false

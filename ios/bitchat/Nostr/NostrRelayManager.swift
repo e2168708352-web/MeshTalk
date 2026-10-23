@@ -1307,7 +1307,7 @@ final class NostrRelayManager: ObservableObject {
         guard shouldDeliverInboundEvent(subscriptionID: subId, eventID: event.id) else {
             return
         }
-        if event.kind != 1059 {
+        if event.kind != NostrProtocol.EventKind.giftWrap.rawValue {
             // Per-event logging floods dev builds in busy geohashes; sample it.
             inboundEventLogCount += 1
             if inboundEventLogCount == 1 || inboundEventLogCount.isMultiple(of: TransportConfig.nostrInboundEventLogInterval) {
@@ -1864,7 +1864,7 @@ struct NostrFilter: Encodable {
     // For NIP-17 gift wraps
     static func giftWrapsFor(pubkey: String, since: Date? = nil) -> NostrFilter {
         var filter = NostrFilter()
-        filter.kinds = [1059] // Gift wrap kind
+        filter.kinds = [NostrProtocol.EventKind.giftWrap.rawValue]
         filter.since = since?.timeIntervalSince1970.toInt()
         filter.tagFilters = ["p": [pubkey]]
         filter.limit = TransportConfig.nostrRelayDefaultFetchLimit // reasonable limit
@@ -1874,7 +1874,7 @@ struct NostrFilter: Encodable {
     // For location channels: geohash-scoped ephemeral events (kind 20000) and presence (kind 20001)
     static func geohashEphemeral(_ geohash: String, since: Date? = nil, limit: Int = 1000) -> NostrFilter {
         var filter = NostrFilter()
-        filter.kinds = [20000, 20001]
+        filter.kinds = [NostrProtocol.EventKind.ephemeralEvent.rawValue, NostrProtocol.EventKind.geohashPresence.rawValue]
         filter.since = since?.timeIntervalSince1970.toInt()
         filter.tagFilters = ["g": [geohash]]
         filter.limit = limit
@@ -1884,7 +1884,7 @@ struct NostrFilter: Encodable {
     // For location notes: persistent text notes (kind 1) tagged with geohash
     static func geohashNotes(_ geohash: String, since: Date? = nil, limit: Int = 200) -> NostrFilter {
         var filter = NostrFilter()
-        filter.kinds = [1]
+        filter.kinds = [NostrProtocol.EventKind.textNote.rawValue]
         filter.since = since?.timeIntervalSince1970.toInt()
         filter.tagFilters = ["g": [geohash]]
         filter.limit = limit
@@ -1894,7 +1894,7 @@ struct NostrFilter: Encodable {
     // For location notes with neighbors: subscribe to multiple geohashes (center + neighbors)
     static func geohashNotes(_ geohashes: [String], since: Date? = nil, limit: Int = 200) -> NostrFilter {
         var filter = NostrFilter()
-        filter.kinds = [1]
+        filter.kinds = [NostrProtocol.EventKind.textNote.rawValue]
         filter.since = since?.timeIntervalSince1970.toInt()
         filter.tagFilters = ["g": geohashes]
         filter.limit = limit
@@ -1905,7 +1905,7 @@ struct NostrFilter: Encodable {
     // (kind 20001) tagged `#r` with one or more cells (own + neighbors).
     static func bridgeRendezvous(_ cells: [String], since: Date? = nil, limit: Int = 200) -> NostrFilter {
         var filter = NostrFilter()
-        filter.kinds = [20000, 20001]
+        filter.kinds = [NostrProtocol.EventKind.ephemeralEvent.rawValue, NostrProtocol.EventKind.geohashPresence.rawValue]
         filter.since = since?.timeIntervalSince1970.toInt()
         filter.tagFilters = ["r": cells]
         filter.limit = limit

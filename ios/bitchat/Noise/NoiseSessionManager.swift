@@ -85,7 +85,7 @@ final class NoiseSessionManager {
     private let ordinaryResponderHandshakeTimeout: TimeInterval
     private let recentInitiatorCompletionGracePeriod: TimeInterval
     private let ordinaryReconnectRollbackCooldown: TimeInterval
-    private let managerQueue = DispatchQueue(label: "chat.bitchat.noise.manager", attributes: .concurrent)
+    private let managerQueue = DispatchQueue(label: "chat.meshtalk.noise.manager", attributes: .concurrent)
     
     // Callbacks
     var onSessionEstablished: ((PeerID, Curve25519.KeyAgreement.PublicKey, UUID) -> Void)?

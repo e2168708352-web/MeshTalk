@@ -24,7 +24,7 @@ final class NostrProcessedEventStore {
     private let fileURL: URL?
     // All file access is serialized here: appends are read-modify-write, and
     // overlapping debounced flushes would otherwise race and drop IDs.
-    private let ioQueue = DispatchQueue(label: "chat.bitchat.nostr-processed-events", qos: .utility)
+    private let ioQueue = DispatchQueue(label: "chat.meshtalk.nostr-processed-events", qos: .utility)
 
     init(fileURL: URL? = nil) {
         self.fileURL = fileURL ?? Self.defaultFileURL()

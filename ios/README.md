@@ -1,20 +1,10 @@
-<img width="256" height="256" alt="icon_128x128@2x" src="https://github.com/user-attachments/assets/90133f83-b4f6-41c6-aab9-25d0859d2a47" />
+# MeshTalk for iOS
 
-## bitchat
+> MeshTalk is an independent fork of bitchat. See [../README.md](../README.md) for branding, network isolation, build, and compliance details.
+
+## MeshTalk
 
 A decentralized peer-to-peer messaging app with dual transport architecture: local Bluetooth mesh networks for offline communication and internet-based Nostr protocol for global reach. No accounts, no phone numbers, no central servers. It's the side-groupchat.
-
-[bitchat.free](http://bitchat.free)
-
-📲 [App Store](https://apps.apple.com/us/app/bitchat-mesh/id6748219622)
-
-📲 [Play Store](https://play.google.com/store/apps/details?id=com.bitchat.droid)
-
-### Getting a copy you can trust
-
-Install from the App Store, or build from source you have verified. A compiled build from anywhere else cannot be verified — see [Verifying bitchat](docs/VERIFYING-A-BUILD.md) for how to check source against the per-release hash manifest, and for what to do if that is the only build you can get.
-
-This matters more than it usually would: this repository has been the target of takedown demands, and when a repository or releases page disappears, mirrors appear that nobody can check.
 
 ## License
 
@@ -108,7 +98,7 @@ For detailed protocol documentation, see the [Technical Whitepaper](WHITEPAPER.m
 ### Option 1: Using Xcode
 
 ```bash
-open bitchat.xcodeproj
+open MeshTalk.xcodeproj
 ```
 
 For a signed device build, create your ignored local configuration and replace
@@ -126,14 +116,14 @@ Useful command-line checks from the repository root:
 
 ```bash
 # macOS Debug build without signing
-xcodebuild -project bitchat.xcodeproj -scheme "bitchat (macOS)" \
+xcodebuild -project MeshTalk.xcodeproj -scheme "MeshTalk (macOS)" \
   -configuration Debug CODE_SIGNING_ALLOWED=NO build
 
 # Full SwiftPM test suite
 swift test
 
 # iOS simulator tests
-xcodebuild -project bitchat.xcodeproj -scheme "bitchat (iOS)" \
+xcodebuild -project MeshTalk.xcodeproj -scheme "MeshTalk (iOS)" \
   -sdk iphonesimulator \
   -destination 'platform=iOS Simulator,name=iPhone 17' test
 ```
@@ -141,7 +131,7 @@ xcodebuild -project bitchat.xcodeproj -scheme "bitchat (iOS)" \
 If `iPhone 17` is unavailable, choose an installed simulator from:
 
 ```bash
-xcodebuild -showdestinations -project bitchat.xcodeproj -scheme "bitchat (iOS)"
+xcodebuild -showdestinations -project MeshTalk.xcodeproj -scheme "MeshTalk (iOS)"
 ```
 
 ### Option 2: Using `just`
@@ -152,7 +142,7 @@ just check
 just run
 ```
 
-`just build` and `just run` use the current `bitchat (macOS)` scheme and keep
+`just build` and `just run` use the current `MeshTalk (macOS)` scheme and keep
 Xcode output in the ignored `.DerivedData/` directory. They never patch source,
 project, configuration, or entitlement files.
 
@@ -165,4 +155,4 @@ SwiftPM suite and `just test-ios` runs the iPhone 17 simulator suite.
 - App localizations live in `bitchat/Localizable.xcstrings`.
 - Share extension strings are separate in `bitchatShareExtension/Localization/Localizable.xcstrings`.
 - Prefer keys that describe intent (`app_info.features.offline.title`) and reuse existing ones where possible.
-- Run `xcodebuild -project bitchat.xcodeproj -scheme "bitchat (macOS)" -configuration Debug CODE_SIGNING_ALLOWED=NO build` to compile-check any localization updates.
+- Run `xcodebuild -project MeshTalk.xcodeproj -scheme "MeshTalk (macOS)" -configuration Debug CODE_SIGNING_ALLOWED=NO build` to compile-check any localization updates.

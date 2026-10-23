@@ -1,15 +1,15 @@
-# BitChat developer commands
+# MeshTalk developer commands
 #
 # Builds use a repository-local, ignored DerivedData directory. No recipe
 # patches, restores, or removes tracked project/configuration files.
 
-project := "bitchat.xcodeproj"
-macos_scheme := "bitchat (macOS)"
-ios_scheme := "bitchat (iOS)"
+project := "MeshTalk.xcodeproj"
+macos_scheme := "MeshTalk (macOS)"
+ios_scheme := "MeshTalk (iOS)"
 derived_data := ".DerivedData"
 
 default:
-    @echo "BitChat developer commands:"
+    @echo "MeshTalk developer commands:"
     @echo "  just run                Build and run the macOS app"
     @echo "  just build              Build the macOS app without signing"
     @echo "  just test               Run the SwiftPM test suite"
@@ -61,6 +61,6 @@ nuke: clean
     @echo "✅ Removed repository build caches; tracked files were untouched"
 
 info:
-    @echo "BitChat - decentralized mesh messaging"
+    @echo "MeshTalk - decentralized mesh messaging"
     @echo "macOS 13+ and iOS 16+"
     @echo "Bluetooth mesh behavior requires physical Bluetooth-capable devices"

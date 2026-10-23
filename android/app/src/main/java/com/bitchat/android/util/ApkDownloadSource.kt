@@ -43,20 +43,16 @@ data class ApkDownloadSource(
 internal object DefaultApkDownloadSources {
     const val GITHUB_ID = "github-releases"
 
-    val all = listOf(
-        ApkDownloadSource(
-            id = GITHUB_ID,
-            displayName = "GitHub Releases",
-            latestApkUrls = listOf(
-                "https://github.com/permissionlesstech/bitchat-android/releases/latest/" +
-                    "download/bitchat-android-universal.apk",
-                // Releases published before the stable asset-name rollout use
-                // this filename. Remove when supported releases all use the primary URL.
-                "https://github.com/permissionlesstech/bitchat-android/releases/latest/" +
-                    "download/app-universal-release.apk"
-            )
-        )
-    )
+    /**
+     * MeshTalk deliberately has no remote APK source.
+     *
+     * The upstream app shipped a self-update path that fetched a universal
+     * bitchat APK from GitHub. Keeping that path would install software from a
+     * different network and bypass the store's update channel. Local APK
+     * sharing from the running installation remains available; remote
+     * downloads are disabled.
+     */
+    val all: List<ApkDownloadSource> = emptyList()
 }
 
 /**
