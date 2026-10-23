@@ -442,8 +442,6 @@ final class ChatViewModel: ObservableObject, BitchatDelegate, SynchronousMessage
 
     // MARK: - Public message batching (UI perf)
     let publicMessagePipeline: PublicMessagePipeline
-    // Single-writer: mutate only via `setPublicBatching(_:)` below.
-    @Published private(set) var isBatchingPublic: Bool = false
 
     // Backing store for `sentReadReceipts` persistence. `.standard` in
     // production; injectable so tests can use a scratch suite that does not
@@ -565,12 +563,6 @@ final class ChatViewModel: ObservableObject, BitchatDelegate, SynchronousMessage
         let oldCount = sentReadReceipts.count
         sentReadReceipts = sentReadReceipts.intersection(validMessageIDs)
         return oldCount - sentReadReceipts.count
-    }
-
-    /// Publishes the public-timeline batching state (UI animation suppression).
-    @MainActor
-    func setPublicBatching(_ isBatching: Bool) {
-        isBatchingPublic = isBatching
     }
 
     @MainActor
@@ -1706,6 +1698,8 @@ final class ChatViewModel: ObservableObject, BitchatDelegate, SynchronousMessage
         _ = clearGeoSamplingSubs()
         cachedGeohashIdentity = nil
         nostrKeyMapping.removeAll()
+        // Every pubkey seen in any geohash this session, with when.
+        participantTracker.clear()
 
         // Clear read receipt tracking
         sentReadReceipts.removeAll()

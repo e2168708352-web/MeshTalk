@@ -24,10 +24,6 @@ protocol ChatPublicConversationContext: AnyObject {
     var currentGeohash: String? { get }
     var nickname: String { get }
     var myPeerID: PeerID { get }
-    /// Publishes the public-timeline batching state (UI animation suppression).
-    /// (Single mutation path for the owner's `isBatchingPublic`; this
-    /// coordinator never reads it.)
-    func setPublicBatching(_ isBatching: Bool)
     /// Signals that message state changed so observers refresh (e.g. `objectWillChange.send()`).
     func notifyUIChanged()
 
@@ -249,14 +245,17 @@ final class ChatPublicConversationCoordinator: PublicMessagePipelineDelegate {
         )
     }
 
+    /// Runs once per participant on every roster rebuild, so keep it to one
+    /// lowercase copy: `publicKeyHex` is already lowercase.
     func displayNameForNostrPubkey(_ pubkeyHex: String) -> String {
         let suffix = String(pubkeyHex.suffix(4))
+        let key = pubkeyHex.lowercased()
         if let geohash = context.currentGeohash,
            let myGeoIdentity = try? context.deriveNostrIdentity(forGeohash: geohash),
-           myGeoIdentity.publicKeyHex.lowercased() == pubkeyHex.lowercased() {
+           myGeoIdentity.publicKeyHex == key {
             return context.nickname + "#" + suffix
         }
-        if let nick = context.geoNicknames[pubkeyHex.lowercased()], !nick.isEmpty {
+        if let nick = context.geoNicknames[key], !nick.isEmpty {
             return nick + "#" + suffix
         }
         return "anon#\(suffix)"
@@ -584,10 +583,6 @@ final class ChatPublicConversationCoordinator: PublicMessagePipelineDelegate {
 
     func pipelinePrewarmMessage(_: PublicMessagePipeline, message: BitchatMessage) {
         context.prewarmMessageFormatting(message)
-    }
-
-    func pipelineSetBatchingState(_: PublicMessagePipeline, isBatching: Bool) {
-        context.setPublicBatching(isBatching)
     }
 }
 

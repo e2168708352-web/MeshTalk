@@ -11,7 +11,6 @@ final class ConversationUIModel: ObservableObject {
     @Published private(set) var autocompleteSuggestions: [String] = []
     @Published private(set) var selectedAutocompleteIndex = 0
     @Published private(set) var currentNickname: String
-    @Published private(set) var isBatchingPublic = false
     @Published private(set) var canSendMediaInCurrentContext = true
     @Published private(set) var legacyPrivateMediaConsentRequest: LegacyPrivateMediaConsentRequest?
     /// Who is talking live in the public mesh channel right now (floor
@@ -43,7 +42,6 @@ final class ConversationUIModel: ObservableObject {
         self.conversations = conversations
         self.activeChannel = conversations.activeChannel
         self.currentNickname = chatViewModel.nickname
-        self.isBatchingPublic = chatViewModel.isBatchingPublic
         self.showAutocomplete = chatViewModel.showAutocomplete
         self.autocompleteSuggestions = chatViewModel.autocompleteSuggestions
         self.selectedAutocompleteIndex = chatViewModel.selectedAutocompleteIndex
@@ -264,31 +262,35 @@ final class ConversationUIModel: ObservableObject {
     }
 
     private func bind() {
+        // Every message row observes this model, so each republish re-renders
+        // all of them: forward only real changes, never a re-sent equal value.
         chatViewModel.$nickname
+            .removeDuplicates()
             .receive(on: DispatchQueue.main)
             .assign(to: &$currentNickname)
 
         chatViewModel.$showAutocomplete
+            .removeDuplicates()
             .receive(on: DispatchQueue.main)
             .assign(to: &$showAutocomplete)
 
         chatViewModel.$autocompleteSuggestions
+            .removeDuplicates()
             .receive(on: DispatchQueue.main)
             .assign(to: &$autocompleteSuggestions)
 
         chatViewModel.$selectedAutocompleteIndex
+            .removeDuplicates()
             .receive(on: DispatchQueue.main)
             .assign(to: &$selectedAutocompleteIndex)
 
-        chatViewModel.$isBatchingPublic
-            .receive(on: DispatchQueue.main)
-            .assign(to: &$isBatchingPublic)
-
         chatViewModel.$activePublicVoiceTalker
+            .removeDuplicates()
             .receive(on: DispatchQueue.main)
             .assign(to: &$activeLiveVoiceTalker)
 
         chatViewModel.$legacyPrivateMediaConsentRequest
+            .removeDuplicates()
             .receive(on: DispatchQueue.main)
             .assign(to: &$legacyPrivateMediaConsentRequest)
 
@@ -321,18 +323,24 @@ final class ConversationUIModel: ObservableObject {
     }
 
     private func refreshComputedState() {
+        let canSendMedia: Bool
         if let selectedPeerID = privateConversationModel.selectedPeerID {
             // Media transfer is not wired for groups in v1; keep it off so the
             // composer can't strand a media placeholder that never sends.
-            canSendMediaInCurrentContext = !(selectedPeerID.isGeoDM || selectedPeerID.isGeoChat || selectedPeerID.isGroup)
-            return
+            canSendMedia = !(selectedPeerID.isGeoDM || selectedPeerID.isGeoChat || selectedPeerID.isGroup)
+        } else {
+            switch activeChannel {
+            case .mesh:
+                canSendMedia = true
+            case .location:
+                canSendMedia = false
+            }
         }
-
-        switch activeChannel {
-        case .mesh:
-            canSendMediaInCurrentContext = true
-        case .location:
-            canSendMediaInCurrentContext = false
+        // Every write republishes to every message row, and most triggers
+        // (each peer, favorite or status refresh of the selection) leave the
+        // value as it was.
+        if canSendMediaInCurrentContext != canSendMedia {
+            canSendMediaInCurrentContext = canSendMedia
         }
     }
 }
