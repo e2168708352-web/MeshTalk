@@ -374,7 +374,7 @@
           <li><strong>与官方 bitchat 不互通。</strong>MeshTalk 使用独立的 BLE 服务 UUID、Nostr 事件类型与私信前缀，因此官方客户端不会发现 MeshTalk 用户，反之亦然。这是刻意的网络命名空间隔离，不是缺陷。</li>
           <li><strong>Android 包为 debug 签名。</strong>仅适合测试与侧载。正式分发必须使用自己的 release keystore，否则无法上架，也无法覆盖升级。</li>
           <li><strong>iOS 包未签名。</strong>需要重签后才能安装到真机。免费 Apple ID 签名的证书 7 天过期，到期需重新签名。</li>
-          <li><strong>尚未完成真机功能验收。</strong>两端均已通过云构建并产出可安装包，但蓝牙连接、分享扩展、后台唤醒等行为仍需在真实设备上逐项确认。</li>
+          <li><strong>真机验证已完成。</strong>iOS 与 Android 均已在真实设备上安装并验证通信，双向收发正常。验证范围是基础通信链路；分享扩展、后台唤醒、大文件传输等边界场景尚未逐项覆盖。</li>
           <li><strong>蓝牙权限异常时请先重启设备。</strong>若系统设置中已授权但应用仍提示缺少权限，通常是系统蓝牙服务残留状态，重启设备可清除。</li>
         </ul>
       </div>
