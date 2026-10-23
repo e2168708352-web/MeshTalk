@@ -1463,6 +1463,21 @@ final class BLEService: NSObject {
         centralManager = nil
         peripheralManager = nil
         initializeBluetoothManagersIfNeeded()
+
+        // A rebuilt manager normally resolves to `.poweredOn` within a beat. If
+        // it still reports `.unauthorized` while TCC says the app is allowed,
+        // the grant does not match this binary's signing identity — reinstalling
+        // is the only remedy, so stop rebuilding and let the UI say so instead
+        // of looping on a misleading "grant permission" message.
+        bleQueue.asyncAfter(deadline: .now() + 1.2) { [weak self] in
+            guard let self else { return }
+            guard self.centralManager?.state == .unauthorized,
+                  CBManager.authorization == .allowedAlways else { return }
+            SecureLogger.warning(
+                "⚠️ Bluetooth still unauthorized after rebuild despite an allowed TCC decision - signing identity mismatch, reinstall required",
+                category: .session
+            )
+        }
     }
 
     // MARK: Messaging

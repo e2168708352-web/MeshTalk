@@ -1489,7 +1489,19 @@ final class ChatViewModel: ObservableObject, BitchatDelegate, SynchronousMessage
         bluetoothState = state
         let alertUpdate = ChatBluetoothAlertPolicy.update(for: state)
         showBluetoothAlert = alertUpdate.isPresented
-        if let message = alertUpdate.message {
+        guard let message = alertUpdate.message else { return }
+        // `.unauthorized` covers two very different situations: the user never
+        // granted access, and the system granted it to an identity that does
+        // not match this binary. Sending the second group to a permission
+        // toggle that is already on is why the alert felt like it "never goes
+        // away", so name the actual remedy instead.
+        if state == .unauthorized, CBManager.authorization == .allowedAlways {
+            bluetoothAlertMessage = String(
+                localized: "content.alert.bluetooth_required.stale_authorization",
+                defaultValue: "Bluetooth access is already allowed for MeshTalk, but the Bluetooth service is not responding. Close and reopen the app; if that does not help, delete MeshTalk and install it again.",
+                comment: "Shown when the system reports Bluetooth as allowed but the radio still refuses to start"
+            )
+        } else {
             bluetoothAlertMessage = message
         }
     }
