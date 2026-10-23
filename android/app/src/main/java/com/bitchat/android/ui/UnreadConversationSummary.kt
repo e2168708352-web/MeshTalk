@@ -1,6 +1,7 @@
 package com.bitchat.android.ui
 
 import com.bitchat.android.model.BitchatMessage
+import com.bitchat.android.model.MessageAuthorship
 
 internal enum class DirectMessageTransport {
     MESH,
@@ -52,7 +53,7 @@ internal fun buildUnreadConversationSummaries(
             .orEmpty()
             .distinctBy { it.id }
         val incomingMessages = messages.filterNot {
-            it.sender in normalizedCurrentUserIdentifiers
+            MessageAuthorship.isOwn(it, normalizedCurrentUserIdentifiers)
         }
         val unreadIncomingMessages = incomingMessages.filterNot(isMessageRead)
         val latestMessage = (unreadIncomingMessages.ifEmpty { incomingMessages })

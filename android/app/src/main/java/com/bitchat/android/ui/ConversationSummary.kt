@@ -3,6 +3,7 @@ package com.bitchat.android.ui
 import com.bitchat.android.model.BitchatMessage
 import com.bitchat.android.model.BitchatMessageType
 import com.bitchat.android.model.DeliveryStatus
+import com.bitchat.android.model.MessageAuthorship
 import com.bitchat.android.services.PrivateMessageArrivalOrder
 
 /**
@@ -76,8 +77,7 @@ internal fun buildConversationSummaries(
             compareBy<BitchatMessage>(::activityOrder).thenBy { it.id }
         ) ?: return@mapNotNull null
         fun isOutgoing(message: BitchatMessage): Boolean =
-            message.sender.lowercase() in currentUsers ||
-                message.senderPeerID?.lowercase() in currentUsers
+            MessageAuthorship.isOwn(message, currentUsers)
 
         val incoming = messages.filterNot {
             isOutgoing(it) || it.sender == "system"
