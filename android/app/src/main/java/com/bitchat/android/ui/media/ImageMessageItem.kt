@@ -27,6 +27,7 @@ import com.bitchat.android.ui.theme.BitchatFontFamily
 import com.bitchat.android.mesh.MeshService
 import com.bitchat.android.model.BitchatMessage
 import com.bitchat.android.model.BitchatMessageType
+import com.bitchat.android.model.MessageAuthorship
 import androidx.compose.material3.ColorScheme
 import com.bitchat.android.core.ui.component.text.AnnotatedClickableText
 import com.bitchat.android.ui.theme.LocalBitchatPalette
@@ -79,6 +80,7 @@ fun ImageMessageItem(
             ImageMessageCard(
                 message = message,
                 currentUserNickname = currentUserNickname,
+                myPeerID = meshService.myPeerID,
                 path = path,
                 bmp = bmp,
                 imagePaths = imagePaths,
@@ -129,6 +131,7 @@ fun ImageMessageItem(
                 ImageMessageCard(
                     message = message,
                     currentUserNickname = currentUserNickname,
+                    myPeerID = meshService.myPeerID,
                     path = path,
                     bmp = bmp,
                     imagePaths = imagePaths,
@@ -149,6 +152,7 @@ fun ImageMessageItem(
 private fun ImageMessageCard(
     message: BitchatMessage,
     currentUserNickname: String,
+    myPeerID: String,
     path: String,
     bmp: android.graphics.Bitmap?,
     imagePaths: List<String>,
@@ -167,6 +171,9 @@ private fun ImageMessageCard(
         is com.bitchat.android.model.DeliveryStatus.PartiallyDelivered -> if (st.total > 0) st.reached.toFloat() / st.total.toFloat() else 0f
         else -> null
     }
+    // A namesake must never expose this row's transfer controls: cancelling a
+    // transfer you do not own would abort someone else's upload.
+    val isMine = MessageAuthorship.isOwn(message, setOf(currentUserNickname, myPeerID))
     Box {
         val imageModifier = Modifier
             .widthIn(max = 300.dp)
@@ -179,7 +186,7 @@ private fun ImageMessageCard(
                 },
                 onLongClick = { onLongPress?.invoke() },
             )
-        if (progressFraction != null && progressFraction < 1f && message.sender == currentUserNickname) {
+        if (progressFraction != null && progressFraction < 1f && isMine) {
             // Cyberpunk block-reveal while sending
             BlockRevealImage(
                 bitmap = img,
@@ -198,7 +205,7 @@ private fun ImageMessageCard(
             )
         }
         // Cancel button overlay during sending
-        val showCancel = message.sender == currentUserNickname && (message.deliveryStatus is com.bitchat.android.model.DeliveryStatus.PartiallyDelivered)
+        val showCancel = isMine && (message.deliveryStatus is com.bitchat.android.model.DeliveryStatus.PartiallyDelivered)
         if (showCancel) {
             Box(
                 modifier = Modifier

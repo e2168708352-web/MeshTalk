@@ -22,6 +22,7 @@ import com.bitchat.android.R
 import com.bitchat.android.core.ui.component.text.AnnotatedClickableText
 import com.bitchat.android.mesh.MeshService
 import com.bitchat.android.model.BitchatMessage
+import com.bitchat.android.model.MessageAuthorship
 import androidx.compose.material3.ColorScheme
 import com.bitchat.android.ui.theme.LocalBitchatPalette
 import java.text.SimpleDateFormat
@@ -84,7 +85,9 @@ fun AudioMessageItem(
                     progressColor = overrideColor,
                     modifier = Modifier.widthIn(max = 260.dp)
                 )
-                val showCancel = message.sender == currentUserNickname && (message.deliveryStatus is com.bitchat.android.model.DeliveryStatus.PartiallyDelivered)
+                // A namesake must never expose this row's transfer controls:
+            // cancelling a transfer you do not own would abort someone else's upload.
+            val showCancel = MessageAuthorship.isOwn(message, setOf(currentUserNickname, meshService.myPeerID)) && (message.deliveryStatus is com.bitchat.android.model.DeliveryStatus.PartiallyDelivered)
                 if (showCancel) {
                     Spacer(Modifier.width(8.dp))
                     Box(
@@ -148,7 +151,9 @@ fun AudioMessageItem(
                 progressOverride = overrideProgress,
                 progressColor = overrideColor,
             )
-            val showCancel = message.sender == currentUserNickname && (message.deliveryStatus is com.bitchat.android.model.DeliveryStatus.PartiallyDelivered)
+            // A namesake must never expose this row's transfer controls:
+            // cancelling a transfer you do not own would abort someone else's upload.
+            val showCancel = MessageAuthorship.isOwn(message, setOf(currentUserNickname, meshService.myPeerID)) && (message.deliveryStatus is com.bitchat.android.model.DeliveryStatus.PartiallyDelivered)
             if (showCancel) {
                 Spacer(Modifier.width(8.dp))
                 Box(
