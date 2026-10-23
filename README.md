@@ -34,8 +34,9 @@ MeshTalk 是一个以 [bitchat](https://github.com/permissionlesstech/bitchat) i
 - **与官方的具体差异**：品牌名称与图标、配色、Bundle ID `com.meshtalk.app`、
   URL scheme、BLE 服务与特征 UUID、Nostr 事件类型、私信前缀、Wi-Fi Direct/Aware
   标识符，以及两个消息归属判定的缺陷修复。除此之外与上游无差别。
-- **跟进上游**。会持续同步官方的安全修复与协议变更。截至 2026-10-24，本分支落后
-  上游 6 个提交，内容为 geochat 性能优化与一次加密依赖升级，不含安全修复。
+- **跟进上游**。截至 2026-10-24，本分支**已与上游 `main` 完全对齐**：iOS 侧补齐了
+  geochat 性能优化、消息归属判定修复与加密依赖升级；Android 侧导入时即与
+  `bitchat-android` 同步，无需移植。后续会持续跟进官方的安全修复与协议变更。
 - **与官方的关系**：本分支与 bitchat 项目及其维护者无隶属、背书或赞助关系。
   官方不会为本分支的任何问题提供支持。
 

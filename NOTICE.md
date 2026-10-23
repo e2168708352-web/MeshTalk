@@ -23,8 +23,10 @@ upstream open-source code and publishes installable packages for those users.
 - **The separate network namespace is deliberate.** It keeps this fork's users
   from being singled out and blocked in bulk. It is not a new protocol: the wire
   format and cryptography are identical to upstream.
-- **Upstream is followed.** As of 2026-10-24 this branch trails upstream by six
-  commits — geochat performance work and one dependency bump, no security fixes.
+- **Upstream is followed.** As of 2026-10-24 this branch matches upstream `main`
+  on both platforms: the iOS side picked up the geochat scaling work, the
+  sender-ID authorship fix and the secp256k1 bump; the Android side was already
+  in sync when it was imported.
 
 ## Upstream projects
 
