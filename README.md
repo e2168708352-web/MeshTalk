@@ -4,19 +4,20 @@ MeshTalk 是一个以 [bitchat](https://github.com/permissionlesstech/bitchat) i
 [bitchat-android](https://github.com/permissionlesstech/bitchat-android) 为上游的独立分支。
 
 - 应用名称：**MeshTalk**
+- 仓库：<https://github.com/e2168708352-web/MeshTalk>
 - Android `applicationId` / iOS Bundle ID：`com.meshtalk.app`
 - 版本：`1.0.0`（versionCode `1`）
 - Android 最低版本：API 26；目标版本：API 37
 - iOS 最低版本：iOS 16.0
 - 上游协议实现、加密算法和包格式保持不变；品牌、图标、配色与网络命名空间已独立。
 
-> 当前状态：Android APK 已在本机编译并验证。iOS 工程已准备好 GitHub Actions
-> 无签名构建流程，但本机没有 macOS/Xcode，尚未在真机上编译验证。
+> 当前状态：两端安装包均由 GitHub Actions 云构建产出。Android 单元测试 631 项
+> 全部通过；iOS 产出无签名 IPA，需自行重签后安装。两端均尚未完成真机功能验收。
 
 ## 目录
 
 ```
-meshtalk/
+MeshTalk/
 ├─ android/                 Android 应用（Gradle）
 ├─ ios/                     iOS / macOS 应用（Xcode + SwiftPM）
 ├─ .github/workflows/       Android APK 与 iOS unsigned IPA 云构建
@@ -92,12 +93,17 @@ iOS 需要 macOS + Xcode 26 或更新版本。品牌与 Bundle ID 已经配置�
 
 ### 使用 GitHub Actions 生成无签名 IPA
 
-1. 把仓库推送到 GitHub。
-2. 打开 **Actions → iOS unsigned IPA → Run workflow**。
-3. 构建完成后下载 artifact `MeshTalk-unsigned-ipa`。
+工作流 `.github/workflows/ios-unsigned.yml` 已在仓库中配置并验证通过
+（runner `macos-26`）：
 
-该 IPA 没有签名，不能直接安装到非越狱设备。需要用你自己的 Apple Developer
-证书重签，或直接在 Xcode 中选择你的 Team 后运行到真机。
+- 推送到 `main` 且改动落在 `ios/**` 时自动触发；
+- 也可在 **Actions → iOS unsigned IPA → Run workflow** 手动触发；
+- 构建完成后下载 artifact `MeshTalk-unsigned-ipa`，内含
+  `MeshTalk-unsigned.ipa` 与其 SHA-256 校验文件。
+
+构建采用 `CODE_SIGNING_ALLOWED=NO`，因此产物没有签名，不能直接安装到非越狱设备。
+需要用你自己的 Apple Developer 证书重签（或使用 Sideloadly 之类工具以 Apple ID
+本地重签），也可以在 Xcode 中选择你的 Team 后直接运行到真机。
 
 ### 本机签名构建
 
@@ -132,7 +138,17 @@ open MeshTalk.xcodeproj
 
 ## 已知限制
 
-- iOS 尚未在本机编译；首次云构建可能需要根据 Xcode 版本修正签名或依赖问题。
+- iOS 目前仅验证到「CI 上可编译并打包」这一层，未做真机功能验收；蓝牙、分享扩展、
+  后台唤醒等行为需要在真实设备上确认。
+- iOS 蓝牙权限：`CBCentralManager` 会缓存创建时的授权状态。若应用在权限被拒的状态下
+  启动了蓝牙管理器，之后在系统设置里授权，该实例仍可能继续返回 `.unauthorized`。
+  应用已在回到前台时用 `CBManager.authorization` 与缓存状态比对，必要时重建管理器，
+  但若系统层面未记录授权（例如签名身份异常导致 TCC 记录无法持久化），仍需重新签名安装。
+- Android CI 依赖 runner 预装的 SDK，不要在 `ubuntu-latest` 上使用
+  `android-actions/setup-android`：该动作内部执行 `sdkmanager tools`，而 `tools`
+  包已被上游移除，会直接失败。同时 `sdkmanager` 不在 PATH 上，需从
+  `$ANDROID_HOME/cmdline-tools/*/bin` 解析；平台包名是 `platforms;android-37.0`
+  （API 37.0 / Android 17），不是 `platforms;android-37`。
 - 在 Windows 上运行 Android 单元测试时，Robolectric 的临时目录可能因路径过长
   触发 `SQLITE_CANTOPEN`。把临时目录指到短路径即可：
 

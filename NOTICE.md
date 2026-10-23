@@ -13,7 +13,9 @@ sponsored by the bitchat project or its maintainers.
 - MeshTalk changes: display name, bundle identifier, app group, URL scheme,
   keychain and queue identifiers, BLE service/characteristic UUIDs, Nostr event
   kinds, private-message prefix, relay source pinning, colors, typography,
-  app icons, header branding, and share text.
+  app icons, header branding, share text, and a Bluetooth authorization re-sync
+  that rebuilds the CoreBluetooth managers when access is granted in Settings
+  after the app already started without it.
 
 The iOS source files retain their original copyright/license headers. The
 Unlicense dedication continues to apply to the upstream portions; MeshTalk's
