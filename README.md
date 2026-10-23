@@ -5,6 +5,7 @@ MeshTalk 是一个以 [bitchat](https://github.com/permissionlesstech/bitchat) i
 
 - 应用名称：**MeshTalk**
 - 仓库：<https://github.com/e2168708352-web/MeshTalk>
+- 官网：<https://e2168708352-web.github.io/MeshTalk/>（源码见 `docs/`）
 - Android `applicationId` / iOS Bundle ID：`com.meshtalk.app`
 - 版本：`1.0.0`（versionCode `1`）
 - Android 最低版本：API 26；目标版本：API 37
