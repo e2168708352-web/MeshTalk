@@ -1,0 +1,166 @@
+import SwiftUI
+
+struct GeohashPeopleList: View {
+    @EnvironmentObject private var peerListModel: PeerListModel
+    @ThemedPalette private var palette
+    let onTapPerson: () -> Void
+    @Environment(\.colorScheme) var colorScheme
+    @State private var orderedIDs: [String] = []
+
+    private enum Strings {
+        static let noneNearby: LocalizedStringKey = "geohash_people.none_nearby"
+        static let youSuffix: LocalizedStringKey = "geohash_people.you_suffix"
+        static let blockedTooltip = String(localized: "geohash_people.tooltip.blocked", comment: "Tooltip shown next to users blocked in geohash channels")
+        static let unblock: LocalizedStringKey = "geohash_people.action.unblock"
+        static let block: LocalizedStringKey = "geohash_people.action.block"
+        static let unblockText = String(localized: "geohash_people.action.unblock", comment: "Context menu action to unblock a person")
+        static let blockText = String(localized: "geohash_people.action.block", comment: "Context menu action to block a person")
+        static let teleported = String(localized: "geohash_people.state.teleported", comment: "State label for someone who joined the location channel from elsewhere")
+        static let nearby = String(localized: "geohash_people.state.nearby", comment: "State label for someone physically in the location channel's area")
+        static let blockedState = String(localized: "mesh_peers.state.blocked", comment: "State label for a blocked peer")
+        static let youState = String(localized: "geohash_people.state.you", comment: "State label marking your own row in the people list")
+        static let openDMHint = String(localized: "mesh_peers.accessibility.open_dm_hint", comment: "Accessibility hint on a peer row explaining activation opens a private chat")
+    }
+
+    var body: some View {
+        if peerListModel.geohashPeople.isEmpty {
+            VStack(alignment: .leading, spacing: 0) {
+                Text(Strings.noneNearby)
+                    .bitchatFont(size: 14)
+                    .foregroundColor(palette.secondary)
+                    .padding(.horizontal)
+                    .padding(.top, 12)
+            }
+        } else {
+            let people = peerListModel.geohashPeople
+            let currentIDs = people.map(\.id)
+
+            let displayIDs = orderedIDs.filter { currentIDs.contains($0) } + currentIDs.filter { !orderedIDs.contains($0) }
+            let nonTele = displayIDs.filter { id in
+                !(people.first(where: { $0.id == id })?.isTeleported ?? false)
+            }
+            let tele = displayIDs.filter { id in
+                people.first(where: { $0.id == id })?.isTeleported ?? false
+            }
+            let finalOrder: [String] = nonTele + tele
+            let firstID = finalOrder.first
+            let personByID = Dictionary(uniqueKeysWithValues: people.map { ($0.id, $0) })
+
+            VStack(alignment: .leading, spacing: 0) {
+                ForEach(finalOrder.filter { personByID[$0] != nil }, id: \.self) { pid in
+                    let person = personByID[pid]!
+                    HStack(spacing: 4) {
+                        let icon = person.isTeleported ? "face.dashed" : "mappin.and.ellipse"
+                        let assignedColor = peerListModel.colorForGeohashPerson(id: person.id, isDark: colorScheme == .dark)
+                        let rowColor: Color = person.isMe ? .orange : assignedColor
+                        Image(systemName: icon)
+                            // Size 10 to match the mesh rows' leading glyphs —
+                            // both lists share the sidebar.
+                            .font(.bitchatSystem(size: 10))
+                            .foregroundColor(rowColor)
+                            .help(person.isTeleported ? Strings.teleported : Strings.nearby)
+
+                        let (base, suffix) = person.displayName.splitSuffix()
+                        HStack(spacing: 0) {
+                            Text(base)
+                                .bitchatFont(size: 14)
+                                .fontWeight(person.isMe ? .bold : .regular)
+                                .foregroundColor(rowColor)
+                                .lineLimit(1)
+                                .truncationMode(.tail)
+                            if !suffix.isEmpty {
+                                let suffixColor = person.isMe ? Color.orange.opacity(0.6) : rowColor.opacity(0.6)
+                                Text(suffix)
+                                    .bitchatFont(size: 14)
+                                    .foregroundColor(suffixColor)
+                            }
+                            if person.isMe {
+                                Text(Strings.youSuffix)
+                                    .bitchatFont(size: 14)
+                                    .foregroundColor(rowColor)
+                            }
+                        }
+                        if person.isBlocked {
+                            Image(systemName: "nosign")
+                                .font(.bitchatSystem(size: 10))
+                                .foregroundColor(.red)
+                                .help(Strings.blockedTooltip)
+                        }
+                        Spacer()
+                    }
+                    .padding(.horizontal)
+                    .padding(.vertical, 4)
+                    .padding(.top, person.id == firstID ? 10 : 0)
+                    .contentShape(Rectangle())
+                    .onTapGesture {
+                        if !person.isMe {
+                            peerListModel.openGeohashDirectMessage(with: person.id)
+                            onTapPerson()
+                        }
+                    }
+                    .contextMenu {
+                        if person.isMe {
+                            EmptyView()
+                        } else {
+                            if person.isBlocked {
+                                Button(Strings.unblock) {
+                                    peerListModel.unblockGeohashUser(
+                                        pubkeyHexLowercased: person.id,
+                                        displayName: person.displayName
+                                    )
+                                }
+                            } else {
+                                Button(Strings.block) {
+                                    peerListModel.blockGeohashUser(
+                                        pubkeyHexLowercased: person.id,
+                                        displayName: person.displayName
+                                    )
+                                }
+                            }
+                        }
+                    }
+                    .accessibilityElement(children: .ignore)
+                    .accessibilityLabel(accessibilityDescription(for: person))
+                    .accessibilityAddTraits(person.isMe ? [] : .isButton)
+                    .accessibilityHint(person.isMe ? "" : Strings.openDMHint)
+                    .accessibilityActions {
+                        if !person.isMe {
+                            Button(person.isBlocked ? Strings.unblockText : Strings.blockText) {
+                                if person.isBlocked {
+                                    peerListModel.unblockGeohashUser(
+                                        pubkeyHexLowercased: person.id,
+                                        displayName: person.displayName
+                                    )
+                                } else {
+                                    peerListModel.blockGeohashUser(
+                                        pubkeyHexLowercased: person.id,
+                                        displayName: person.displayName
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // Seed and update order outside result builder
+            .onAppear {
+                orderedIDs = currentIDs
+            }
+            .onChange(of: currentIDs) { ids in
+                var newOrder = orderedIDs
+                newOrder.removeAll { !ids.contains($0) }
+                for id in ids where !newOrder.contains(id) { newOrder.append(id) }
+                if newOrder != orderedIDs { orderedIDs = newOrder }
+            }
+        }
+    }
+
+    /// One spoken sentence per row: name, presence type, and block state.
+    private func accessibilityDescription(for person: GeohashPersonRow) -> String {
+        var parts: [String] = [person.displayName]
+        if person.isMe { parts.append(Strings.youState) }
+        parts.append(person.isTeleported ? Strings.teleported : Strings.nearby)
+        if person.isBlocked { parts.append(Strings.blockedState) }
+        return parts.joined(separator: ", ")
+    }
+}
