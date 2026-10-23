@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MeshTalk — 断网也能聊的蓝牙网状网通讯</title>
+<meta name="description" content="MeshTalk 是一款无需账号、无需服务器的离线通讯应用。通过蓝牙网状网在附近设备间直连，多跳中继扩展覆盖范围，端到端加密保护内容。">
+<meta name="theme-color" content="#060a08">
+<meta property="og:title" content="MeshTalk — 断网也能聊">
+<meta property="og:description" content="无需账号、无需服务器的离线蓝牙网状网通讯。端到端加密，多跳中继。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23060a08'/%3E%3Cpath d='M8 21V11l8 6 8-6v10' stroke='%2335d07f' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#060a08;
+    --bg-2:#0a1210;
+    --panel:#0d1614;
+    --line:#1b2b25;
+    --line-2:#24382f;
+    --text:#e7f3ed;
+    --muted:#8ba79a;
+    --dim:#5f7a6d;
+    --accent:#35d07f;
+    --accent-dim:#1d7a4c;
+    --warn:#e0b341;
+    --radius:14px;
+    --mono:ui-monospace,"SF Mono","Cascadia Mono","JetBrains Mono",Consolas,"Liberation Mono",monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--bg);color:var(--text);
+    font-family:var(--sans);font-size:16px;line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:
+      radial-gradient(900px 500px at 15% -10%, rgba(53,208,127,.10), transparent 60%),
+      radial-gradient(700px 400px at 90% 0%, rgba(53,208,127,.05), transparent 60%);
+  }
+  .wrap{position:relative;z-index:1;max-width:1060px;margin:0 auto;padding:0 22px}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  /* ---------- nav ---------- */
+  header{
+    position:sticky;top:0;z-index:20;
+    background:rgba(6,10,8,.82);backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex;align-items:center;gap:26px;height:62px}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-weight:600;letter-spacing:.5px;color:var(--text)}
+  .brand svg{display:block}
+  .nav-links{display:flex;gap:22px;margin-left:auto;font-size:14px}
+  .nav-links a{color:var(--muted)}
+  .nav-links a:hover{color:var(--text);text-decoration:none}
+  @media(max-width:720px){.nav-links{display:none}}
+
+  /* ---------- hero ---------- */
+  .hero{padding:88px 0 64px;border-bottom:1px solid var(--line)}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:var(--mono);font-size:12.5px;letter-spacing:1.4px;text-transform:uppercase;
+    color:var(--accent);border:1px solid var(--accent-dim);
+    padding:5px 12px;border-radius:999px;margin-bottom:26px;
+  }
+  .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--accent)}
+  h1{
+    font-size:clamp(34px,6vw,58px);line-height:1.15;margin:0 0 20px;
+    font-weight:700;letter-spacing:-1px;
+  }
+  h1 em{font-style:normal;color:var(--accent)}
+  .lede{font-size:clamp(16px,2.2vw,19px);color:var(--muted);max-width:620px;margin:0 0 12px}
+  .lede-en{font-family:var(--mono);font-size:13px;color:var(--dim);margin:0 0 34px;letter-spacing:.3px}
+  .cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:34px}
+  .btn{
+    display:inline-flex;align-items:center;gap:9px;
+    padding:13px 24px;border-radius:10px;font-size:15px;font-weight:600;
+    border:1px solid var(--line-2);background:var(--panel);color:var(--text);
+    transition:transform .12s ease,border-color .12s ease,background .12s ease;
+  }
+  .btn:hover{text-decoration:none;transform:translateY(-1px);border-color:var(--accent-dim)}
+  .btn-primary{background:var(--accent);color:#04160d;border-color:var(--accent)}
+  .btn-primary:hover{background:#4ade8f;border-color:#4ade8f}
+  .btn small{display:block;font-weight:400;font-size:11.5px;opacity:.75;font-family:var(--mono)}
+  .meta{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  }
+  .meta div{background:var(--bg-2);padding:14px 18px}
+  .meta dt{font-family:var(--mono);font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--dim);margin:0 0 4px}
+  .meta dd{margin:0;font-size:14.5px;font-family:var(--mono)}
+
+  /* ---------- sections ---------- */
+  section{padding:72px 0;border-bottom:1px solid var(--line)}
+  .sec-head{margin-bottom:38px}
+  .sec-head h2{font-size:clamp(22px,3.4vw,30px);margin:0 0 8px;letter-spacing:-.4px}
+  .sec-head p{margin:0;color:var(--muted);max-width:620px}
+  .sec-head .en{font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;display:block}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:16px}
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:24px;transition:border-color .15s ease,transform .15s ease;
+  }
+  .card:hover{border-color:var(--line-2);transform:translateY(-2px)}
+  .card h3{margin:0 0 8px;font-size:16.5px;display:flex;align-items:center;gap:10px}
+  .card p{margin:0;color:var(--muted);font-size:14.5px}
+  .ico{
+    width:30px;height:30px;flex:0 0 30px;border-radius:8px;
+    display:grid;place-items:center;background:rgba(53,208,127,.1);
+    border:1px solid rgba(53,208,127,.22);
+  }
+  .ico svg{width:16px;height:16px;stroke:var(--accent);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+  /* ---------- steps ---------- */
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;counter-reset:s}
+  .step{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:24px;position:relative}
+  .step::before{
+    counter-increment:s;content:counter(s,decimal-leading-zero);
+    font-family:var(--mono);font-size:12px;color:var(--accent);
+    border:1px solid var(--accent-dim);border-radius:6px;padding:2px 8px;
+    display:inline-block;margin-bottom:14px;
+  }
+  .step h3{margin:0 0 6px;font-size:16px}
+  .step p{margin:0;color:var(--muted);font-size:14.5px}
+
+  /* ---------- download ---------- */
+  .dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+  .dl-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:26px;display:flex;flex-direction:column}
+  .dl-card h3{margin:0 0 4px;font-size:17px}
+  .dl-card .sub{font-family:var(--mono);font-size:12px;color:var(--dim);margin:0 0 18px}
+  .dl-card ul{margin:0 0 20px;padding-left:18px;color:var(--muted);font-size:14px}
+  .dl-card li{margin-bottom:5px}
+  .dl-card .btn{margin-top:auto;justify-content:center}
+  .hash{
+    font-family:var(--mono);font-size:11.5px;color:var(--dim);
+    word-break:break-all;background:var(--bg);border:1px solid var(--line);
+    border-radius:8px;padding:10px 12px;margin-bottom:16px;line-height:1.6;
+  }
+
+  /* ---------- notice ---------- */
+  .notice{
+    background:linear-gradient(180deg,rgba(224,179,65,.07),rgba(224,179,65,.02));
+    border:1px solid rgba(224,179,65,.28);border-radius:var(--radius);padding:26px;
+  }
+  .notice h3{margin:0 0 14px;font-size:16px;color:var(--warn);display:flex;align-items:center;gap:9px}
+  .notice ul{margin:0;padding-left:20px;color:var(--muted);font-size:14.5px}
+  .notice li{margin-bottom:9px}
+  .notice li:last-child{margin-bottom:0}
+  .notice strong{color:var(--text);font-weight:600}
+
+  /* ---------- footer ---------- */
+  footer{padding:46px 0 60px;color:var(--dim);font-size:13.5px}
+  .foot{display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between}
+  .foot-links{display:flex;gap:20px;flex-wrap:wrap}
+  .foot a{color:var(--muted)}
+  .disclaimer{margin-top:22px;padding-top:22px;border-top:1px solid var(--line);font-size:12.5px;line-height:1.8;color:var(--dim)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="#0d1614" stroke="#1b2b25"/>
+        <path d="M8 21V11l8 6 8-6v10" stroke="#35d07f" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      MeshTalk
+    </a>
+    <nav class="nav-links">
+      <a href="#features">功能</a>
+      <a href="#how">工作方式</a>
+      <a href="#download">下载</a>
+      <a href="#limits">已知限制</a>
+      <a href="#open">开源</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow"><span class="dot"></span>v1.0.0 · Android + iOS</span>
+      <h1>断网、断基站，<br>照样把话说完。</h1>
+      <p class="lede">
+        MeshTalk 通过蓝牙把附近的设备连成一张网。没有服务器，没有账号，没有手机号。
+        消息可以经由中间设备多跳中继，把覆盖范围推到单台设备蓝牙半径之外。
+      </p>
+      <p class="lede-en">Offline mesh messaging over Bluetooth LE. No account. No server.</p>
+
+      <div class="cta">
+        <a class="btn btn-primary" href="#download">
+          下载安装包
+          <small>Android APK / iOS IPA</small>
+        </a>
+        <a class="btn" href="https://github.com/e2168708352-web/MeshTalk" target="_blank" rel="noopener">
+          查看源码
+          <small>GitHub</small>
+        </a>
+      </div>
+
+      <dl class="meta">
+        <div><dt>版本</dt><dd>1.0.0</dd></div>
+        <div><dt>Android</dt><dd>8.0+ (API 26)</dd></div>
+        <div><dt>iOS</dt><dd>16.0+</dd></div>
+        <div><dt>传输</dt><dd>BLE Mesh</dd></div>
+        <div><dt>加密</dt><dd>Noise 端到端</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="en">Features</span>
+        <h2>不依赖基础设施的通讯</h2>
+        <p>核心链路完全走本地无线，不经过任何中心服务器。</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v18M5 8l7-5 7 5M5 16l7 5 7-5"/></svg></span>蓝牙直连</h3>
+          <p>设备之间直接建立 BLE 连接，不经过路由器、基站或运营商网络。</p>
+        </div>
+        <div class="card">
+          <h3><span class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>端到端加密</h3>
+          <p>基于 Noise 协议协商会话密钥，支持前向保密；中间中继设备无法读取内容。</p>
+        </div>
+        <div class="card">
+          <h3><span class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.4"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/></svg></span>无需账号</h3>
+          <p>不收集手机号、邮箱或任何身份信息。首次启动即生成密钥对，身份即公钥。</p>
+        </div>
+        <div class="card">
+          <h3><span class="ico"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="2.4"/><circle cx="19" cy="6" r="2.4"/><circle cx="19" cy="18" r="2.4"/><path d="M7.2 11l9.6-4M7.2 13l9.6 4"/></svg></span>多跳中继</h3>
+          <p>消息可由其他设备转发，逐跳扩展覆盖范围。链路中断时仍可尽力投递。</p>
+        </div>
+        <div class="card">
+          <h3><span class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="8" height="14" rx="2"/><rect x="13" y="6" width="8" height="14" rx="2"/></svg></span>跨平台互通</h3>
+          <p>Android 与 iOS 使用同一套 BLE 包格式与加密实现，两端可直接互发。</p>
+        </div>
+        <div class="card">
+          <h3><span class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg></span>源码开放</h3>
+          <p>完整源码可审计、可自行编译。不信任二进制的人可以自己构建一份。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="en">How it works</span>
+        <h2>三步建立一条链路</h2>
+        <p>整个过程不需要联网，也不需要任何一方在线登记。</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <h3>发现</h3>
+          <p>开启蓝牙后，设备在附近广播自身标识，同时扫描同一服务标识的其他设备。</p>
+        </div>
+        <div class="step">
+          <h3>握手</h3>
+          <p>建立连接后协商 Noise 会话，双方用公钥确认身份，生成临时会话密钥。</p>
+        </div>
+        <div class="step">
+          <h3>收发</h3>
+          <p>消息加密后经 BLE 传输；超出直连范围时，由中间设备逐跳转发。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="download">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="en">Download</span>
+        <h2>下载</h2>
+        <p>当前为 1.0.0 测试版本，两端安装包均需自行处理签名后才能正式分发。</p>
+      </div>
+
+      <div class="dl">
+        <div class="dl-card">
+          <h3>Android</h3>
+          <p class="sub">APK · 通用包 · 73.3 MiB</p>
+          <ul>
+            <li>支持 Android 8.0 及以上</li>
+            <li>包含 arm64-v8a / armeabi-v7a / x86 / x86_64</li>
+            <li>debug 签名，可直接侧载安装</li>
+          </ul>
+          <div class="hash">SHA-256<br>41fcfdf97f472534f3be8abbbdf6318e7a6ce487467efe56bdbeaa54f89ff383</div>
+          <a class="btn btn-primary" href="https://github.com/e2168708352-web/MeshTalk/releases/download/v1.0.0/MeshTalk-1.0.0-debug-universal.apk">
+            下载 APK
+          </a>
+        </div>
+
+        <div class="dl-card">
+          <h3>iOS</h3>
+          <p class="sub">IPA · 未签名 · 需自行重签</p>
+          <ul>
+            <li>支持 iOS 16.0 及以上</li>
+            <li>产物未签名，无法直接安装到非越狱设备</li>
+            <li>需用自有 Apple ID 或开发者证书重签</li>
+          </ul>
+          <div class="hash">SHA-256<br>90c2e100e5886d49fc807d0bcde4635a82c29daecf11f91b260e66cacca2034c</div>
+          <a class="btn" href="https://github.com/e2168708352-web/MeshTalk/releases/download/v1.0.0/MeshTalk-1.0.0-unsigned.ipa">
+            下载 IPA
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="limits">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="en">Known limitations</span>
+        <h2>先把话说清楚</h2>
+        <p>以下是当前版本的真实状态，避免安装后产生误解。</p>
+      </div>
+
+      <div class="notice">
+        <h3>
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round">
+            <path d="M12 4l9 16H3z"/><path d="M12 10v4M12 17.5v.01"/>
+          </svg>
+          已知限制
+        </h3>
+        <ul>
+          <li><strong>与官方 bitchat 不互通。</strong>MeshTalk 使用独立的 BLE 服务 UUID、Nostr 事件类型与私信前缀，因此官方客户端不会发现 MeshTalk 用户，反之亦然。这是刻意的网络命名空间隔离，不是缺陷。</li>
+          <li><strong>Android 包为 debug 签名。</strong>仅适合测试与侧载。正式分发必须使用自己的 release keystore，否则无法上架，也无法覆盖升级。</li>
+          <li><strong>iOS 包未签名。</strong>需要重签后才能安装到真机。免费 Apple ID 签名的证书 7 天过期，到期需重新签名。</li>
+          <li><strong>尚未完成真机功能验收。</strong>两端均已通过云构建并产出可安装包，但蓝牙连接、分享扩展、后台唤醒等行为仍需在真实设备上逐项确认。</li>
+          <li><strong>蓝牙权限异常时请先重启设备。</strong>若系统设置中已授权但应用仍提示缺少权限，通常是系统蓝牙服务残留状态，重启设备可清除。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="open">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="en">Open source</span>
+        <h2>开源与许可</h2>
+        <p>MeshTalk 是基于 bitchat 的独立分支，与上游项目无官方关联。</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>源码仓库</h3>
+          <p>完整源码、构建脚本与 CI 配置均在 GitHub。Android 与 iOS 两端代码同仓维护。</p>
+          <p style="margin-top:14px"><a href="https://github.com/e2168708352-web/MeshTalk" target="_blank" rel="noopener">github.com/e2168708352-web/MeshTalk →</a></p>
+        </div>
+        <div class="card">
+          <h3>许可证</h3>
+          <p>Android 部分衍生自 GPLv3 代码，按 GPLv3 分发；iOS 部分沿用上游 Unlicense（公共领域）。分发 APK 时需同时提供对应源码。</p>
+        </div>
+        <div class="card">
+          <h3>安全说明</h3>
+          <p>协议与加密实现沿用上游，未经过独立安全审计。蓝牙广播本身可被邻近设备观测，这是 BLE 的固有属性。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div class="brand" style="font-size:14px">
+        <svg width="20" height="20" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="#0d1614" stroke="#1b2b25"/>
+          <path d="M8 21V11l8 6 8-6v10" stroke="#35d07f" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        MeshTalk
+      </div>
+      <div class="foot-links">
+        <a href="https://github.com/e2168708352-web/MeshTalk" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/e2168708352-web/MeshTalk/releases" target="_blank" rel="noopener">Releases</a>
+        <a href="https://github.com/e2168708352-web/MeshTalk/blob/main/NOTICE.md" target="_blank" rel="noopener">NOTICE</a>
+      </div>
+    </div>
+    <p class="disclaimer">
+      MeshTalk 是独立分支，与 bitchat 项目及其维护者无隶属、背书或赞助关系。
+      本软件按「现状」提供，不附带任何明示或暗示的担保。加密功能受出口管制法规约束，
+      在部分国家或地区分发前请自行确认合规性。请勿将本软件用于违法用途。
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
