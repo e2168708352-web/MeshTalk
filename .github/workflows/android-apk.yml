@@ -27,9 +27,9 @@ jobs:
           distribution: temurin
           java-version: "21"
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
+      # ubuntu-latest ships the Android SDK preinstalled (ANDROID_HOME set, sdkmanager on PATH).
+      # Do NOT add android-actions/setup-android@v3 here: it runs `sdkmanager tools`, which now
+      # fails with "Failed to find package 'tools'" because that package was removed upstream.
       - name: Install platform and build tools
         run: |
           yes | sdkmanager --licenses >/dev/null || true
@@ -37,6 +37,8 @@ jobs:
             "platforms;android-37" \
             "build-tools;37.0.0" \
             "platform-tools"
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          ls "$ANDROID_HOME/build-tools/37.0.0" | head
 
       - name: Build debug APKs
         working-directory: android
