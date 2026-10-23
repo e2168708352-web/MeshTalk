@@ -1496,16 +1496,7 @@ final class ChatViewModel: ObservableObject, BitchatDelegate, SynchronousMessage
         )
         showBluetoothAlert = alertUpdate.isPresented
         if let message = alertUpdate.message {
-            // TEMPORARY DIAGNOSTIC — remove once the device-side cause is known.
-            // The alert alone cannot say which denial path this device is on, and
-            // three rounds of inference have not settled it, so print the raw
-            // CoreBluetooth values instead of guessing again.
-            //   auth:  0=notDetermined 1=restricted 2=denied 3=allowedAlways
-            //   state: 0=unknown 1=resetting 2=unsupported 3=unauthorized
-            //          4=poweredOff 5=poweredOn
             bluetoothAlertMessage = message
-                + "\n\n[diag auth=\(CBManager.authorization.rawValue)"
-                + " state=\(state.rawValue)]"
         }
     }
 
