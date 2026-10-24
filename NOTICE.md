@@ -20,9 +20,11 @@ upstream open-source code and publishes installable packages for those users.
 - **Protocol and cryptography are unchanged.** The BLE packet format, the Noise
   handshake and the end-to-end encryption match upstream. What differs is
   branding, identifiers, and a small number of defect fixes.
-- **The separate network namespace is deliberate.** It keeps this fork's users
-  from being singled out and blocked in bulk. It is not a new protocol: the wire
-  format and cryptography are identical to upstream.
+- **The networks interoperate.** The BLE service and characteristic UUIDs, the
+  Nostr event kinds, the private-message prefix and the Wi-Fi Direct/Aware
+  identifiers are all upstream values, so official bitchat clients and MeshTalk
+  users discover and message each other on the same mesh or relay. Real-device
+  verification covers Android to iOS, Android to Android and iOS to iOS.
 - **Upstream is followed.** As of 2026-10-24 this branch matches upstream `main`
   on both platforms: the iOS side picked up the geochat scaling work, the
   sender-ID authorship fix and the secp256k1 bump; the Android side was already
