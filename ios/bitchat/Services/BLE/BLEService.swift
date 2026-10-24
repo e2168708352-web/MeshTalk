@@ -183,12 +183,14 @@ final class BLEService: NSObject {
     
     // MARK: - Constants
     
+    // Service UUIDs are shared with the upstream bitchat network: the two
+    // projects interoperate, so these values must match upstream exactly.
     #if DEBUG
-    static let serviceUUID = CBUUID(string: "7A3C9E10-4B2D-4F68-A1C5-9D8E7F6A5B40") // MeshTalk testnet
+    static let serviceUUID = CBUUID(string: "F47B5E2D-4A9E-4C5A-9B3F-8E1D2C3A4B5A") // upstream testnet
     #else
-    static let serviceUUID = CBUUID(string: "7A3C9E10-4B2D-4F68-A1C5-9D8E7F6A5B40") // MeshTalk mainnet
+    static let serviceUUID = CBUUID(string: "F47B5E2D-4A9E-4C5A-9B3F-8E1D2C3A4B5C") // upstream mainnet
     #endif
-    static let characteristicUUID = CBUUID(string: "B6E4D2C8-1A3F-4E57-9C0D-2F8A6B4E1C73")
+    static let characteristicUUID = CBUUID(string: "A1B2C3D4-E5F6-4A5B-8C9D-0E1F2A3B4C5D")
     private static let centralRestorationID = "chat.meshtalk.ble.central"
     private static let peripheralRestorationID = "chat.meshtalk.ble.peripheral"
     

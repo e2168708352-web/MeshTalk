@@ -75,9 +75,9 @@ class NostrDirectMessageHandler(
                 // If sender is blocked for geohash contexts, drop any events from this pubkey
                 // Applies to both geohash DMs (geohash != "") and account DMs (geohash == "")
                 if (dataManager.isGeohashUserBlocked(senderPubkey)) return@launch
-                if (!content.startsWith("meshtalk1:")) return@launch
+                if (!content.startsWith("bitchat1:")) return@launch
 
-                val base64Content = content.removePrefix("meshtalk1:")
+                val base64Content = content.removePrefix("bitchat1:")
                 val packetData = base64URLDecode(base64Content) ?: return@launch
                 val packet = BitchatPacket.fromBinaryData(packetData) ?: return@launch
 

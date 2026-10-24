@@ -831,7 +831,7 @@ class HotspotManager(private val context: Context) {
 
     /**
      * Generate random SSID.
-     * Format: DIRECT-MT-XXXXXXXX
+     * Format: DIRECT-BC-XXXXXXXX
      */
     private fun generateSsid(): String {
         val suffix = (1..SSID_SUFFIX_LENGTH)

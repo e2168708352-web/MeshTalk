@@ -482,7 +482,7 @@ final class NostrInboundPipeline {
                 return
             }
 
-            if content.hasPrefix("meshtalk1:") {
+            if content.hasPrefix("bitchat1:") {
                 let packet: BitchatPacket? = await MainActor.run {
                     Self.decodeEmbeddedBitChatPacket(from: content)
                 }
@@ -594,8 +594,8 @@ extension NostrInboundPipeline {
 private extension NostrInboundPipeline {
     @MainActor
     static func decodeEmbeddedBitChatPacket(from content: String) -> BitchatPacket? {
-        guard content.hasPrefix("meshtalk1:") else { return nil }
-        let encoded = String(content.dropFirst("meshtalk1:".count))
+        guard content.hasPrefix("bitchat1:") else { return nil }
+        let encoded = String(content.dropFirst("bitchat1:".count))
         let maxBytes = FileTransferLimits.maxFramedFileBytes
         let maxEncoded = ((maxBytes + 2) / 3) * 4
         guard encoded.count <= maxEncoded else { return nil }

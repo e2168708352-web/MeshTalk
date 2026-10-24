@@ -525,10 +525,10 @@ struct NostrTransportTests {
             giftWrap: event,
             recipientIdentity: recipient
         )
-        guard content.hasPrefix("meshtalk1:") else {
+        guard content.hasPrefix("bitchat1:") else {
             throw NostrTransportTestError.invalidEmbeddedContent
         }
-        let encoded = String(content.dropFirst("meshtalk1:".count))
+        let encoded = String(content.dropFirst("bitchat1:".count))
         guard let packetData = base64URLDecode(encoded),
               let packet = BitchatPacket.from(packetData),
               let payload = NoisePayload.decode(packet.payload) else {

@@ -18,22 +18,25 @@ import Security
 struct NostrProtocol {
 
     /// Nostr event kinds
+    ///
+    /// These are shared with upstream bitchat: the two networks interoperate,
+    /// so every kind number here has to match upstream exactly.
     enum EventKind: Int {
         case metadata = 0
-        case textNote = 21002
+        case textNote = 1
         // BitChat's proprietary private-envelope layers. These reuse the
         // NIP-17/NIP-59 kind numbers (14/13/1059) for historical reasons, but
         // the encrypted payloads are BitChat-specific and not NIP-compatible.
         case dm = 14 // unsigned inner message (inside ciphertext)
         case seal = 13 // sender-signed seal (inside ciphertext)
-        case giftWrap = 21059 // MeshTalk public outer envelope (one-time key)
-        case ephemeralEvent = 21000
-        case geohashPresence = 21001
+        case giftWrap = 1059 // upstream public outer envelope (one-time key)
+        case ephemeralEvent = 20000
+        case geohashPresence = 20001
         case deletion = 5 // NIP-09 event deletion request
         /// Sealed courier envelope parked on relays under its rotating
         /// recipient tag (`#x`). Regular (stored) kind so it survives until
         /// its NIP-40 expiration — the whole point is store-and-forward.
-        case courierDrop = 11401
+        case courierDrop = 1401
     }
 
     /// Bound work before Base64-decoding either encrypted layer of an inbound

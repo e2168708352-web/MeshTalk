@@ -208,14 +208,16 @@ data class NostrEvent(
  * Nostr event kinds
  */
 object NostrKind {
+    // Shared with upstream bitchat: the two networks interoperate, so every
+    // kind number has to match upstream exactly.
     const val METADATA = 0
-    const val TEXT_NOTE = 21002
+    const val TEXT_NOTE = 1
     const val DIRECT_MESSAGE = 14     // NIP-17 direct message (unsigned)
     const val FILE_MESSAGE = 15       // NIP-17 file message (unsigned)
     const val SEAL = 13              // NIP-17 sealed event
-    const val GIFT_WRAP = 21059       // MeshTalk outer envelope
-    const val EPHEMERAL_EVENT = 21000 // For geohash channels
-    const val GEOHASH_PRESENCE = 21001 // For geohash presence heartbeat
+    const val GIFT_WRAP = 1059        // upstream outer envelope
+    const val EPHEMERAL_EVENT = 20000 // For geohash channels
+    const val GEOHASH_PRESENCE = 20001 // For geohash presence heartbeat
 }
 
 /**
